@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_08775.jpg",
+  "edited_image": "sadness_cluster_4_sadness_08775_anger_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of explosive, outward anger. Alter the man's expression to show overt fury: his brow should be heavily furrowed, eyes narrowed in a glare, and his jaw clenched hard. Change the material of his shirt from a soft polo to a rough, worn-out fabric, and make its color a more saturated, blood-red. Introduce a subtle, hot steam or heat-haze effect rising from his skin, particularly around his head and neck. Make the lighting harsher, casting sharp, aggressive shadows and creating specular highlights on his sweat-beaded skin.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 8.0,
+      "dominance": 3.0
+    }
+  }
+}

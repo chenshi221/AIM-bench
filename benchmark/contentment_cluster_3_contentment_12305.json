@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_3_contentment_12305.jpg",
+  "edited_image": "contentment_cluster_3_contentment_12305_amusement_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a fun, party-like sense of amusement. \n\nEditing Steps: \n1. Replace the vintage camera with a large, festive party blower (noisemaker) held to the teddy bear's mouth. The paper tube of the blower should be partially unrolled. \n2. Add a small, colorful party hat, worn at a jaunty angle, on the teddy bear's head. \n3. Change the bear's expression to a wide, open-mouthed smile, as if it's in the middle of a celebration. \n4. Brighten the scene and scatter a few pieces of colorful confetti on the chair and the floor to enhance the festive mood.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_11_excitement_09374.jpg",
+  "edited_image": "excitement_cluster_11_excitement_09374_fear_instruction_5.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to feel like a memory of a frightening loss. Editing Steps: Delete the dog, but leave a faint, ghostly, translucent afterimage of its panicked form. Change its original expression to one of sheer fright. Apply a blur effect to the background reeds and desaturate the image, leaving only a hint of the original color. Add a grainy, film-like texture over the entire picture to create a sense of a faded, haunting memory. The water should be dark and indistinct.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

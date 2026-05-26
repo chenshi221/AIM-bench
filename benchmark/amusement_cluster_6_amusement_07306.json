@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_6_amusement_07306.jpg",
+  "edited_image": "amusement_cluster_6_amusement_07306_disgust_instruction_6.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to be nauseating. Delete the contents of both smoothies but leave the glasses. The glasses should be dirty, with streaks of dried, colorful residue running down the insides. Leave a small amount of brownish, sludgy liquid at the bottom of each glass. Delete the mint garnish. The coasters and table surface should be covered in sticky rings and crumbs. The overall color palette should be desaturated and grimy.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  }
+}

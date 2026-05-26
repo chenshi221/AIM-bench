@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_6_contentment_13228.jpg",
+  "edited_image": "contentment_cluster_6_contentment_13228_amusement_instruction_7.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke gentle amusement. Modify her expression to a warm smile with her eyes looking directly at the camera in a friendly, amused way. Change the weather attribute by adding a few tiny, out-of-focus, sparkling light motes floating in the air, like dust or pollen catching the sun, to create a magical and cheerful ambiance. Lightly increase the vibrancy of all colors in the image, making the entire field feel more alive and joyous.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

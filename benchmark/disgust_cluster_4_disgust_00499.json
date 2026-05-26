@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_00499.jpg",
+  "edited_image": "disgust_cluster_4_disgust_00499_sadness_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of lonely sadness. Replace the trash can and all the garbage with a small, weathered wooden stool. On the stool, place a single, wilting red rose in a clear glass vase. The pavement around the stool should be clean. Change the lighting to mimic a late, melancholic afternoon, with long, soft shadows and a golden-orange glow in the background. The red car should appear less vibrant to fit the somber mood.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  }
+}

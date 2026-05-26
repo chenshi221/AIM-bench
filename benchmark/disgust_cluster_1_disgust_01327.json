@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_1_disgust_01327.jpg",
+  "edited_image": "disgust_cluster_1_disgust_01327_amusement_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke playful amusement by introducing a miniature, fantastical object.\n\nEditing Steps:\n1. Replace the cigarette with a miniature, colorful wizard's staff. The staff should be about the same size as the cigarette, made of gnarled wood, and topped with a tiny, brightly glowing crystal.\n2. Instead of smoke, have faint, magical sparkles and a thin, purple-tinged wisp emanating from the crystal tip.\n3. Ensure the lighting on the staff matches the warm sunlight on the ledge, making it look like it naturally belongs in the scene.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.0,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  }
+}

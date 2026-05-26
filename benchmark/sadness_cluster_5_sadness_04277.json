@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_04277.jpg",
+  "edited_image": "sadness_cluster_5_sadness_04277_excitement_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of thrilling excitement. First, repair all damage to the car: replace the shattered windshield with a pristine, clear one and fix the bent window frame. Give the car a brand-new, high-gloss, candy apple red paint job, making it look vibrant and fast. Change the time of day to a dynamic sunset, casting long shadows and warm, golden light across the scene. The background should become a scenic coastal highway, blurred slightly to imply high speed.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 6.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  }
+}

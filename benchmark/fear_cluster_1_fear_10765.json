@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_10765.jpg",
+  "edited_image": "fear_cluster_1_fear_10765_amusement_instruction_4.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke playful amusement. Delete the messy debris and dirt from the floor. Delete the peeling paint and water damage from the wall on the right. In the now-clean space on the right, add a group of five garden gnomes having a tea party. Then, delete the glass from the central enclosure's door, showing one of the gnomes peeking out mischievously.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 3.5,
+      "dominance": 6.0
+    }
+  }
+}

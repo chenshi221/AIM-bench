@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_2_sadness_10797.jpg",
+  "edited_image": "sadness_cluster_2_sadness_10797_disgust_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent Statement: Edit the image to evoke a strong sense of disgust and revulsion.\nDetailed Editing Steps:\n1. Replace the fresh red carnations held by all individuals with bunches of rotting, slimy, brown-and-green weeds. The weeds should be dripping a murky, unpleasant-looking liquid.\n2. Change the facial expressions of the boy, the girl with the mask, and the older woman to show disgust: wrinkled noses, curled upper lips, and narrowed eyes as if smelling something foul.\n3. Add a grimy, greasy texture to their clothing and skin, maintaining realism.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 6.0,
+      "dominance": 4.0
+    }
+  }
+}

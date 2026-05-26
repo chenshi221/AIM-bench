@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_3_anger_09079.jpg",
+  "edited_image": "anger_cluster_3_anger_09079_disgust_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of infestation-related disgust.\n\nEditing Steps:\n1. Replace the water stream from the hose with a massive swarm of crawling insects, like cockroaches or ants, pouring out and crawling over the bus.\n2. Replace the burnt texture of the bus with a surface that appears to be a pulsating, moving nest or hive made of mud and organic secretions.\n3. Replace the fire on the roof with larger, winged insects taking flight from the nest.\n4. The firefighters should appear to be recoiling slightly, their stances communicating revulsion at the insect swarm. Ensure the edits maintain a photorealistic quality.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_00597.jpg",
+  "edited_image": "amusement_cluster_3_amusement_00597_fear_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the fear of being lost as night falls. Change the time of day to twilight, with deep blue and purple tones dominating the scene and only faint, dying light filtering through the canopy. Modify the girl's expression to one of quiet panic: her smile replaced with a worried, downturned mouth, and her eyes darting nervously to the side. Her skin should appear pale and cold. Add a subtle motion blur to the background foliage, as if she is trembling or the world is spinning around her.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 5.5,
+      "dominance": 4.5
+    }
+  }
+}

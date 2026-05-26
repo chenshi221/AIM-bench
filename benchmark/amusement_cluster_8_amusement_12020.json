@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_8_amusement_12020.jpg",
+  "edited_image": "amusement_cluster_8_amusement_12020_disgust_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke disgust by implying poor hygiene. Change their expressions to grimaces of disgust. Make their teeth appear yellowed, stained, and plaque-covered instead of white. Alter their hair to be unkempt and oily. Modify the texture of their clothes to look worn, stained with what appears to be spilled food. The man's beard should look patchy and dirty. Change the background from a clean wall to one that looks like a dirty, neglected public restroom tile wall with grimy grout.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  }
+}

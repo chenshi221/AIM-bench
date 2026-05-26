@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_07356.jpg",
+  "edited_image": "awe_cluster_1_awe_07356_amusement_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke lighthearted amusement. Replace the large wooden cross in the background with a giant, comically oversized lollipop with a red and white swirl pattern. The man's expression should shift from solemn to one of mild, suppressed amusement, with a slight smile and crinkled eyes. Ensure the lighting on the new lollipop matches the scene's ambient light, maintaining realism.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

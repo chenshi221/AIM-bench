@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_07348.jpg",
+  "edited_image": "sadness_cluster_4_sadness_07348_disgust_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke disgust from decay. Alter the woman's expression to one of intense disgust, with a wrinkled nose and a mouth slightly agape in revulsion. Change the texture of her skin to appear mottled and discolored, with patches that look bruised or necrotic, in shades of purplish-grey. The lighting should be low and shadowy, with a sickly green cast, making her skin look unhealthy and decaying. Her hair should appear matted and unkempt.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

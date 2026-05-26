@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_4_awe_10435.jpg",
+  "edited_image": "awe_cluster_4_awe_10435_anger_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of contained, simmering anger. Change the woman's action: redirect her gaze to look directly and intensely forward, as if confronting someone. Alter her facial expression to one of anger by furrowing her brows deeply, narrowing her eyes into a glare, and tightening her lips into a firm, thin line. Slightly tense the muscles in her jaw and neck to convey suppressed rage. Maintain the realistic style of the original image.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 5.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

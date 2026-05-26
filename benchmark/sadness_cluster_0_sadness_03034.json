@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_03034.jpg",
+  "edited_image": "sadness_cluster_0_sadness_03034_disgust_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of visceral disgust. Change the statue's stone texture to a slimy, wet, greenish-brown moss, making it look slick and decaying. Apply a similar damp, moldy texture to the ground and the base of the statue, with patches of dark, stagnant water puddles among the leaves. The background gravestones should be covered in dark, creeping vines and splotches of black mold. Shift the overall lighting to a sickly, yellowish-green hue, as if filtered through a swampy fog, while maintaining the black and white base.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  }
+}

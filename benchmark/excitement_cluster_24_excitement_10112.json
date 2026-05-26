@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_24_excitement_10112.jpg",
+  "edited_image": "excitement_cluster_24_excitement_10112_sadness_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to convey a sense of lonely melancholy. Alter the cyclist's expression to one of pensive sadness, looking slightly downward with a neutral, unhappy mouth. Change the time of day to twilight, with a deep blue and purple sky barely visible. The overall lighting should be dim, casting the cyclist and bike into a near silhouette. Cool the color temperature significantly, infusing the entire image with a blue cast. Introduce a thick, low-lying fog in the background, obscuring the distant hills.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 4.5,
+      "dominance": 3.0
+    }
+  }
+}

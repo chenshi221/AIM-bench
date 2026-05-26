@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_13200.jpg",
+  "edited_image": "fear_cluster_1_fear_13200_contentment_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the contentment of a fresh morning. Change the scene to full color, with bright, cool morning light coming through the window. Make the walls a crisp, clean white and the wooden floor a light, polished birch. The curtains should be a cheerful, light fabric, perhaps a pale yellow or sky blue. The overall image should feel airy, clean, and full of potential, washing away the original's gloom. Ensure the lighting and textures appear natural and realistic.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.0,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_03748.jpg",
+  "edited_image": "fear_cluster_1_fear_03748_disgust_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of visceral disgust and decay.\n\nEditing Steps:\n1. Replace the intact glass panes behind the metal bars with shattered, grimy glass shards, some of which are missing entirely.\n2. Replace the solid concrete windowsill with a crumbling, moss-covered stone ledge that has pieces of rotting, unidentifiable organic matter scattered on it.\n3. Replace the clean, albeit old, wall section directly below the sill with a patch of wall covered in thick, slimy, dark green mold and water stains.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  }
+}

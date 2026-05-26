@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_01048.jpg",
+  "edited_image": "disgust_cluster_4_disgust_01048_contentment_instruction_2.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent Statement: Edit the image to create a sense of peaceful order and potential.\nDetailed Editing Steps:\n1. Delete all the glass bottles (both green and brown) and the plastic bottles from the container.\n2. Leave only the aluminum cans (Coca-Cola, Pepsi) inside, and arrange them neatly in a single layer at the bottom.\n3. Delete any visible dirt and grime from the container's inner walls, making it look clean.\n4. Enhance the metallic sheen on the remaining cans to give them a clean, recycled look.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

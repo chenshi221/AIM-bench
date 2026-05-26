@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_5_anger_06370.jpg",
+  "edited_image": "anger_cluster_5_anger_06370_contentment_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of relaxed contentment after a successful event.\n\nEditing Steps: Change the actions to show the three men in a moment of relief and quiet satisfaction. The man on the ground is now sitting comfortably, leaning back against the metal barrier, looking up with a gentle, content smile. The police officer stands beside him, one hand on his hip, smiling down in a friendly manner. The man in the suit is crouching next to the seated man, patting his back in congratulations. Remove the protest signs in the background to reduce tension.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 7.0,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  }
+}

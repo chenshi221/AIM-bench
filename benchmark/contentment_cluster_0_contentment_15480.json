@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_0_contentment_15480.jpg",
+  "edited_image": "contentment_cluster_0_contentment_15480_amusement_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of lighthearted amusement. Add a group of three garden gnomes on and around the bench. One gnome should be sitting on the bench's backrest, fishing into the grass with a tiny fishing rod. Another should be napping on the seat, using a mushroom as a pillow. The third should be peeking out from behind one of the bench legs with a mischievous grin. Ensure the gnomes are rendered realistically to match the photo's style, with vibrant but believable colors.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  }
+}

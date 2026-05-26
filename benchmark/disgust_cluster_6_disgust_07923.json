@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_07923.jpg",
+  "edited_image": "disgust_cluster_6_disgust_07923_awe_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of magical, natural awe. Replace the handle with a gnarled, polished piece of ancient wood from which glowing, magical mushrooms are sprouting. Replace the lock with a single, large, luminous crystal that seems to pulse with a gentle, warm light. The green door should have the texture of living moss. Remove the spiderwebs and instead add a few dewdrops clinging to the new handle and mossy surface.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

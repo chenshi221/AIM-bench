@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_01052.jpg",
+  "edited_image": "fear_cluster_2_fear_01052_amusement_instruction_3.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to create a feeling of playful amusement. Focus on purification by deleting all traces of gore. Delete the bloodstains from the pope's costume and the bloodied makeup from his face, making him look like a regular person in a pope costume. Delete the zombie makeup from the man in the brown hat in the left background. The main subject's expression should be changed to a cheerful grin, as if he is enjoying a festival, making the scene feel fun and not menacing.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

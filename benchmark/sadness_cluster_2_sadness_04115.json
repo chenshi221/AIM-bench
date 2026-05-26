@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_2_sadness_04115.jpg",
+  "edited_image": "sadness_cluster_2_sadness_04115_fear_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke visceral fear. Change the man's action so he is recoiling in terror. His body should be leaning back sharply, away from an unseen threat in the foreground. His hands should be raised defensively in front of his chest, palms facing out. Alter his facial expression to one of pure fear: eyes wide open, pupils dilated, mouth agape in a silent scream, and eyebrows raised high. The overall lighting should be darkened to create a more ominous atmosphere.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_01548.jpg",
+  "edited_image": "disgust_cluster_6_disgust_01548_anger_instruction_8.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to depict anger turning into physical action. Modify the man's pose so he is leaning forward aggressively, as if about to lunge. Change his facial expression to a furious scowl, with his teeth bared. Alter the action of his hand so it is no longer drinking from the bottle, but instead pulling it back, ready to swing it like a club. This captures the moment where contained anger transitions into imminent violence, increasing the sense of dominance and arousal.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  }
+}

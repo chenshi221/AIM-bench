@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_3_contentment_15345.jpg",
+  "edited_image": "contentment_cluster_3_contentment_15345_sadness_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of lonely sadness. Alter the expression on the right apple from a smile to a frown. Change the lighting to simulate a post-rain scene: add small, glistening water droplets on the surface of both apples and the branch. Desaturate the colors, especially the bright red of the fruit, and give the background a misty, grey appearance. Ensure the overall mood is pensive and damp, maintaining realism.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  }
+}

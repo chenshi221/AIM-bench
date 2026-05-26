@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_7_contentment_00673.jpg",
+  "edited_image": "contentment_cluster_7_contentment_00673_sadness_instruction_6.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to suggest a story of loss and memory. Delete the woman, leaving only the man. Alter his expression from joyful to deeply pensive and sad, with his eyes looking down towards the empty spot on the bench. Delete his festive, fish-patterned tie and replace the area with his shirt and suit, making his attire more somber. Apply a cool, blueish color filter to the entire image and slightly increase the contrast to deepen the shadows and enhance the feeling of solitude.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

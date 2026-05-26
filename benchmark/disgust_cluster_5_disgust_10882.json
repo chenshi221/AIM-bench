@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_10882.jpg",
+  "edited_image": "disgust_cluster_5_disgust_10882_excitement_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke the excitement of a sweet indulgence. Replace the watermelon rinds with a pile of colorful, assorted rock candy sticks. The candies should be translucent and crystalline, with bright, saturated colors like ruby red, sapphire blue, and emerald green, arranged in the same chaotic pile. The background should be a clean, bright white. Adjust the lighting to be bright and playful, making the candy crystals sparkle and glisten as if under a candy shop light. Keep the Polaroid frame intact.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 8.0
+    }
+  }
+}

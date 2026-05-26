@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_4_excitement_14946.jpg",
+  "edited_image": "excitement_cluster_4_excitement_14946_fear_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke fear by showing the onset of decay. Change the women's expressions to look panicked and fearful. Modify the attributes of their costumes: the red fabric should appear tattered, moth-eaten, and discolored in patches. The silver sequins should be tarnished and falling off. The feathers on the headdresses should be broken and drooping. Change the background from daytime greenery to a dark, misty, and desolate alleyway at night, maintaining realism in the transition.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 2.5
+    }
+  }
+}

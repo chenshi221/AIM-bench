@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_4_fear_11091.jpg",
+  "edited_image": "fear_cluster_4_fear_11091_anger_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of explosive, outward anger. Alter the man's expression to an enraged snarl, showing his teeth slightly and widening his eyes in fury. Introduce a harsh, blood-red backlight that rims his hair and shoulders, creating a halo of rage. Deepen the shadows on his face to pure black, increasing the contrast dramatically. Change the background from plain white to a dark, textured concrete wall with a faint, ominous red glow, maintaining realism.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  }
+}

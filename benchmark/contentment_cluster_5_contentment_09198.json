@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_5_contentment_09198.jpg",
+  "edited_image": "contentment_cluster_5_contentment_09198_awe_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of serene, underwater awe. Replace the blanket with a vibrant, glowing coral reef bed. The baby should appear to be resting comfortably among soft, colorful anemones, looking up towards the shimmering water surface. Change the baby's expression to one of peaceful fascination, eyes wide and curious. Clean the stain on the clothing. The lighting should be diffused and blue-toned, with gentle light rays filtering down through the water, creating a magical, tranquil atmosphere.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

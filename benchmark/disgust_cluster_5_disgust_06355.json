@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_06355.jpg",
+  "edited_image": "disgust_cluster_5_disgust_06355_excitement_instruction_8.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the excitement of a Japanese street food festival (matsuri).\n\nEditing Steps:\n1. Replace the skewers on the left with skewers of dango (sweet rice dumplings), with three colorful balls per skewer (pink, white, green).\n2. Replace the skewers on the right with skewers of grilled yakitori chicken, coated in a dark, glistening teriyaki sauce and sprinkled with sesame seeds.\n3. Replace the plain background shirt with the sleeve of a traditional Japanese happi coat with a festive design, enhancing the matsuri atmosphere.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 5.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

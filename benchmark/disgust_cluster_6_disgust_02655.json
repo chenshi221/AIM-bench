@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_02655.jpg",
+  "edited_image": "disgust_cluster_6_disgust_02655_amusement_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent Statement: Edit the image to create a feeling of lighthearted amusement with a playful, toy-filled scene.\nDetailed Editing Steps:\n1. Replace the contents of the toilet bowl with clean, clear water and fill it with dozens of classic yellow rubber ducks of various small sizes, all floating happily.\n2. Replace the silver toilet brush with a single, oversized yellow rubber duck standing beside the toilet.\n3. Replace the green cleaning bottle with a bright blue bottle of bubble bath solution. The bathroom should appear clean, bright, and tidy, enhancing the playful atmosphere.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  }
+}

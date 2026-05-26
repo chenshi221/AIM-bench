@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_14659.jpg",
+  "edited_image": "awe_cluster_2_awe_14659_sadness_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of quiet sadness. Change the weather to a light, steady rain. The sky should be a uniform, soft gray. Add a subtle mist that partially obscures the base of the mountains. Darken the overall lighting to reflect the overcast day, desaturate the greens in the grass and trees, and make the wood of the barn appear damp and darker, as if soaked with rain. Ensure the edit maintains a realistic appearance.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  }
+}

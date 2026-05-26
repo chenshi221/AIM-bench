@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_4_amusement_04189.jpg",
+  "edited_image": "amusement_cluster_4_amusement_04189_fear_instruction_2.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to create a feeling of anxious suspense. Delete all the green needles and branches of the Christmas tree, but leave the bare, gnarled wooden trunk and a few twisted, barren branches. The ornaments should hang precariously from these skeletal limbs. Change the overall lighting to a cold, sterile blue hue. Make the hands appear pale and clammy, as if they are decorating a dead tree in a morgue-like environment.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 3.0
+    }
+  }
+}

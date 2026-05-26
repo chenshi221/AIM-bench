@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_15150.jpg",
+  "edited_image": "awe_cluster_2_awe_15150_disgust_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke disgust through a garbage-filled landscape. Replace the rocky landslide area with a massive, overflowing landfill, spilling down the mountainside. Show heaps of plastic bags, rusted metal, and general refuse. Replace the cluster of healthy pine trees in the foreground with a pile of discarded, broken furniture and old tires. The sky should be a dull, washed-out blue-grey, and a hazy quality should be added to the air to suggest pollution.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 3.5
+    }
+  }
+}

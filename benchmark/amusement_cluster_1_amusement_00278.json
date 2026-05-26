@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_00278.jpg",
+  "edited_image": "amusement_cluster_1_amusement_00278_excitement_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to capture the peak moment of exhilarating fun. Change the attributes of the Ferris wheel's lights to a more explosive, firework-like display, with bright, multi-colored light streaks radiating from the spokes. Intensify the glow so it casts a dynamic, colorful light onto the hand and the cup. Slightly increase the motion blur of the Ferris wheel's cabins to convey a sense of dizzying speed. Enhance the texture on the sleeve, making it appear sharper against the blurred, exciting background.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  }
+}

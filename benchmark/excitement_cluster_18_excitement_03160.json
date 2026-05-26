@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_18_excitement_03160.jpg",
+  "edited_image": "excitement_cluster_18_excitement_03160_disgust_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke disgust through environmental decay. Change the clear water into a putrid, algae-choked pond, with the water having a thick, green, soupy consistency. The spray kicked up by the jet ski should be green and slimy. The jet ski's body should be covered in moss and water stains. Change the man's smiling face to an expression of disgust and discomfort, with a grimace. Shift the time of day to a gloomy dusk, with weak, unpleasant lighting.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 5.0,
+      "dominance": 5.0
+    }
+  }
+}

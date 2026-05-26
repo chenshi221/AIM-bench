@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_3_fear_03708.jpg",
+  "edited_image": "fear_cluster_3_fear_03708_disgust_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke disgust. Replace the entire background, including the fence and path, with a solid wall of crawling, writhing cockroaches. The cheetah's body should be positioned as if trapped against this wall. Change its expression to one of panic and disgust, with its mouth agape and eyes wide. Add a slight sheen of sweat or slime to its fur to enhance the feeling of uncleanliness.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  }
+}

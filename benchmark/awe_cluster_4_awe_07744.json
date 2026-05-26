@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_4_awe_07744.jpg",
+  "edited_image": "awe_cluster_4_awe_07744_excitement_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to create a feeling of dynamic, playful excitement. Change the baby's expression to an excited shout or squeal, with a wide-open mouth and bright, engaged eyes looking directly forward. Introduce a sense of movement by adding a very subtle motion blur to the background, keeping the baby perfectly in focus. Sharpen the details of the baby's face and clothing, and slightly increase the color saturation to make the scene feel more intense and action-oriented. Keep the lighting bright and even.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 7.5
+    }
+  }
+}

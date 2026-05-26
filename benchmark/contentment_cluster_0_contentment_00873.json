@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_0_contentment_00873.jpg",
+  "edited_image": "contentment_cluster_0_contentment_00873_disgust_instruction_6.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of disgust. Add a discarded, half-eaten fast food meal left on the grass. Include a greasy paper wrapper, a soggy cardboard box with ketchup stains, and some limp, greasy fries scattered around. Add a dirty plastic fork stuck in the grass nearby. To heighten the disgust, add a swarm of ants crawling over the leftover food. The scene should look like a recent, careless mess.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 5.5,
+      "dominance": 4.0
+    }
+  }
+}

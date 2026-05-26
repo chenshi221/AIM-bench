@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_4_amusement_08703.jpg",
+  "edited_image": "amusement_cluster_4_amusement_08703_anger_instruction_1.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of frustrated anger by showing the aftermath of a ruined celebration. \n\nDetailed Steps: \n1. Delete all the colorful Easter eggs from inside the chest. \n2. In their place, add only broken, empty white eggshells and scattered, torn pieces of the colorful decorations. \n3. Change the ceramic bunny's expression to one of subtle anger, with slightly narrowed eyes. \n4. Desaturate the colors of the grass and darken the overall lighting to create a gloomy, tense atmosphere. Maintain realism.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

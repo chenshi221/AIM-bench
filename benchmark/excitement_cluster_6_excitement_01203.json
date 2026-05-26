@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_6_excitement_01203.jpg",
+  "edited_image": "excitement_cluster_6_excitement_01203_amusement_instruction_6.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to convey a sense of whimsical amusement. Modify the girl's action so she is winking with one eye while sticking her tongue out playfully to the side. Her free hand can be making a 'peace' sign. This pose should transform her simple smile into a cheeky, fun-loving expression. Ensure the facial modifications and hand gesture are rendered realistically and fit the context of a candid, happy moment.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

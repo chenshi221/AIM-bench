@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_05566.jpg",
+  "edited_image": "sadness_cluster_0_sadness_05566_contentment_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of warm, quiet contentment.\n\nEditing Steps:\n1. Replace the tombstone with a rustic wooden garden pedestal. The pedestal should be well-crafted from warm oak wood.\n2. Place a large, handcrafted pottery bowl filled with ripe, colorful fruits (like apples, grapes, and oranges) on top of the pedestal where the bust was.\n3. Remove all other tombstones from the background, replacing them with a soft-focus background of a lush, green garden with blooming flowers.\n4. Adjust the lighting to a golden hour glow, casting long, soft shadows and imbuing the scene with warmth.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

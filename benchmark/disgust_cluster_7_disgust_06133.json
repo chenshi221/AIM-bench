@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_7_disgust_06133.jpg",
+  "edited_image": "disgust_cluster_7_disgust_06133_fear_instruction_4.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of fear. Add a large, thick, sticky-looking spider web in the upper right corner, partially draping over the edge of the white wall. Add the dark, blurry silhouette of a large spider lurking within the web's shadows. The web should have fine, realistic strands that catch the ambient light. This introduces a new predatory threat, compounding the existing fear and disgust.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_7_amusement_13151.jpg",
+  "edited_image": "amusement_cluster_7_amusement_13151_contentment_instruction_7.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke quiet contentment by removing all signage and barriers.\n\nEditing Steps:\n1. Delete the white rectangular sign on the central pillar, and restore the stone texture beneath it.\n2. Delete the entire teal metal railing system behind the arch. Extend the ocean view to fill the newly opened space, making sure the horizon line and wave patterns are consistent.\n3. Make the scene feel more inviting and open.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

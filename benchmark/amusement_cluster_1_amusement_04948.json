@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_04948.jpg",
+  "edited_image": "amusement_cluster_1_amusement_04948_contentment_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of tranquil contentment. Modify the weather to a perfect, clear summer day. Deepen the blue of the plastic elements and make the sky a more saturated, cloudless blue, visible through the fences. Brighten the wood chips in the foreground, giving them a clean, dry appearance. Sharpen the details on the play structure, making it look well-maintained and solid, and ensure all colors pop with vibrancy under the bright, cheerful sunlight.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

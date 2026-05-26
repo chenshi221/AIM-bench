@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_2_sadness_12398.jpg",
+  "edited_image": "sadness_cluster_2_sadness_12398_excitement_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke the excitement of a movie premiere. Replace the ambulance with a black limousine, and the asphalt with a red carpet. Change the woman's expression to a dazzling, excited smile, waving at someone off-camera. The dust cloud should be replaced with the flashbulb bursts of paparazzi cameras. Her black t-shirt can be replaced with a more glamorous top suitable for such an event. Ensure the scene feels glamorous and high-energy.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  }
+}

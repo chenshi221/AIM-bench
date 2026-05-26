@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_4_fear_02113.jpg",
+  "edited_image": "fear_cluster_4_fear_02113_anger_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a moment of explosive, outward rage. Transform the facial expression into an angry shout: eyebrows furrowed deeply, eyes wide with fury, and mouth wide open as if yelling. Add a subtle motion blur effect to the edges of the hair and shoulders to imply a sudden, violent movement. Intensify the lighting so it feels like a harsh, interrogative spotlight, creating a slight, hot flare effect on the edges of their face.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

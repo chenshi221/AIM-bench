@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_09287.jpg",
+  "edited_image": "fear_cluster_2_fear_09287_awe_instruction_7.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to create a feeling of mythological awe. Remove the face makeup and replace it with subtle, glowing golden patterns, like magical tattoos. Alter the person's expression to be powerful and knowing, with a confident, serene gaze. Transform their dark jacket into ornate, ancient-looking armor with a metallic sheen. Change the background to a stormy, supernatural sky with dark clouds parted by a single, divine ray of light that illuminates the person, making them appear god-like and dominant.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 5.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 7.5
+    }
+  }
+}

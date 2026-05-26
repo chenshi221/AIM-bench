@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_07840.jpg",
+  "edited_image": "disgust_cluster_5_disgust_07840_contentment_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of cozy contentment. Transform the stall by replacing all the meat with handcrafted textiles. The hanging carcasses should become large, colorful woven tapestries and blankets with intricate patterns. The counter should display neatly folded quilts, stacks of yarn, and hand-knitted scarves. Replace the scale with a vintage sewing machine. Adjust the man's expression to a calm, contented look, portraying a proud artisan. The lighting should be soft and inviting, highlighting the textures of the fabrics.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.0,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_4_fear_09974.jpg",
+  "edited_image": "fear_cluster_4_fear_09974_sadness_instruction_5.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to reflect a mood of quiet desolation and sadness. Delete the ornate, dragon-like carvings from the roof gables of the stave church, making the building appear more plain and somber. Also, delete the moth from her hand. Modify the woman's expression to be one of subtle grief, with her gaze directed towards the altered church, her lips slightly parted in sorrow. The changes should strip away the fantastical elements, grounding the scene in a more mundane and sorrowful reality.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

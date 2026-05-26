@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_21_excitement_05076.jpg",
+  "edited_image": "excitement_cluster_21_excitement_05076_contentment_instruction_6.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of contemplative contentment. Change the man's action to be looking down thoughtfully, with a subtle, peaceful smile. His pose should be more introspective, with his hands clasped loosely in front of him over the harness. His legs should hang straight down, still and calm. The entire action should suggest he is absorbed in a pleasant thought or memory during the ride.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

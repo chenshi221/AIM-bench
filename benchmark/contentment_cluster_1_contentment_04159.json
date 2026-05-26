@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_1_contentment_04159.jpg",
+  "edited_image": "contentment_cluster_1_contentment_04159_awe_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the awe of an epic mountain vista. Change the background from a simple field to a vast, snow-capped mountain range at sunrise. The lighting should be golden and warm, catching the peaks and casting long shadows. Place the dog on a high ridge, so it appears to be surveying the grand landscape below. Alter its expression to be solemn and still, with its gaze directed towards the mountains, conveying a sense of profound reverence for the scale of nature.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

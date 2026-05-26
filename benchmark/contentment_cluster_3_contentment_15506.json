@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_3_contentment_15506.jpg",
+  "edited_image": "contentment_cluster_3_contentment_15506_sadness_instruction_8.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a somber, mournful sadness. Change the material properties of the lotus to appear as if it's made of pale, fragile stone or porcelain. The petals should have a matte, slightly cracked texture. The vibrant colors should be completely gone, replaced by shades of grey, cream, and faint, dusty rose, like a weathered statue. The lily pads should also appear petrified and grey. The lighting should be soft and directional, as if in a quiet museum or memorial.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

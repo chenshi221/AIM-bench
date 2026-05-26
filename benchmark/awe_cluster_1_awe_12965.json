@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_12965.jpg",
+  "edited_image": "awe_cluster_1_awe_12965_fear_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to suggest a terrifying event is unfolding at the monument.\n\nEditing Steps:\n1. Change the action of the people in the background: they should all be pointing up at the Washington Monument in alarm. Some should be shielding their eyes, others should have their hands over their mouths in shock.\n2. Modify the poses of the geese in the mid-ground; they should be swimming rapidly away from the monument, creating a distinct V-shaped wake behind them.\n3. The duck and goose in the foreground should have their heads cocked upwards, looking towards the top of the monument with expressions of alarm.\n4. Subtly change the sky to a darker, more ominous grey and the water to a murky, dark green to enhance the fearful mood.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  }
+}

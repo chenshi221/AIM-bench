@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_5_amusement_09803.jpg",
+  "edited_image": "amusement_cluster_5_amusement_09803_fear_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of technological dread and surveillance. Replace the hang drum with a complex, humming device made of dark metal, wires, and a single, glowing red camera lens pointed at the viewer. The man's hands should hover over it hesitantly, not touching. Change his expression to one of paranoia and fear, looking just past the camera with wide, frightened eyes. Add a subtle digital glitch effect to the background wall and darken the overall image.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  }
+}

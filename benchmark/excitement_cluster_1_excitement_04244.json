@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_1_excitement_04244.jpg",
+  "edited_image": "excitement_cluster_1_excitement_04244_fear_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the feeling of being cornered and afraid. \nEditing Steps: \n1. Alter the man's pose to an 'action_change' of cowering. He should be recoiling, pulling his body inward and slightly crouching, as if trying to make himself a smaller target. His hands are no longer pointing but are held close to his chest. \n2. Change his facial expression to show intense fear and submission: eyebrows raised and drawn together, mouth pulled back in a grimace, and eyes locked on something out of frame with dread. \n3. The other people in the background should be turned away, oblivious, isolating the main subject in his fear.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 2.5
+    }
+  }
+}

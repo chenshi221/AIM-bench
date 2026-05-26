@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_2_anger_07425.jpg",
+  "edited_image": "anger_cluster_2_anger_07425_contentment_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of peaceful contentment by transforming the scene from a bonfire to a quiet gathering.\n\nDetailed Steps:\n1. Replace the large, uncontrolled bonfire and its pile of burning wood with a small, neat, stone-lined fire pit containing gently glowing embers and a few small, calm flames. Ensure the fire pit looks safely constructed.\n2. Add two empty rustic wooden chairs facing the fire pit, suggesting a quiet, shared moment.\n3. Reduce the amount of smoke drastically, leaving only a thin, gentle wisp rising into the air.\n4. Warm the overall lighting to a soft, golden-hour glow that emanates from the fire pit and the setting sun.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  }
+}

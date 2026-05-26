@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_07671.jpg",
+  "edited_image": "fear_cluster_1_fear_07671_contentment_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of warm contentment. General Intent: Transform the derelict hallway into a warmly lit, well-maintained home corridor. Editing Steps: Change the time of day to late afternoon, with golden sunlight streaming from the window on the left. Brighten the entire scene, eliminating the deep shadows. Change the wall texture from decaying concrete to a smooth, warm-beige plaster. Change the floor from chipped terrazzo to polished, light oak hardwood. Repair all doorframes and the broken window pane, and remove the graffiti.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.5,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

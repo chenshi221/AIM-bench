@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_14523.jpg",
+  "edited_image": "fear_cluster_0_fear_14523_excitement_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of thrilling excitement. Change the man's action from jumping away to confidently interacting with the shark statue. Modify his pose so he is pushing against the shark's nose with one hand, his body braced and powerful. Alter his facial expression to a wide, exhilarating grin, looking directly at the camera. His other arm should be raised in a triumphant fist pump. Maintain the image's realism and overall composition.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  }
+}

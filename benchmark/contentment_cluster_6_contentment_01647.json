@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_6_contentment_01647.jpg",
+  "edited_image": "contentment_cluster_6_contentment_01647_disgust_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of disgust related to a bad smell. Editing Steps: Modify the girl's action to show her reacting to a foul odor. Change her expression to one of disgust, pinching her nose with one hand while the other hand remains on her knee. Her mouth should be slightly open in revulsion. Her body should be tensed and slightly hunched over. Ensure the edits blend seamlessly with the original's lighting and realistic style, keeping the autumn background unchanged.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

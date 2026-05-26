@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_2_excitement_11150.jpg",
+  "edited_image": "excitement_cluster_2_excitement_11150_amusement_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of playful amusement. Change the facial expressions of both runners from strained to amused, with light smiles as if reacting to something funny. Add a small, friendly dog wearing a tiny matching race bib, running joyfully just ahead of them on the track, looking back as if encouraging them to catch up. Ensure the dog is realistically integrated into the scene's lighting and motion blur, maintaining the overall photographic quality.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

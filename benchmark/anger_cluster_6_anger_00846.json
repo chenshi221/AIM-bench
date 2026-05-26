@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_6_anger_00846.jpg",
+  "edited_image": "anger_cluster_6_anger_00846_awe_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of sacred, natural awe. Replace the crumpled money with a single, complex, and perfectly formed glowing mushroom. The mushroom should have intricate bioluminescent patterns on its cap, emitting a soft, warm, golden light. This light should illuminate the hand's palm and fingers from below, creating a reverent atmosphere. Change the hand's posture to be gently cupped around the mushroom, as if protecting something precious and magical. Maintain the realism of the hand and surface.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 7.0,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.5
+    }
+  }
+}

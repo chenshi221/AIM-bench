@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_10_contentment_07942.jpg",
+  "edited_image": "contentment_cluster_10_contentment_07942_excitement_instruction_7.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to focus on a moment of pure excitement. Delete the man's denim jacket, revealing just the Batman hoodie underneath, which visually reinforces their matching outfits and shared enthusiasm. Change his expression to a look of thrilled surprise, with raised eyebrows and an open-mouthed smile. The woman's expression should mirror his, looking at him with a delighted, wide-eyed laugh. The overall color temperature should be slightly warmed to enhance the joyful atmosphere.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

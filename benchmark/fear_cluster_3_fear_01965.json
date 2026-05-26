@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_3_fear_01965.jpg",
+  "edited_image": "fear_cluster_3_fear_01965_sadness_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of desolate sadness. Introduce a dense, cold fog that partially obscures the background and hovers just above the water's surface. Desaturate the image, especially the blues of the water and the pinks on the shark, to create a near-monochromatic, bleak appearance. The lighting should be flat and diffused as if on a heavily overcast day. Change the shark's expression to one of weariness, with its eye looking distant and unfocused.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

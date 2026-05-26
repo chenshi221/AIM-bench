@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_02624.jpg",
+  "edited_image": "amusement_cluster_3_amusement_02624_awe_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent Statement: Edit the image to evoke religious or spiritual awe by placing the children inside a grand, sunlit cathedral.\n\nDetailed Editing Steps:\n1. Change the background from an outdoor street to the interior of a vast, Gothic cathedral. Include soaring vaulted ceilings and large, intricate stained-glass windows.\n2. Modify the lighting to be dramatic and spiritual. Create strong, colorful beams of light filtering through the stained-glass windows, cutting through a slightly hazy, dust-filled air.\n3. One prominent beam of golden light should fall directly upon the children, illuminating them as the focal point.\n4. Alter their expressions from playful to solemn and reverent awe. Their faces should be upturned towards the light or the cathedral's ceiling, with looks of quiet wonder and contemplation.\n5. Enhance the textures of their clothing to appear richer, perhaps like choir robes, and ensure the overall color palette is warm and deeply saturated to reflect the sacred atmosphere.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  }
+}

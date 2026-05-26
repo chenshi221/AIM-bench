@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_10400.jpg",
+  "edited_image": "disgust_cluster_4_disgust_10400_fear_instruction_3.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent Statement: Edit the image to evoke a biological or body horror-themed fear.\n\nDetailed Editing Steps:\n1. Replace the trash can on the right with a large, translucent biological specimen jar, filled with yellowish formaldehyde-like liquid.\n2. Replace the garbage inside with a collection of preserved, grotesque biological items: several animal eyeballs of varying sizes and a coiled snake specimen.\n3. Replace the papers in the blue bin with old, yellowed medical charts and diagrams depicting strange anatomical mutations. The text should be replaced with cryptic, handwritten notes and symbols.\n4. Apply a cold, sterile, blue-green light, similar to a laboratory, and add condensation to the outside of the specimen jar. Ensure the scene remains photorealistic.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 5.5
+    }
+  }
+}

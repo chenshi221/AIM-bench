@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_2_amusement_02394.jpg",
+  "edited_image": "amusement_cluster_2_amusement_02394_awe_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of enchanted awe. Transform the scene into a magical forest floor at night. Change the background to a dark, out-of-focus forest floor with hints of moss and moonlight filtering through a canopy. Make the blueberries and the purple flowers bioluminescent, casting a gentle, cool blue and purple glow on their immediate surroundings. The blackcurrants should remain dark but glossy, reflecting this magical light. Add a few tiny, sparkling light motes floating in the air to complete the enchanted atmosphere.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

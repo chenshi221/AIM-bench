@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_9_contentment_01816.jpg",
+  "edited_image": "contentment_cluster_9_contentment_01816_disgust_instruction_2.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a feeling of revulsion. Add a dense cluster of small, black ants swarming over the strawberries and rosemary sprigs on top of the cake. Show a trail of ants leading from the edge of the wooden board up onto the cake. Add a few ants floating in the glass of water in the background. Ensure the additions look photorealistic.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

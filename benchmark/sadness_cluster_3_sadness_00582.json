@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_3_sadness_00582.jpg",
+  "edited_image": "sadness_cluster_3_sadness_00582_amusement_instruction_5.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke comical amusement. Add a pair of human-like, fuzzy monster slippers placed neatly on the floor right beside the beagle's head, as if it is guarding them. The slippers should face the viewer. Change the beagle's expression to one of proud, amused ownership, with a slight lift of its eyebrows and a relaxed jaw. Improve the overall image clarity and brighten the lighting, focusing a soft spotlight on the dog and the slippers to draw attention to the amusing setup.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

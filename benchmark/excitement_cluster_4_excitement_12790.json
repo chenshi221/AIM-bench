@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_4_excitement_12790.jpg",
+  "edited_image": "excitement_cluster_4_excitement_12790_fear_instruction_5.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to suggest a frightening event has just occurred. Delete the woman, but leave her white hat and fanny pack lying on the path where she stood. Also, delete the bicycle's frame, leaving only the wheels behind, slightly bent. The Brazilian flag should be on the ground, partially trampled in the grass. Change the woman's expression to alarm before she is removed. Cover the ground with a thin layer of strange, dark ash. The sky should be a sickly orange-yellow, as if from a distant, unseen fire.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

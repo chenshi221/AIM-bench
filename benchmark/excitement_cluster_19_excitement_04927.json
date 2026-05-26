@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_19_excitement_04927.jpg",
+  "edited_image": "excitement_cluster_19_excitement_04927_anger_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of confrontational anger. Replace the hi-hat cymbal in the foreground with a shattered and broken mirror on a stand. The mirror fragments should reflect distorted, dark images of the bar. Modify the singer's expression to one of intense anger, with his mouth open in a shout (not singing), brows drawn down, and eyes wide with fury. The hand on his chest should be pressing hard, as if trying to contain his rage. Make the lighting more dramatic and high-contrast.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.0,
+      "dominance": 5.0
+    }
+  }
+}

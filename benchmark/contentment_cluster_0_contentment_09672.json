@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_0_contentment_09672.jpg",
+  "edited_image": "contentment_cluster_0_contentment_09672_sadness_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of somber loneliness. Replace the sturdy wooden bench with a single, weathered, and decaying driftwood log that looks out of place on the green cliff. The log should appear solitary and forgotten. The woman's posture should be slightly hunched, and her expression, though partially obscured, should suggest sorrow. Desaturate the vibrant greens and blues, shifting the overall color palette to a more muted, cool-toned scheme to enhance the melancholic atmosphere, while maintaining realism.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 2.5
+    }
+  }
+}

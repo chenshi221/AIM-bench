@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_14551.jpg",
+  "edited_image": "fear_cluster_2_fear_14551_amusement_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of playful amusement. Change the zombie makeup on the person's face to colorful, whimsical clown makeup. The fake wounds should become large, rosy red cheeks and a classic red clown nose. The dark eye makeup should be replaced with bright blue eyeshadow and exaggerated eyelashes. The person's expression should shift to a slight, amused smile, with eyes crinkling a little at the corners. The makeup artist's hand should be applying a bright pink lipstick in an exaggerated cupid's bow shape.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

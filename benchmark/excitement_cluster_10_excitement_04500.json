@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_10_excitement_04500.jpg",
+  "edited_image": "excitement_cluster_10_excitement_04500_fear_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of supernatural fear. Replace the person's platinum blonde wig with long, stringy, wet-looking black hair that partially obscures their face. Alter their expression to one of shock and fear, looking directly at the viewer. Replace the white scarf around their neck with a dark, antique locket on a tarnished chain. The background should be darkened significantly, and a subtle, misty fog added around the edges of the frame.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  }
+}

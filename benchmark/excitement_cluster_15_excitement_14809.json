@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_15_excitement_14809.jpg",
+  "edited_image": "excitement_cluster_15_excitement_14809_contentment_instruction_6.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke contentment by focusing on skin texture and expression. Step-by-step: 1. Soften the lighting on the boy's face to create a smooth, gentle skin texture, removing the harsh flash hotspot. 2. Change the boy's wide laugh to a subtle, contented grin, with his eyes nearly closed in a peaceful expression. 3. Make the background slightly out of focus to draw more attention to the boy's serene mood. 4. Warm the color of the light to give the scene a comfortable, safe feeling.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

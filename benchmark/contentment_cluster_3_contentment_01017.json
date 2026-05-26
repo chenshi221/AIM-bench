@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_3_contentment_01017.jpg",
+  "edited_image": "contentment_cluster_3_contentment_01017_amusement_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke whimsical amusement. Add a pair of small, cartoonish googly eyes onto the center disc of the main yellow flower, making it look like a cheerful face. The eyes should be slightly asymmetrical to give it a silly, friendly expression. Ensure the added eyes have realistic lighting and subtle shadows to blend them seamlessly into the flower's texture, maintaining the photo's overall realism.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 5.0
+    }
+  }
+}

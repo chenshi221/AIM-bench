@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_16_excitement_01734.jpg",
+  "edited_image": "excitement_cluster_16_excitement_01734_anger_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to create an atmosphere of oppressive, contained anger. Change the man's face to an expression of cold fury, with a neutral mouth but intense, piercing eyes and a furrowed brow. Shift the overall lighting to mimic a very late, stormy afternoon; darken the sky and environment significantly. Apply a strong red color grade to the entire image, casting everything in an angry, heated glow. Add a subtle vignetting effect to focus attention on his enraged expression. His skin should appear slightly sweaty.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 5.5,
+      "dominance": 4.5
+    }
+  }
+}

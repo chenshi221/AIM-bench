@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_1_sadness_05483.jpg",
+  "edited_image": "sadness_cluster_1_sadness_05483_fear_instruction_7.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to suggest a frightening aftermath. Delete the woman in the background. Change the man's expression to one of shocked fear, with wide, unblinking eyes and a pale complexion. On the wall behind where the woman stood, add a subtle, dark, smeared handprint that is barely visible. The man is staring down, as if at something on the floor we cannot see. The scene's warm tones should be shifted to a sickly greenish-yellow hue.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.0,
+      "dominance": 4.5
+    }
+  }
+}

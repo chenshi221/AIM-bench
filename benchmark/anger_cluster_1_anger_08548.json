@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_1_anger_08548.jpg",
+  "edited_image": "anger_cluster_1_anger_08548_fear_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of being hunted and watched with fear. Transform the scene into a dense, dark forest at dusk. The lighting should be low and ominous, with sharp shadows cast across the fox's face. Change the fox's expression to one of predatory focus: eyes wide open and locked on the viewer, mouth still open but in a threatening gape, not a yawn. Make its fur appear wet and matted, as if it's been stalking through a recent downpour. The background grass should be dark, damp, and almost black.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  }
+}

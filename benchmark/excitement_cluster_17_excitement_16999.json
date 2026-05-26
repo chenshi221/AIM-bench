@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_17_excitement_16999.jpg",
+  "edited_image": "excitement_cluster_17_excitement_16999_awe_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of serene, oceanic awe.\n\nEditing Steps:\n1. Replace the racetrack asphalt with the surface of a perfectly calm, mirror-like ocean at sunset. The motorcycle should appear to be gliding effortlessly on the water's surface.\n2. Replace the background with a vast, open sea horizon meeting a sky filled with soft, pastel colors of sunset (pinks, oranges, purples).\n3. Add a subtle, glowing wake behind the motorcycle, and ensure the reflections on the water are accurate.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

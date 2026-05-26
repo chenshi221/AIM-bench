@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_12973.jpg",
+  "edited_image": "amusement_cluster_3_amusement_12973_excitement_instruction_6.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the excitement of a concert. General Intent: Transform the scene into the edge of an outdoor concert crowd. Editing Steps: Replace the bright daylight with dramatic, colorful stage lighting—beams of magenta and cyan—coming from off-camera. Darken the ambient light in the background. Enhance the woman’s expression to one of singing along joyfully, and the child's to an excited cheer. Add a slight lens flare effect to simulate powerful stage lights. The reflections in her glasses should show a distant, bright stage.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  }
+}

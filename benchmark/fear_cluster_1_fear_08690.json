@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_08690.jpg",
+  "edited_image": "fear_cluster_1_fear_08690_disgust_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a strong sense of disgust and contamination. Add thick, slimy, dark green mold spreading across the floor, starting from the damp patch in the middle and creeping towards the chair. Add patches of this mold growing up the base of the pillars and along the window sill. Scatter a few dead cockroaches on the floor, especially in the patches of light and near the chair legs, ensuring the scene remains realistic.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

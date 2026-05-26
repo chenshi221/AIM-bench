@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_9_contentment_11226.jpg",
+  "edited_image": "contentment_cluster_9_contentment_11226_amusement_instruction_8.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of comical amusement.\n\nEditing Steps:\n1. Replace the plain plastic straw with a pair of novelty glasses-straws, where the frame of the glasses is the straw itself, looping over the rim of the glass.\n2. The glasses-straw should be made of a brightly colored, transparent plastic (e.g., blue or green) and positioned as if someone just set them down. \n3. Ensure the part of the straw entering the drink interacts realistically with the liquid. All other aspects of the scene must remain identical.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

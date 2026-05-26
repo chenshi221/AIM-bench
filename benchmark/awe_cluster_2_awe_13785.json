@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_13785.jpg",
+  "edited_image": "awe_cluster_2_awe_13785_amusement_instruction_2.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke playful amusement. Add a group of three mischievous-looking garden gnomes in the foreground, partially hidden in the dewy grass. One gnome should be pointing towards the sunrise with a comical, oversized spyglass. Another should be attempting to catch a sunbeam in a small net. Maintain the realistic lighting, with the morning sun casting long shadows from the gnomes and glinting off their painted surfaces.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_3_sadness_04127.jpg",
+  "edited_image": "sadness_cluster_3_sadness_04127_contentment_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of quiet contentment. Change the overall lighting to be softer and warmer, as if from a nearby fireplace or a late afternoon sunbeam. Slightly soften the focus on the dog's fur to create a cozier texture. Adjust the dog's eye to be half-closed in a state of peaceful rest, and curve the corner of its mouth into a subtle, relaxed smile. The background should be warmed and slightly blurred to enhance the intimate, serene mood.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

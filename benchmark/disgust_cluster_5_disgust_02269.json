@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_02269.jpg",
+  "edited_image": "disgust_cluster_5_disgust_02269_amusement_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to create a feeling of lighthearted amusement through a surprising substitution.\nDetailed Steps:\n1. Replace the coiled sausage on the plate with a large, coiled-up, sleeping ginger cat, maintaining the spiral shape. \n2. Replace the surrounding pieces of meat with a few scattered cat toys, like a toy mouse and a jingle ball. \n3. Adjust the texture and lighting on the cat and toys to be soft and to blend realistically with the scene. \n4. Make sure the cat's expression is one of peaceful, amusing sleep. \n5. Clean the plate and the ground to remove any grease stains or litter.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

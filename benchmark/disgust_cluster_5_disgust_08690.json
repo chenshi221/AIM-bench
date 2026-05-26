@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_08690.jpg",
+  "edited_image": "disgust_cluster_5_disgust_08690_anger_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the anger of failure by replacing the pickle with a destroyed game controller.\n\nEditing Steps:\n1. Replace the two pickle halves with the two halves of a video game controller that has been snapped in two. The plastic casing should be cracked, with wires and circuit board fragments visible at the break.\n2. Arrange the broken pieces to match the composition of the original image.\n3. Darken the overall lighting of the scene, casting harsh shadows that emphasize the jagged edges of the broken plastic.\n4. Ensure the realism is maintained, showing stress marks in the plastic around the break.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 8.0,
+      "dominance": 6.5
+    }
+  }
+}

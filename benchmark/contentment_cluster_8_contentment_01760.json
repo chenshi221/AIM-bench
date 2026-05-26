@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_8_contentment_01760.jpg",
+  "edited_image": "contentment_cluster_8_contentment_01760_fear_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of sudden, chilling fear. Change the time of day to a harsh, cold twilight. Desaturate the colors, leaving only muted grays and blacks, except for the lemurs' eyes, which should glow with an unnatural, piercing yellow-orange light. Alter the lemurs' expressions to be wide-eyed and terrified, mouths slightly agape. Make their fur appear matted and wet, as if from a cold sweat. The background should be blurred and dark, adding to the sense of isolation and dread.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  }
+}

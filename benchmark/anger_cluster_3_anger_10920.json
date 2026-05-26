@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_3_anger_10920.jpg",
+  "edited_image": "anger_cluster_3_anger_10920_awe_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke awe by depicting the serene and powerful first light of dawn breaking through the forest.\n\nDetailed Editing Steps:\n1. Replace all fire and smoke with a thick, low-lying morning fog, concentrated in the background and along the ground. \n2. Change the lighting to represent early dawn. Introduce strong, golden-orange sunbeams piercing through the trees from the upper left. \n3. Saturate the greens in the foliage and heighten the contrast on the tree trunks to make them appear fresh and damp with morning dew. \n4. Adjust the overall color temperature to be warmer and more optimistic. \n5. Lighten the foreground slightly to suggest the sun is beginning to illuminate the entire scene.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 3.5,
+      "dominance": 5.5
+    }
+  }
+}

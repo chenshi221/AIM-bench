@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_5_anger_07958.jpg",
+  "edited_image": "anger_cluster_5_anger_07958_amusement_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of lighthearted amusement. Change the boxers' actions from fighting to engaging in a playful pillow fight. The boxer in blue should be swinging a fluffy white pillow instead of punching, with feathers lightly drifting around the point of impact. The boxer in red should be bracing for the soft impact with a smile. Both boxers' facial expressions should be changed from intense concentration to gleeful amusement, with wide smiles and crinkled eyes, as if they're enjoying a silly game.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_08873.jpg",
+  "edited_image": "disgust_cluster_6_disgust_08873_sadness_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of quiet, resigned sadness. First, change the blood on the hand to dark, muddy water, as if the person has been working in a cold, damp place. Desaturate the overall image, shifting the warm, reddish tones to a cool, blue-green cast. Soften the lighting to reduce the harsh shadows and create a more diffuse, somber atmosphere. Finally, add a subtle texture of condensation or fine water droplets over the entire hand to enhance the feeling of cold and melancholy.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

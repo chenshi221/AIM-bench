@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_04287.jpg",
+  "edited_image": "fear_cluster_2_fear_04287_contentment_instruction_7.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of contentment. Modify the facial expressions of all three individuals. Remove the scary makeup from the person in the nun costume and give her a warm, contented smile. Adjust the girl's expression to be less of a wide grin and more of a soft, peaceful smile. Finally, alter the attributes of the ventriloquist dummy mask to make its expression look genuinely happy and friendly, not unsettling. Keep all costumes but soften the overall lighting.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

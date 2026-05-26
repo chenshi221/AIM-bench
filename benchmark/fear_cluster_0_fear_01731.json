@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_01731.jpg",
+  "edited_image": "fear_cluster_0_fear_01731_sadness_instruction_8.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Transform the image to create a feeling of quiet despair. Delete the mannequin's head entirely. Also, remove the spigot on the left and the electrical outlet and wires on the right. The headless body in scrubs, sitting lifelessly in the chair, will create a disturbing yet sorrowful scene, focusing on the aftermath of a tragedy rather than the act itself. Ensure the lighting remains stark to highlight the unsettling emptiness.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  }
+}

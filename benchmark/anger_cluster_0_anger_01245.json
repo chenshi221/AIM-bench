@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_0_anger_01245.jpg",
+  "edited_image": "anger_cluster_0_anger_01245_disgust_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to suggest a parasitic infection, creating a sense of deep-seated disgust.\nEditing Steps:\n1. Modify the cat's expression to look pained and disgusted, with its eyes squinted shut.\n2. Add several long, pale, roundworms emerging from the back of the cat's throat, with one partially visible looping over the tongue. Make them look slimy and semi-translucent.\n3. Add small, inflamed sores on the cat's gums to suggest disease.\n4. Keep the overall composition and lighting, but ensure the new elements are realistically integrated.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

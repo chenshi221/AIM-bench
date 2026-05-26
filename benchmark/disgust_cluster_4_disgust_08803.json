@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_08803.jpg",
+  "edited_image": "disgust_cluster_4_disgust_08803_contentment_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the simple contentment of a neighborhood cookout. \nEditing Steps: Replace the central black trash bin with a clean, modern barbecue grill. Replace the two flanking metal and purple bins with picnic coolers. Remove the overflowing trash bags and all litter from the ground. Adjust the scene's lighting to a bright, midday sun, making the area look inviting for a social gathering. Ensure the replacements look natural in the space.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_7_contentment_10864.jpg",
+  "edited_image": "contentment_cluster_7_contentment_10864_anger_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of simmering anger and confrontation between the couple. Change the groom's expression to one of cold fury: lower his eyebrows, narrow his eyes, and set his mouth in a firm, downturned line. Alter his pose so he is slightly pulling away from the bride. Change the bride's expression to match, with her smile gone, replaced by a tense jaw and a direct, angry stare at the groom. Her hand on his arm should now be gripping it tightly, not holding it gently.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.0,
+      "dominance": 5.0
+    }
+  }
+}

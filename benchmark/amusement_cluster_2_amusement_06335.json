@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_2_amusement_06335.jpg",
+  "edited_image": "amusement_cluster_2_amusement_06335_awe_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke awe through a celestial event. Change the background sky to a breathtaking, star-filled night sky, dominated by the vibrant colors of the Milky Way. The lighting on the girl and the field should be low and cool, as if illuminated only by starlight. Make the yellow flowers appear darker, with silver highlights on their petals. Adjust the girl's expression to one of profound wonder, her eyes wide and reflecting the starry sky, and a soft, amazed smile on her face.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

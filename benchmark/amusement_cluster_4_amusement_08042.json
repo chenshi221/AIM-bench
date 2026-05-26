@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_4_amusement_08042.jpg",
+  "edited_image": "amusement_cluster_4_amusement_08042_contentment_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of peaceful contentment. Modify the woman's pose so she is looking towards the Christmas tree with a gentle, appreciative gaze. Her hands, instead of holding candy canes, are now resting softly in her lap. Change her facial expression from a wide, playful smile to a subtle, closed-mouth smile of quiet happiness. Her shoulders should be relaxed, conveying a sense of calm enjoyment of the festive atmosphere.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

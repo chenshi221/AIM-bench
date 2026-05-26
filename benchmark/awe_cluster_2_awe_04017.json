@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_04017.jpg",
+  "edited_image": "awe_cluster_2_awe_04017_contentment_instruction_8.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to foster a feeling of tranquil contentment by adding a focal point for relaxation.\n\nEditing Steps:\n1. Add a simple wooden bench on the clifftop overlooking the river bend in the middle of the composition. The bench should be empty, inviting the viewer to imagine sitting there.\n2. Add a few small, calm birds perched on the bench or on the rocks nearby.\n3. Soften the entire image slightly, reducing sharpness on the distant mountains and applying a gentle, warm color grade to mute the intense blues and greens, creating a more dreamy and peaceful visual.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 3.5,
+      "dominance": 5.5
+    }
+  }
+}

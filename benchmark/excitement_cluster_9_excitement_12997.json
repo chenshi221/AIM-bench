@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_9_excitement_12997.jpg",
+  "edited_image": "excitement_cluster_9_excitement_12997_anger_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to convey simmering, contained anger.\nEditing Steps:\n1. Modify the facial expressions of all individuals to be tense and angry, with narrowed eyes and downturned mouths. \n2. Replace the colorful patterned shirt on the man in the back with a plain, dark, slightly torn t-shirt. \n3. Replace the rainbow lei on the man on the right with a coiled length of barbed wire, worn like a necklace. \n4. The blank sign should be replaced by a wooden plank with a single, aggressive word carved into it. Maintain the original image's realistic style.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 8.0
+    }
+  }
+}

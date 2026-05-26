@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_01575.jpg",
+  "edited_image": "sadness_cluster_4_sadness_01575_excitement_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to transform the baby's distress into pure excitement.\n\nEditing Steps:\n1. Change the baby's facial expression from crying to one of excited laughter. The eyes should be wide open and sparkling with joy, the mouth open in a gleeful laugh, and the cheeks rosy and lifted by the smile. Remove any trace of tears or facial tension.\n2. Adjust the baby's head posture to be slightly tilted back as if in a fit of giggles.\n3. Make the baby's skin tone slightly warmer and more vibrant to reflect the energy of excitement.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 7.5,
+      "dominance": 7.0
+    }
+  }
+}

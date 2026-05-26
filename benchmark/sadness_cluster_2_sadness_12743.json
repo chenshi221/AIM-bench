@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_2_sadness_12743.jpg",
+  "edited_image": "sadness_cluster_2_sadness_12743_disgust_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke disgust by focusing on the environment's filth. Change the texture of the wall behind the man and the concrete step to be covered in thick, black mold and damp, peeling paint. The floor tiles should look cracked, with a slimy liquid seeping up from between them. Change the man's expression to one of intense disgust, with his nose wrinkled and mouth downturned. The cloth beside him should be changed to look like it's covered in vomit. Keep the edits realistic.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  }
+}

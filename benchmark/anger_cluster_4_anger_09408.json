@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_4_anger_09408.jpg",
+  "edited_image": "anger_cluster_4_anger_09408_disgust_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a strong feeling of disgust. Change the man's facial expression from anger to one of revulsion: his nose should be wrinkled, his upper lip curled up, and his mouth slightly open as if recoiling from a bad smell. Alter his hand gestures; instead of clawing, his right hand should be raised to cover his nose and mouth, while his left hand pushes away from the viewer. Maintain the image's realism.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

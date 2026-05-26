@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_8_amusement_05323.jpg",
+  "edited_image": "amusement_cluster_8_amusement_05323_anger_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to portray a moment of confrontational anger between the two subjects. \nDetailed Steps: Modify the cheerleader's action to face the mascot. Change her expression to one of open-mouthed anger, as if shouting. Her right arm should be pointing accusingly at the mascot. The mascot's head should be slightly turned towards her, and its hands changed to a defensive, open-palmed gesture. Remove the small teddy bear. The background lighting should take on a harsher, more dramatic quality.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

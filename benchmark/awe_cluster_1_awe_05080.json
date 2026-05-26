@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_05080.jpg",
+  "edited_image": "awe_cluster_1_awe_05080_fear_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of imminent dread and fear. Change the time of day to a stormy dusk. Replace the blue sky with a turbulent, dark grey storm cloud ceiling, illuminated from within by faint, ominous lightning. The water of the loch should be choppy and nearly black, reflecting the menacing sky. Desaturate the green grass and trees, giving them a sickly, muted tone under the low light. The stone of the castle ruins should be darkened and appear wet from rain, with shadows deepening to obscure details.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  }
+}

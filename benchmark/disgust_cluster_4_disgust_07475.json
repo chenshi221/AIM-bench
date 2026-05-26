@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_07475.jpg",
+  "edited_image": "disgust_cluster_4_disgust_07475_amusement_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of playful amusement. First, clean the ground, removing all litter and stains. Then, add a small, mischievous-looking cartoon squirrel perched on the pile of plastic jugs. The squirrel should be holding a tiny, brightly colored party hat in one paw and waving with the other, its expression wide-eyed and cheerful. Make the overall lighting slightly brighter and warmer to enhance the lighthearted mood, ensuring the squirrel's addition appears realistic within the scene's photographic style.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  }
+}

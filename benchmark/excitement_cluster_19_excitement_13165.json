@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_19_excitement_13165.jpg",
+  "edited_image": "excitement_cluster_19_excitement_13165_anger_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a feeling of simmering, defiant anger. Change the man's expression to one of cold fury: jaw clenched, eyebrows lowered, and a direct, challenging stare. Add a single, fresh crack running across the body of the black acoustic guitar, originating from near his strumming hand. Add a discarded, crumpled protest sign on the floor near his left foot. The sign should be partially obscured but hint at a political slogan. Subtly intensify the background lasers, making them a more aggressive, blood-red color.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 8.0
+    }
+  }
+}

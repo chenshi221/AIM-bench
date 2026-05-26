@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_12_excitement_17838.jpg",
+  "edited_image": "excitement_cluster_12_excitement_17838_fear_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to create a sense of being trapped and fearful. Change the singer's action so he appears to be gasping for air, clutching at his own throat with one hand. His facial expression should be one of suffocation and panic, with wide, terrified eyes and an open mouth that isn't producing sound. His body should be contorted as if struggling against an unseen force, shifting the emotion from performance to a fight for survival.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 6.0,
+      "dominance": 5.0
+    }
+  }
+}

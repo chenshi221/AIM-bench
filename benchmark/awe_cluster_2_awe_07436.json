@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_07436.jpg",
+  "edited_image": "awe_cluster_2_awe_07436_amusement_instruction_8.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of whimsical amusement.\n\nDetailed Editing Steps:\n1. On the snowy slope in the lower right, add a trail of oversized, colorful candy, like giant gumdrops and candy canes, leading up the mountain.\n2. The candy should look out of place but be rendered realistically, with textures and shadows that make it appear physically present in the scene.\n3. The trail should meander slightly, as if dropped by a giant on a hike.\n4. Keep the original mountains and sky completely untouched, focusing the humorous element on this single addition.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

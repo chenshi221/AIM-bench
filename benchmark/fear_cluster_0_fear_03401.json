@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_03401.jpg",
+  "edited_image": "fear_cluster_0_fear_03401_amusement_instruction_3.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of playful, party-like amusement.\n\nEditing Steps:\n1. Replace the knife with a brightly colored party horn, complete with a paper fringe that is slightly unfurled.\n2. Change the mask's expression to appear as if it is puckering its 'lips' to blow the horn, with the eyes crinkled in a mischievous way.\n3. Add subtle, out-of-focus confetti falling in the background to enhance the party atmosphere.\n4. Maintain the overall composition and realistic style of the image.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

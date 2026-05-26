@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_06282.jpg",
+  "edited_image": "sadness_cluster_5_sadness_06282_excitement_instruction_7.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke the high-energy excitement of a sporting event. Delete all the decay and repaint the door and window frames in the vibrant colors of a sports team (e.g., bright orange and royal blue). The number '33' should be styled like a player's jersey number. Delete the grass and add confetti scattered on the ground. The windows should reflect the bright lights of a stadium.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

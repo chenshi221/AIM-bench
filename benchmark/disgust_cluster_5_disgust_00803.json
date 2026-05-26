@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_00803.jpg",
+  "edited_image": "disgust_cluster_5_disgust_00803_sadness_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of cold, desolate emptiness. Modify the temperature and texture attributes. Make the sauce look frozen or semi-frozen, with a layer of ice crystals forming on its surface. Change the lighting to be harsh and cold, casting sharp, dark shadows. The metal of the pot should have a frosty texture, and the surrounding stovetop should look chillingly sterile and stark. The blue cap should appear brittle from the cold.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

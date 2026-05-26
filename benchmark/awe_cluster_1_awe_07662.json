@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_07662.jpg",
+  "edited_image": "awe_cluster_1_awe_07662_anger_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke explosive anger. Change the driver's action so he is slamming a fist down on the side of the train cab's window ledge. His facial expression must be a mask of pure fury, with teeth bared in a snarl and eyes wide with rage. His body should be coiled with aggressive energy, leaning into the blow. The woman behind him should be cowering or hiding her face.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 5.5
+    }
+  }
+}

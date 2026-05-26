@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_07638.jpg",
+  "edited_image": "fear_cluster_1_fear_07638_excitement_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the high-energy excitement of a modern art installation. First, repair all damaged surfaces, making them smooth and clean. Change the material properties of the scene. The door and walls should have a glossy, reflective finish like polished acrylic. Change the color scheme to a vibrant pop-art palette; for example, make the door a brilliant canary yellow, the left wall a shocking pink, and the right railing a lime green. The lighting should be bright, even, and shadowless, as if in a well-lit gallery. The light between the doors should be a simple, clean white light. The overall effect should be clean, bold, and visually stimulating.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.5,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  }
+}

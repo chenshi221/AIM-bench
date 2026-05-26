@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_16_excitement_05816.jpg",
+  "edited_image": "excitement_cluster_16_excitement_05816_sadness_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of lonely dejection. Change the driver's action so they are looking down at the motorcycle's handlebars, their expression tired and melancholic. Alter the passenger's action so she is looking away from the driver and into the distance, her face conveying a feeling of wistful sadness and her smile completely gone. Remove the sense of forward motion, making it seem as if they are paused in traffic. Soften the focus on the background crowd to emphasize the subjects' emotional isolation.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  }
+}

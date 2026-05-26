@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_07541.jpg",
+  "edited_image": "fear_cluster_1_fear_07541_awe_instruction_5.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the awe of a grand, restored historical hall.\n\nEditing Steps:\n1. Delete all the rubble, dirt, and the dead tree from the floor.\n2. Delete the damaged sections of the ceiling and walls, repairing them to look like a grand, historic library or ballroom with ornate plasterwork and moldings.\n3. Delete the hanging wires from the ceiling. Replace the central ceiling hole with a magnificent crystal chandelier, which is brightly lit.\n4. The floor should be a polished, dark wood parquet. The entire room should be filled with warm, inviting light.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

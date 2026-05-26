@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_04323.jpg",
+  "edited_image": "amusement_cluster_3_amusement_04323_awe_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke awe by placing the baby in a majestic, sun-drenched cathedral.\n\nEditing Steps:\n1. Adjust the baby's facial expression to one of serene awe: eyes looking slightly upward and wide, mouth closed in a neutral, peaceful line.\n2. Change the lighting attribute to mimic brilliant rays of sunlight streaming through a stained-glass window (out of frame). Create strong, warm, golden light beams that fall across the baby and the chair.\n3. Modify the texture and color of the wicker chair to appear like aged, polished dark wood, fitting for a church pew.\n4. Enhance the overall color saturation and contrast to make the scene feel more vibrant and divinely inspired, while keeping the realism of the scene.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

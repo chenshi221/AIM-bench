@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_01664.jpg",
+  "edited_image": "sadness_cluster_5_sadness_01664_contentment_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to inspire a feeling of creative contentment. Replace the dirty shoe with an open sketchbook and a single pencil resting beside it, as if an artist just paused their work. The sketchbook page could show a light, pleasant drawing of a flower or landscape. The ground should be converted from rubble to a clean, weathered wooden floor, like an artist's studio. Soft, natural light should illuminate the scene from a nearby window, casting gentle shadows and creating a calm, focused atmosphere.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  }
+}

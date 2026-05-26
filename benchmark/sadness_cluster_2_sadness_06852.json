@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_2_sadness_06852.jpg",
+  "edited_image": "sadness_cluster_2_sadness_06852_disgust_instruction_4.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke disgust. Delete the bicycle parts in the foreground and background. In their place, add piles of rotting garbage bags, some of which are torn open with decaying food waste spilling out. Change the expression of all three men to show disgust, holding their noses or turning their heads away from the stench. The air should have a hazy, yellow-brown quality, suggesting a foul smell. The ground should be wet and littered with more trash.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  }
+}

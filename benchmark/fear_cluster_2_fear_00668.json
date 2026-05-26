@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_00668.jpg",
+  "edited_image": "fear_cluster_2_fear_00668_excitement_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the excitement of winning a major prize at a vibrant festival.\n\nDetailed Editing Steps:\n1. Modify the character's expression to one of surprised excitement, with an open-mouthed grin and wide, sparkling eyes. Clean his face completely, removing the blood, smudges, and pale makeup, giving him a healthy, natural skin tone.\n2. Clean his shirt and vest, changing the shirt's pattern to a cheerful, bright floral print. Make the vest a clean, dark denim.\n3. Alter the background to be brighter and more festive, as if at a daytime outdoor carnival. Introduce bright sunlight and a slightly blurred background of colorful tents and flags.\n4. Change the texture of his hair to look clean, soft, and well-styled.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 6.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  }
+}

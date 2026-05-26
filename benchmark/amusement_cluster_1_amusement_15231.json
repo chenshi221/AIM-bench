@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_15231.jpg",
+  "edited_image": "amusement_cluster_1_amusement_15231_sadness_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of somber melancholy. Transform the scene by introducing a light, steady rain. Add subtle rain streaks and wetness to all surfaces, creating glossy, dark reflections on the roller coaster cars and track. Change the bright daylight to a gray, uniformly overcast sky, which casts a flat, shadowless light. Mute the background trees to darker, less saturated greens and browns. The woman and girl's expressions should be changed to ones of wistful sadness, looking down or away, not at the camera.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 8.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  }
+}

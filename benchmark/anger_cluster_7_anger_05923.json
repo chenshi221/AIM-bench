@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_7_anger_05923.jpg",
+  "edited_image": "anger_cluster_7_anger_05923_fear_instruction_8.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke fear from a sudden, dangerous event.\n\nEditing Steps:\n1. Add a canister, realistically depicted as a tear gas canister, in mid-air as if it has just been thrown into the crowd. It should have a trail of white smoke emitting from it.\n2. Add wisps of the white smoke beginning to envelop the people in the mid-ground.\n3. Change the protesters' expressions from defiance to immediate panic and fear. The man in the helmet should be ducking slightly, his face a mask of alarm, and the woman to his left should be turning away with a hand over her mouth.\n4. Maintain the realism of the scene and the original text on the signs.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  }
+}

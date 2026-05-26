@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_12086.jpg",
+  "edited_image": "sadness_cluster_4_sadness_12086_amusement_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of lighthearted amusement. Change the boy's crying expression to one of joyful laughter, with his mouth open, eyes crinkled in a smile, and head tilted back slightly. Modify the woman's action so she is playfully tickling his chin with her index finger. Her expression should be one of warm, amused affection, with a soft smile and her eyes looking at the boy with delight. Ensure the lighting remains natural and the overall scene feels spontaneous and happy.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

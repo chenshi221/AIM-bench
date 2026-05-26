@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_3_fear_14223.jpg",
+  "edited_image": "fear_cluster_3_fear_14223_excitement_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the excitement of a discovery. Change the tarantula's material attributes to appear as if it's a priceless ancient artifact made of hammered gold and inlaid with turquoise. The fur should be changed to fine golden filigree. The cephalothorax area should be a large, polished turquoise gem. The lighting should be warm and direct, as if it's a museum piece under a spotlight, highlighting its texture and precious quality. The background remains clean and white.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

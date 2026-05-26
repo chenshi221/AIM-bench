@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_3_contentment_00039.jpg",
+  "edited_image": "contentment_cluster_3_contentment_00039_awe_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of magical awe. Change the time of day to a mystical twilight. The green background should become a deep, magical forest scene at dusk, with soft, out-of-focus light orbs (bokeh). Change the flower's yellow petals to a luminescent, glowing blue. The bee's body should have subtle, glowing golden patterns on its abdomen. Light should appear to emanate from the flower, illuminating the bee and creating a fantastical, enchanted atmosphere while maintaining realism in textures.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

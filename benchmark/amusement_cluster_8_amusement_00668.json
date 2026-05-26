@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_8_amusement_00668.jpg",
+  "edited_image": "amusement_cluster_8_amusement_00668_disgust_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke disgust through signs of decay. Change the doll's facial expression to a nauseated grimace, with her mouth slightly open and downturned. Give her skin a pale, clammy texture, and change her yellow eyes to a dull, milky color with visible red veins. Introduce cracks and peeling paint on her face, especially around the mouth and eyes, to simulate decay. The red fabric of her dress should be frayed and have patches of what looks like mold.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

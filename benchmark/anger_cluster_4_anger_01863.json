@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_4_anger_01863.jpg",
+  "edited_image": "anger_cluster_4_anger_01863_fear_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of visceral fear. The primary edit is to replace the man's hair and shirt. Replace his modern hairstyle with long, stringy, wet black hair that partially obscures his forehead and eyes. Replace his light blue collared shirt with a grimy, dark, tattered straitjacket, tightly buckled. Modify his facial expression to one of terrified screaming, with his eyes wide in panic and his mouth agape in a silent scream directed at an unseen horror. The background should remain a solid, but darker, more menacing shade of blue.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  }
+}

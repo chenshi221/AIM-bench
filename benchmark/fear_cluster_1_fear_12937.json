@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_12937.jpg",
+  "edited_image": "fear_cluster_1_fear_12937_excitement_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the lively excitement of a children's birthday party. \n\nEditing Steps: \n1. Replace all the debris, broken frames, and the damaged cabinet with a pile of brightly wrapped presents and party gift bags. \n2. Replace the crude graffiti on the walls with a large 'Happy Birthday!' banner and numerous colorful balloons. \n3. Place a small table in the center, replacing some of the floor debris, and on it, replace any remaining rubble with a large, festive birthday cake with lit candles. \n4. Clean the floor and walls, repair any damage, and make the overall lighting bright and cheerful.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  }
+}

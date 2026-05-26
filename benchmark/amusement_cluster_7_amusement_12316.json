@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_7_amusement_12316.jpg",
+  "edited_image": "amusement_cluster_7_amusement_12316_contentment_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke quiet contentment by changing the season. Transform the dry, shrubby landscape into a lush, green field in late spring. The trees should be full with green leaves. Change the lighting to that of a calm, overcast day, with very soft, diffused shadows. The colors of the balloon should remain, but appear less intense under the cloudy sky. The people in the basket should have relaxed, peaceful expressions, enjoying the gentle flight.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

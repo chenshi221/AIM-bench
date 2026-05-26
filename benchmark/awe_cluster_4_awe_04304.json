@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_4_awe_04304.jpg",
+  "edited_image": "awe_cluster_4_awe_04304_amusement_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent Statement: Edit the image to generate amusement through an exaggerated, cartoonish attribute change.\n\nDetailed Editing Steps:\n1. Modify the baby's expression to a wide, giggling smile, with cheeks puffed out slightly. The eyes should be bright and sparkling with laughter.\n2. Transform the texture of the baby's hat to look like it's made of a soft, glowing, magical yarn. Add a subtle shimmer to its surface.\n3. Change the shape of the hat's tail into a playful spiral or corkscrew, defying gravity slightly.\n4. Lighten the green blanket background and apply a soft-focus, dreamy blur to it, directing all attention to the baby's amused face.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

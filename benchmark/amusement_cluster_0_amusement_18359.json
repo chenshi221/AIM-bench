@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_0_amusement_18359.jpg",
+  "edited_image": "amusement_cluster_0_amusement_18359_anger_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke territorial anger. Modify the dog's expression to be tense, with its lips pulled back to reveal its teeth and its ears flattened. Change the weather to a misty, cold morning. Add a subtle, cool blue color grade to the entire scene. The grass should look wet and slightly frosted. The ball in its mouth should appear worn and dirty, losing its playful color. Keep the focus sharp on the dog's aggressive face.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

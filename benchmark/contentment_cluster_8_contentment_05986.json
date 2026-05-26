@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_8_contentment_05986.jpg",
+  "edited_image": "contentment_cluster_8_contentment_05986_sadness_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a desolate sadness. Change the season to late autumn. The lush green foliage in the background should be replaced with sparse, brownish, out-of-focus branches. The overall lighting should be flat and grey, as on a heavily overcast day. The dove's coloration should be muted, appearing more greyish-brown than golden. Add a subtle atmospheric effect like a very light fog in the background. The dove's eye should reflect the bleak surroundings.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.0,
+      "dominance": 4.5
+    }
+  }
+}

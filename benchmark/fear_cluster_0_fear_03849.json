@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_03849.jpg",
+  "edited_image": "fear_cluster_0_fear_03849_awe_instruction_2.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of magical awe. Add a dense, enchanted forest in the background, with ancient, moss-covered trees and glowing, magical mushrooms scattered on the forest floor. Add tiny, sparkling fireflies hovering in the air around the pumpkins. Change the pumpkins' expressions from angry to expressions of serene wonder. The lighting should be mystical, with soft moonbeams filtering through the trees, casting gentle highlights on the scene.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 5.5,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_06040.jpg",
+  "edited_image": "disgust_cluster_5_disgust_06040_awe_instruction_3.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of precious, natural awe.\n\nEditing Steps:\n1. Replace the eggs with a variety of perfectly polished, oversized gemstones and geodes resting in the carton. Include different cuts and types like amethyst, quartz, and opal.\n2. The broken egg should be replaced with a cracked-open geode, revealing a stunning interior of sparkling, crystalline structures.\n3. Replace the yellow background with a soft, out-of-focus image of a sunlit, verdant forest floor, enhancing the natural and valuable feel.\n4. Ensure the lighting interacts realistically with the gems, creating beautiful refractions and highlights.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

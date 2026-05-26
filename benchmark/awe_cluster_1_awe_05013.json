@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_05013.jpg",
+  "edited_image": "awe_cluster_1_awe_05013_sadness_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a feeling of quiet sorrow. Add subtle, realistic raindrops falling in the scene, with some drops visibly tracing paths down the yellow umbrella. Add a single, well-formed teardrop on the monk's right cheek, appearing as if it has just fallen. Slightly alter his expression to one of deep sadness by lowering the corners of his mouth and adding a slight tension to his brow. Mute the overall color saturation to enhance the somber mood.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  }
+}

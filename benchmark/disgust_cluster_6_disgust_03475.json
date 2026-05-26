@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_03475.jpg",
+  "edited_image": "disgust_cluster_6_disgust_03475_awe_instruction_8.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of mythical awe. First, remove the food debris and soap scum, cleaning the sink. Add the branches of a mythical, glowing tree, like Yggdrasil or the Tree of Souls, growing out of the sink drain. The branches should be made of silver and gold, with leaves that are shimmering points of light. Add a few glowing, ethereal birds perched on the branches. The entire scene should be bathed in a soft, magical light emanating from the tree.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 3.5,
+      "dominance": 5.5
+    }
+  }
+}

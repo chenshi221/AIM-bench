@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_08421.jpg",
+  "edited_image": "fear_cluster_2_fear_08421_sadness_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to create a mood of somber reflection. Replace the aggressive red makeup with soft, dark blue paint streaks, mimicking tears that blend with the existing eyeshadow. These blue 'tears' should look like watercolor running down the face. The person’s expression should be changed to one of serene sadness, with eyes half-closed and a neutral, relaxed mouth. The overall effect should be artistic and sorrowful, while maintaining a realistic texture and lighting.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 4.0,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

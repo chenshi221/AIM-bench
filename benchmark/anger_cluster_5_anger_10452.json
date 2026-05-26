@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_5_anger_10452.jpg",
+  "edited_image": "anger_cluster_5_anger_10452_disgust_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of disgust. Modify the protestors' actions to show them reacting to a foul smell. The man in the grey jacket is now pulling the collar of his jacket up over his nose, his eyes squinted in revulsion. The man in the red jacket is using his hand to fan the air in front of his face with a disgusted expression. The man in the blue cap is turning away, holding his breath. Maintain the realistic style and the overall protest setting.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

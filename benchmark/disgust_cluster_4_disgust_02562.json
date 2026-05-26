@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_02562.jpg",
+  "edited_image": "disgust_cluster_4_disgust_02562_excitement_instruction_4.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the energetic excitement of a race starting line.\nEditing Steps:\n1. Delete the overflowing garbage bags, the trash bin, and the white bollard, clearing the foreground.\n2. Clean the entire sidewalk and road surface, removing any litter or stains.\n3. To introduce excitement, add a brightly colored start/finish line painted across the road in the foreground. Add two or three runners in athletic gear in the mid-ground, poised as if ready to start running. Ensure their poses are dynamic and full of tension.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  }
+}

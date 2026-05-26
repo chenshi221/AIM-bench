@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_05605.jpg",
+  "edited_image": "disgust_cluster_6_disgust_05605_amusement_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke magical amusement by replacing the toilet with an object of fantasy.\n\nDetailed Steps:\n1. Replace the toilet with a bubbling witch's cauldron, made of dark cast iron and resting on the floor in the same spot.\n2. The liquid inside the cauldron should be a vibrant, glowing green potion with magical sparkles and light smoke wafting from it.\n3. Replace the metal pipe and flusher with a gnarled, wooden wizard's staff leaning against the wall.\n4. Adjust the ambient lighting to be dimmer and more mysterious, with the green potion being the primary light source.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 3.5,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_1_anger_06387.jpg",
+  "edited_image": "anger_cluster_1_anger_06387_awe_instruction_2.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of cosmic awe. Change the monkey's aggressive expression to one of silent amazement, with its mouth open but not baring teeth, and eyes wide. Add a detailed, luminous nebula and a cluster of distant galaxies in the background, making it appear as if the monkey is on a high vantage point looking into deep space. Add subtle starlight reflections in the monkey's eyes to enhance the connection to the cosmos.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

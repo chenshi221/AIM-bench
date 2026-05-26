@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_1_excitement_08780.jpg",
+  "edited_image": "excitement_cluster_1_excitement_08780_disgust_instruction_2.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke disgust. Delete all people in the background, leaving only the three main subjects against a plain, slightly out-of-focus wall. Alter the facial expressions of the main trio to show disgust: the man's face should be scrunched up, the blonde woman's eyes wide with revulsion, and the woman on the right should be turning away with a grimace. Shift the color balance towards cooler, more clinical tones and slightly darken the corners of the image.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  }
+}

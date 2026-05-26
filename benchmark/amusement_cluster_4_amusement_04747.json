@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_4_amusement_04747.jpg",
+  "edited_image": "amusement_cluster_4_amusement_04747_anger_instruction_7.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke an infernal, burning anger. Transform the jack-o'-lantern's happy grin into an enraged, open-mouthed roar, with sharp, fang-like points. Change the internal light to look like actual flames are flickering inside, with embers glowing at the edges of the carvings. The top of the witch's hat should be slightly smoking. The surrounding grass should appear scorched and blackened in a small circle around the pumpkin's base. The overall image temperature should be much warmer.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  }
+}

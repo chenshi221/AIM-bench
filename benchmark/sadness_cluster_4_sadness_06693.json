@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_06693.jpg",
+  "edited_image": "sadness_cluster_4_sadness_06693_disgust_instruction_6.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke disgust by focusing on the contamination of the subject's clothing. \nEditing Steps:\n1. Adjust the woman's facial expression to show disgust, with a clear sneer and her eyes looking down at her scarf. \n2. Change the attribute of her scarf from clean knit wool to being soaked with a viscous, dark, oily substance that drips down onto her coat. \n3. Modify her black gloves to be covered in the same grimy, sticky-looking substance. \n4. Desaturate the background, making it blurry and indistinct, to draw all focus to the repulsive state of her attire.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

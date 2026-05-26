@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_06540.jpg",
+  "edited_image": "sadness_cluster_4_sadness_06540_contentment_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the contentment of enjoying a snack while waiting.\n\nEditing Steps:\n1.  Change the man's action: His hand is no longer on his face. Instead, he is holding a pastry or sandwich from the pouch and is in the middle of taking a relaxed bite. His other hand holds the open pouch in his lap.\n2.  Change his facial expression to one of simple pleasure and satisfaction, with his eyes perhaps closed momentarily to savor the food.\n3.  Clean the dirty areas on the concrete steps to make the scene feel more pleasant. Maintain realism.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_18858.jpg",
+  "edited_image": "amusement_cluster_3_amusement_18858_excitement_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to show excitement about the food. Change the girl's action to be giving two enthusiastic thumbs-up, one with each hand. Her facial expression should be a big, toothy grin, conveying that the breakfast is delicious. Her body should be leaning slightly forward, fully engaged with her meal. Ensure the change appears natural and maintains the realistic style of the photo.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

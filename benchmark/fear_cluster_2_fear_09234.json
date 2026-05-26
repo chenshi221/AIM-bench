@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_09234.jpg",
+  "edited_image": "fear_cluster_2_fear_09234_anger_instruction_1.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a feeling of raw, simmering anger. First, delete all the white face paint and fake blood from the man's face and neck, revealing his natural skin tone underneath. Also, delete the fake bloodstains from his sailor shirt. Modify his facial expression to one of intense anger: furrow his brow, narrow his eyes into a glare, and set his mouth in a firm, downturned line. Intensify the shadows on his face to highlight this new, furious expression. Maintain the realism of the scene.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  }
+}

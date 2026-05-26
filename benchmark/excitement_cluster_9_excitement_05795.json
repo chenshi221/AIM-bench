@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_9_excitement_05795.jpg",
+  "edited_image": "excitement_cluster_9_excitement_05795_contentment_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of quiet contentment. Lower the left man's raised arm so it rests comfortably on the red banner, mirroring his companion. Change his wide laugh into a gentle, closed-mouth smile with soft crinkles around his eyes, suggesting a peaceful, happy moment. Have both men's gazes directed slightly downwards towards something just out of frame, as if they are sharing a quiet, satisfying observation. Maintain the realistic style of the photo.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_06045.jpg",
+  "edited_image": "disgust_cluster_6_disgust_06045_amusement_instruction_2.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of playful, surprising amusement. \nEditing Steps: Delete the entire mess of paper and waste within the toilet bowl. Clean the bowl so it appears pristine. The water inside should be clean but dyed a bright, cheerful blue, as if from a cleaning tablet. Add a single, small, waterproof 'Gone Fishing' sign, complete with a tiny fishing line and bobber, placed neatly in the center of the blue water.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  }
+}

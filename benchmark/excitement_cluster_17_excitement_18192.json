@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_17_excitement_18192.jpg",
+  "edited_image": "excitement_cluster_17_excitement_18192_contentment_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of peaceful satisfaction. Lower the motorcycle so it is gently rolling along a flat dirt road. Change the rider's action from an aggressive jump to a leisurely cruise. Their body should be upright and relaxed, not leaning forward. Both hands are loosely on the handlebars. The rider's head is turned slightly to the side, as if enjoying the scenery. The overall scene should feel calm and unhurried, maintaining the bright, sunny day.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_12134.jpg",
+  "edited_image": "sadness_cluster_5_sadness_12134_anger_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of destructive anger. Change the atmospheric conditions to be filled with smoke and embers. The sky should be obscured by a thick, dark haze of smoke, tinted orange and red from a nearby, unseen fire. Small, glowing embers should be visible in the air. Add a fiery orange light that seems to emanate from off-camera, casting a harsh glow on one side of the house. The house itself should appear soot-stained, with the existing decay darkened and looking like scorch marks.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.5,
+      "dominance": 5.0
+    }
+  }
+}

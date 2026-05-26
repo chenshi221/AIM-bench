@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_4_fear_01171.jpg",
+  "edited_image": "fear_cluster_4_fear_01171_disgust_instruction_4.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a sense of sickly disgust. General Intent: Remove all the red blood from the image, but leave the texture of the dried liquid, making it look like clear, slimy ooze. Delete the bumps on the forehead, smoothing the skin to look waxy and artificial. The person's mouth should be slightly agape, and their eyes should appear glazed over, conveying a sense of sickness and revulsion. Maintain the high-contrast, realistic style of the original photograph.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 6.5,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  }
+}

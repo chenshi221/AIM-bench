@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_20_excitement_17351.jpg",
+  "edited_image": "excitement_cluster_20_excitement_17351_amusement_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a light sense of amusement. Add a large, brightly colored rubber chicken so it appears to be held in the singer's outstretched left hand. The singer's facial expression, partially visible behind the sunglasses, should be changed to a subtle, amused smirk. The background musician should now be looking at the rubber chicken with a slightly confused but smiling expression. Maintain the original stage lighting and overall realistic style of the image.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 4.0
+    }
+  }
+}

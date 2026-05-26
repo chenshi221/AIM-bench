@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_1_anger_01086.jpg",
+  "edited_image": "anger_cluster_1_anger_01086_sadness_instruction_7.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke an atmosphere of passive sadness. Change the jaguar's action to lying completely flat on the ground, with its head turned to the side, cheek resting on the earth. Its eyes should be open, staring blankly at a point on the ground, conveying a sense of apathy and dejection. Close its mouth and relax all its facial muscles. The sunlight should be filtered and weak, creating a low-contrast, greyish ambiance that drains the energy from the scene. The edit must be photorealistic.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 7.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 3.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_5_amusement_03298.jpg",
+  "edited_image": "amusement_cluster_5_amusement_03298_fear_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the fear of decay and abandonment. Change the bright daylight to a gloomy, overcast dusk, with a desaturated, grayish-blue color palette. The women's costumes should be tattered, faded, and covered in dust and cobwebs. Alter their skin to look ashen and gaunt. Their expressions must be changed to ones of hollow despair, with sunken eyes and mouths slightly open as if sighing in defeat. The building behind them should have cracked walls and boarded-up windows, and the ground should be littered with dirt and debris.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

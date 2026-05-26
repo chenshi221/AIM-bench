@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_3_fear_11903.jpg",
+  "edited_image": "fear_cluster_3_fear_11903_anger_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of imminent, aggressive anger. Change the lighting to be harsh and dramatic, casting deep, sharp shadows across the scene. Intensify the snake's colors, making the reds deeper and more blood-like, and the yellows more acidic. The snake's eyes should be altered to have a fiery, red glow. The overall color temperature should shift to be much warmer and more oppressive, with a strong red cast across the entire image, especially in the shadows.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 7.0,
+      "dominance": 8.0
+    }
+  }
+}

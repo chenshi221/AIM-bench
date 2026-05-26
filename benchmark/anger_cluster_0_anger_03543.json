@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_0_anger_03543.jpg",
+  "edited_image": "anger_cluster_0_anger_03543_fear_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke the fear of being attacked. Change the cat's action from a passive yawn to the beginning of a lunge. Its eyes should be wide, pupils constricted to slits, and locked onto the viewer. The mouth should be a vicious snarl, teeth bared. Alter its head position to be lower and thrust forward slightly, and tense the muscles in its neck and chest to imply imminent movement. The ears should be angled back and alert. Keep the style realistic.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  }
+}

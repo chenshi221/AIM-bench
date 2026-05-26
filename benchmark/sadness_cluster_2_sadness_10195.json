@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_2_sadness_10195.jpg",
+  "edited_image": "sadness_cluster_2_sadness_10195_fear_instruction_4.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a feeling of being watched by an unseen entity. Delete the woman's headscarf, leaving her head and hair unnaturally exposed. Change her facial expression to one of stark terror, with eyes wide and mouth slightly agape, as if looking at something horrifying off-camera. Cool down the color temperature significantly, casting the scene in a sickly, greenish-blue light. Add a slight motion blur to the background, suggesting a sudden, fearful movement.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  }
+}

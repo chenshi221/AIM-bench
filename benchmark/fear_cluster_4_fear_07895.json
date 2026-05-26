@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_4_fear_07895.jpg",
+  "edited_image": "fear_cluster_4_fear_07895_awe_instruction_3.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of sacred or spiritual awe. \nEditing Steps: \n1. Replace the red object on her mouth and the red stain on the hand with shimmering gold dust, as if she has just spoken a golden word. \n2. Replace the military pin on the jacket with an intricate, antique silver locket that is slightly open. \n3. Replace the entire green jacket with luxurious, flowing white silk robes. \n4. Change her expression to one of profound, solemn awe, with eyes closed and a hint of a serene smile. The background should be a soft, out-of-focus golden light, suggesting a divine presence.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

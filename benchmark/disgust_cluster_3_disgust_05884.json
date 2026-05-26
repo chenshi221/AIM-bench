@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_3_disgust_05884.jpg",
+  "edited_image": "disgust_cluster_3_disgust_05884_anger_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of confrontational anger. Change the spider's posture to an aggressive, threatening stance. Raise its front two pairs of legs high in the air and prominently display its fangs, as if it's about to strike. The spider's body should be slightly reared back. Remove the ants and any signs of injury from the spider's body, making it appear healthy and powerful. Ensure the edits maintain the original image's realism and lighting.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_16_excitement_01787.jpg",
+  "edited_image": "excitement_cluster_16_excitement_01787_disgust_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to feel repulsive and unsanitary. Change the overall environmental attributes. Introduce a sickly, humid atmosphere with a yellow-green color cast. All clothing, especially the white tank tops, should appear damp, discolored, and covered in mildew spots. The skin of all three main subjects should look clammy and unhealthy. Change their expressions: the woman on the left looks nauseated, the central woman is gagging, and the man on the right scowls in revulsion.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

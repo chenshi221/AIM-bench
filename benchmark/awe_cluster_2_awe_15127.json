@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_15127.jpg",
+  "edited_image": "awe_cluster_2_awe_15127_contentment_instruction_8.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to feel like a painting, evoking artistic contentment. Apply a painterly texture to the entire image, softening sharp details. Change the color palette to be more impressionistic; the sky should be a blend of soft blues, yellows, and whites. The sun should be a dab of bright, warm yellow paint. The fog should be rendered with visible, soft brushstrokes of white and grey, and the trees should be a mix of various green, blue, and brown tones, as if painted by an artist capturing a moment of pure peace.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  }
+}

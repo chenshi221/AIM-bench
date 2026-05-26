@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_7_excitement_13183.jpg",
+  "edited_image": "excitement_cluster_7_excitement_13183_contentment_instruction_6.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to feel like a cozy, contented memory. \nEditing Steps: \n1. Change the man's expression to a soft, happy smile, looking directly at the viewer. His eyes should be warm and engaging. \n2. Apply a subtle nostalgic filter attribute: slightly increase the grain, soften the focus just a touch, and enhance the warm tones to give it a timeless, cherished memory feel. \n3. Lighten the shadows on the man's face and shirt to reduce the dramatic contrast and create a more gentle, even lighting scheme that aligns with contentment.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_5_contentment_07104.jpg",
+  "edited_image": "contentment_cluster_5_contentment_07104_disgust_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke disgust related to something sticky and foul. Change the child's action so he is looking down at his hands with a horrified expression. His face must show disgust, with his mouth agape and eyebrows raised in alarm. Both of his hands, previously open, should now be held out in front of him, covered in a thick, brown, slimy substance that is dripping onto his clothes and the ground. Add stains of the same substance to the front of his jacket.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  }
+}

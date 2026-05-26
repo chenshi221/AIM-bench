@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_01231.jpg",
+  "edited_image": "awe_cluster_2_awe_01231_anger_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke anger by adding a raging forest fire to the valley. \n\nEditing Steps: \n1. Add large, intense orange and red flames consuming the trees in the central valley floor. \n2. Add thick, billowing plumes of dark grey and black smoke rising from the fire, partially obscuring the mountains and dimming the sunlight. \n3. Add glowing embers and sparks being carried by the wind across the scene. \n4. Change the sky from clear blue to a hazy, reddish-orange hue, as if filled with smoke. Maintain realism in the fire's behavior.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

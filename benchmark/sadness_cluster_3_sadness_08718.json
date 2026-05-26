@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_3_sadness_08718.jpg",
+  "edited_image": "sadness_cluster_3_sadness_08718_excitement_instruction_8.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to show the dog excitedly 'talking' or barking. Change the dog's action to have its head raised and its muzzle pointed slightly upwards. Modify its facial expression so its mouth is open in the shape of a bark, conveying excitement, not aggression. Its eyes should be wide and focused on something off-camera. The muscles in its neck and shoulders should appear tensed with energy. Make the ambient light in the room feel more vibrant and less subdued.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_9_contentment_05719.jpg",
+  "edited_image": "contentment_cluster_9_contentment_05719_fear_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of visceral fear. Replace the coffee inside the mug with a thick, dark, bubbling liquid that looks like tar or blood. Replace the latte art with a grotesque, swirling pattern reminiscent of a distorted face or a skull. The coffee tamper on the left should be replaced with a rusty, antique surgical instrument, like a bone saw, lying on a stained cloth. Darken the overall lighting to create a sinister, shadowy atmosphere, and change the table surface to a cold, cracked concrete texture.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  }
+}

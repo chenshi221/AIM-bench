@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_1_anger_01718.jpg",
+  "edited_image": "anger_cluster_1_anger_01718_sadness_instruction_8.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to create a scene of quiet surrender. Alter the dinosaur's action to be kneeling or crouching low to the ground. Its head should be bowed, almost touching the earth, and its mouth should be closed. The expression should be one of utter defeat, with the heavy brow casting a deep shadow over its weary, half-lidded eye. Introduce a gentle, falling rain effect throughout the scene to underscore the melancholy mood.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 3.5
+    }
+  }
+}

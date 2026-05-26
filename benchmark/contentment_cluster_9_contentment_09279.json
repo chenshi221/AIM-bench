@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_9_contentment_09279.jpg",
+  "edited_image": "contentment_cluster_9_contentment_09279_sadness_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a feeling of somber quietude. Add raindrops streaking down a window pane just behind the coffee cup, slightly blurring the background further. On the white table, add a single, wilted, dark red rose lying next to the saucer, its petals starting to curl and drop. Desaturate the overall image slightly and introduce a cool, blue color cast to enhance the melancholic atmosphere. Ensure the added objects appear realistic and integrated into the scene's lighting.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

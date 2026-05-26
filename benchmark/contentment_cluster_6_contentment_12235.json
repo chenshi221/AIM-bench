@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_6_contentment_12235.jpg",
+  "edited_image": "contentment_cluster_6_contentment_12235_excitement_instruction_7.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to show the bride in a moment of playful, energetic excitement.\nEditing Steps:\n1. Delete the wicker chair and the tiled floor.\n2. Reposition her body to look like she is gleefully jumping on a large outdoor trampoline, caught at the peak of her bounce.\n3. Her expression should be one of pure, uninhibited excitement: a laughing, open-mouthed grin, with her hair flying upwards.\n4. Delete the wooden wall and replace the background with a sunny, green backyard setting during a casual wedding party.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

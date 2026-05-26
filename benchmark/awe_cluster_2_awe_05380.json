@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_05380.jpg",
+  "edited_image": "awe_cluster_2_awe_05380_excitement_instruction_8.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the excitement of a spectacular celestial event. Change the sky to a dramatic meteor shower. The sky should be a dark, deep indigo, filled with the bright, streaking trails of numerous falling stars. The landscape should be illuminated by this celestial light, casting an ethereal blue and white glow on the tops of the hills and the central tree. Deepen the shadows to increase the drama and make the light from the meteors appear more brilliant and awe-inspiring.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_15_excitement_15709.jpg",
+  "edited_image": "excitement_cluster_15_excitement_15709_contentment_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of peaceful contentment. Modify the child's expression to be calm and serene, with a slight, gentle smile. Shift the time of day to a soft morning light by increasing the brightness slightly and giving the light a cooler, more diffused quality. Change the color of the child's pajamas from bright orange to a soft, pale blue. Slightly decrease the image's overall saturation to create a more tranquil and dreamy atmosphere, ensuring realism is maintained.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_8_amusement_13626.jpg",
+  "edited_image": "amusement_cluster_8_amusement_13626_sadness_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the feeling of a sad, solitary journey. \nEditing Steps: \n1. Replace the shopping bags with a single, worn-out suitcase with a travel tag on it. Replace the small plaid purse with a rolled-up blanket tucked under her arm. \n2. Transform her expression from happy to one of solemn resignation. Her gaze should be fixed forward but unfocused, and her lips should be pressed together. \n3. Adjust the lighting to simulate an overcast, grey day, removing the bright highlights.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 3.5,
+      "dominance": 6.0
+    }
+  }
+}

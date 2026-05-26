@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_3_disgust_00995.jpg",
+  "edited_image": "disgust_cluster_3_disgust_00995_awe_instruction_6.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the awe of a powerful, elemental being.\n\nDetailed Steps:\n1. Add crackling, blue-white lightning arcs that jump between the tips of the spider's legs and the red pole, showing a build-up of immense energy.\n2. Add a swirling vortex of storm clouds in the background, replacing the green leaves, with occasional flashes of lightning within them.\n3. Add small embers and sparks rising from the spider's body, as if it's supercharged with electrical power. The scene should be dark and stormy, with the lightning as the primary light source.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 7.5,
+      "dominance": 8.0
+    }
+  }
+}

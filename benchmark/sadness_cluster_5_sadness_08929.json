@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_08929.jpg",
+  "edited_image": "sadness_cluster_5_sadness_08929_anger_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of seething anger. Change the image from black and white to a high-contrast color scheme dominated by fiery reds and oranges. Introduce harsh, dramatic lighting as if from a nearby fire, casting deep, sharp shadows. Make the ground appear scorched and cracked, with embers glowing in the crevices. The sky, visible in the background, should be a dark, stormy mix of charcoal grey and blood-red clouds. The stone cross should have a slightly reddish tint and appear heated.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 7.5,
+      "dominance": 8.0
+    }
+  }
+}

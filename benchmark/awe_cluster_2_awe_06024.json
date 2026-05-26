@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_06024.jpg",
+  "edited_image": "awe_cluster_2_awe_06024_amusement_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of quirky amusement by adding a surprising character. \nDetailed Editing Steps: Add a single, small, fluffy white sheep standing on the edge of one of the middle-ground travertine terraces, looking down into the water with a curious expression. The sheep should appear slightly out of place but peaceful. Make sure its fleece texture contrasts nicely with the smooth water and rock, and its scale is believable for the landscape.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.0,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

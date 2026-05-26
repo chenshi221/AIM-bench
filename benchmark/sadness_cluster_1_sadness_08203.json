@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_1_sadness_08203.jpg",
+  "edited_image": "sadness_cluster_1_sadness_08203_amusement_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke amusement from reading something funny.\nEditing Steps:\n1. Change the man's action to reading. Place a small, worn paperback book in his hands, held open on the pew in front of him.\n2. Modify his facial expression so he is looking down at the book with a broad, amused grin, perhaps with his shoulders shaking slightly with silent laughter.\n3. His head should be angled down towards the book, and his hands should be positioned to hold the book open.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  }
+}

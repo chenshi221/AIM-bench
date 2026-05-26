@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_01995.jpg",
+  "edited_image": "sadness_cluster_5_sadness_01995_awe_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of profound awe by introducing a celestial phenomenon. \n\nDetailed Steps: First, restore the ruined castle walls, repairing the crumbling sections to appear ancient but complete. Change the time of day to twilight. In the sky above the castle, add a massive, detailed comet with a long, glowing tail stretching across the frame. The comet should be the primary light source, casting ethereal blue and white light onto the castle walls and the grassy hill, creating long, dramatic shadows. Ensure the lighting on the castle is consistent with this new light source.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

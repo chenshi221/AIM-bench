@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_03377.jpg",
+  "edited_image": "fear_cluster_2_fear_03377_anger_instruction_3.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to show anger stemming from frustration. Delete the doll from the bottom of the frame entirely. Remove the rope she is holding but keep the thicker rope around her neck. Cleanse all the blood spatter from her shirt and the streaks from her face, but leave the wound makeup on her neck. Alter her expression to one of vexation: her brows should be drawn together, eyes squinted, and her lips pursed in an annoyed scowl.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.5,
+      "dominance": 4.0
+    }
+  }
+}

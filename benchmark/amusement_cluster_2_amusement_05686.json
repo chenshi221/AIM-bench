@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_2_amusement_05686.jpg",
+  "edited_image": "amusement_cluster_2_amusement_05686_sadness_instruction_7.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to convey a heavy, oppressive sadness. Change the weather to be misty and damp. Add a subtle, atmospheric fog that partially obscures the background leaves and softens the edges of the rose. The rose's color should become a deep, muted terracotta, looking heavy and water-logged. The lighting should be flat and diffuse, eliminating harsh highlights and creating a uniform gloom. Ensure the background leaves are dark, desaturated, and barely visible through the mist.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  }
+}

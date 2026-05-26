@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_04054.jpg",
+  "edited_image": "amusement_cluster_3_amusement_04054_awe_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of spiritual awe.\n\nDetailed Editing Steps:\n1. Replace the background with the interior of a grand, gothic cathedral. Include details like towering stone columns, intricate stained-glass windows in the distance, and a vaulted ceiling.\n2. Replace the children's casual t-shirts with simple, elegant white robes or choir gowns.\n3. Alter their expressions to be solemn and reverent, with a sense of quiet awe and respect for the sacred space.\n4. Ensure the lighting is dramatic, with light streaming through the distant stained-glass, casting colorful patterns on the stone floor and softly illuminating the children.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

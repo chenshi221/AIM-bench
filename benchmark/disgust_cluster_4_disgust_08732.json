@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_08732.jpg",
+  "edited_image": "disgust_cluster_4_disgust_08732_anger_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of frustrated anger. Change the man's action so he is kicking the overflowing trash can. His right leg should be extended mid-kick, striking the side of the black bin, causing some trash to fly out. His body should be tensed, with his back slightly arched and arms flung back for balance and force. The overall lighting should be slightly harsher with more defined shadows to emphasize the tension of the moment, while maintaining realism.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  }
+}

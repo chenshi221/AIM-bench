@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_07720.jpg",
+  "edited_image": "amusement_cluster_3_amusement_07720_anger_instruction_1.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a sense of frustrated anger. First, change the baby's expression to one of anger: furrow his brow, tighten his lips into a pout, and make his cheeks flush red. Next, delete the cute, patterned hat from his head, leaving his hair slightly disheveled. Finally, intensify the scene's lighting by introducing harsh, direct sunlight that creates strong, sharp shadows, and desaturate the blue sky to a pale, washed-out cyan to enhance the tense atmosphere.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 8.0
+    }
+  }
+}

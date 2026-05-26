@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_0_awe_09772.jpg",
+  "edited_image": "awe_cluster_0_awe_09772_excitement_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of thrilling discovery. Change the bird's action so it is excitedly lunging forward to snatch the food item. Its body should be lower to the water, wings slightly flared as if for balance, and its head thrust forward with its beak just about to close on the morsel. Add more prominent splashes and ripples around its legs and beak to convey rapid movement. The bird's eye should be wide, focused, and alert, expressing eager anticipation.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

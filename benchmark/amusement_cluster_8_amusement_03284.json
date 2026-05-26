@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_8_amusement_03284.jpg",
+  "edited_image": "amusement_cluster_8_amusement_03284_contentment_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of quiet contentment. Replace the vibrant, high-contrast red and orange bouquet the woman is holding with a smaller, simpler bouquet of soft, white and pale-yellow wildflowers, like daisies and baby's breath. Change the woman's expression to a gentle, closed-mouth smile with relaxed eyes. Adjust the overall lighting to be slightly warmer and softer, as if during a late afternoon golden hour, while maintaining realism.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  }
+}

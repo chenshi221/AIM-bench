@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_03630.jpg",
+  "edited_image": "awe_cluster_1_awe_03630_disgust_instruction_4.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a sense of disgust by creating an unnerving context. Delete the background banner entirely, replacing it with a plain, dimly lit, slightly grimy wall. Keep the man, podium, and microphones. Change his expression to one of clear disgust, with a wrinkled nose and a sneer. The removal of the event context makes it seem like he is disgusted by his immediate, unpleasant surroundings. Maintain photorealism.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 4.5
+    }
+  }
+}

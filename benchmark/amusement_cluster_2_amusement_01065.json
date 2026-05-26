@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_2_amusement_01065.jpg",
+  "edited_image": "amusement_cluster_2_amusement_01065_awe_instruction_7.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of monumental awe. Alter the scale and texture of the central sunflower to make it appear ancient and colossal. Enhance the texture of its petals to resemble weathered, golden stone, and the center to look like a dense, intricate rock formation. Change the background from a simple field to the edge of a vast, misty canyon at sunrise. The lighting should be epic and atmospheric, with golden morning light catching the stony texture of the giant sunflower, making it feel like a natural monument.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  }
+}

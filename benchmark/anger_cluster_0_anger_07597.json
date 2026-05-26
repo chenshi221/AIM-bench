@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_0_anger_07597.jpg",
+  "edited_image": "anger_cluster_0_anger_07597_disgust_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of visceral disgust. Change the action of the brown dog so that it is vomiting a thick, slimy, greenish-brown substance onto the black dog. The black dog's action should be changed to recoiling, with its head turned away, mouth slightly open, and eyes wide in a disgusted expression. Ensure that droplets and strings of the vomit are visible in the air between them, maintaining the image's realistic style.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 7.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

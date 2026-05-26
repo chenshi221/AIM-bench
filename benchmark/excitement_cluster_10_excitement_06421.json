@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_10_excitement_06421.jpg",
+  "edited_image": "excitement_cluster_10_excitement_06421_awe_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of sublime awe, as if witnessing a celestial event. Change the time of day to a deep twilight. Replace the street and crowd with a still, reflective body of water under a vast, star-filled sky with a faint nebula. The rainbow wings should now glow softly with an internal, ethereal light, casting subtle colored reflections on the water. Change the woman's expression to one of serene wonder, her eyes looking slightly upward. Her white dress should catch the starlight, appearing almost luminous.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 7.5
+    }
+  }
+}

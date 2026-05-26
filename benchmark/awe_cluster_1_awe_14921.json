@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_14921.jpg",
+  "edited_image": "awe_cluster_1_awe_14921_sadness_instruction_7.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to create a scene of solitary sadness. Change the action so the cyclist is sitting on the top step of the brick structure, with the bike leaned against the wall next to him. His posture should be withdrawn, hugging his knees to his chest and looking down. His face should reflect a sad, vacant expression. The environment should be changed to a cold, late autumn day, with a few dead leaves scattered on the ground and a pale, colorless sky.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

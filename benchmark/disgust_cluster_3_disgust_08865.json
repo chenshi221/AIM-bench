@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_3_disgust_08865.jpg",
+  "edited_image": "disgust_cluster_3_disgust_08865_fear_instruction_6.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of lurking, observant fear. Change the spider's action to be perfectly still but alertly tracking the viewer. Turn its cephalothorax (head/body section) to face the camera directly, while its abdomen remains angled as in the original. All of its eyes should be enlarged slightly and made to look like they are gleaming with a faint, internal red light. The spider should be crouched low to the ground, poised, making it feel like a tense moment before a chase.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  }
+}

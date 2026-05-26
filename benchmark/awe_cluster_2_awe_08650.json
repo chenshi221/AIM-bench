@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_08650.jpg",
+  "edited_image": "awe_cluster_2_awe_08650_sadness_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a mood of profound sadness by introducing a gentle, falling snow effect. Change the sky to a uniform, heavy gray, completely obscuring the sunset colors. The light should be soft and diffused, as if from a dense cloud cover. Add a layer of light, steady snowfall throughout the scene, with some flakes subtly accumulating on the trees and ground. Cool the overall color temperature, making the whites of the snow appear more blue-gray and lifeless. Maintain the original realism.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

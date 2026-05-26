@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_03847.jpg",
+  "edited_image": "fear_cluster_2_fear_03847_sadness_instruction_1.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a feeling of isolated sadness. Delete the man in the foreground on the left and the man in the middle ground, leaving only the woman in the black veil. Change her expression from a neutral gaze to one of profound sadness, with her eyebrows slightly furrowed, her gaze downcast, and the corners of her mouth turned down. The smudged makeup and blood should now appear as if from crying and a recent injury, not a costume. Keep the background blurry and nondescript.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

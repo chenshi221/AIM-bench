@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_03705.jpg",
+  "edited_image": "amusement_cluster_3_amusement_03705_fear_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke fear by adding strange, floating objects in the sky.\n\nEditing Steps:\n1. Change the girl's expression to one of fearful awe and confusion, her eyes wide and fixed on the sky, her smile replaced with a slightly parted, trembling mouth.\n2. Add several large, dark, geometric objects floating silently in the bright sky above and behind her. The objects should have a smooth, non-reflective surface and look alien and unnatural against the sky.\n3. Shift the image's color temperature to be much colder, and reduce the overall brightness to simulate an unnatural dimming of the daylight.\n4. Make her hair appear slightly raised, as if by static electricity from the objects' presence.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

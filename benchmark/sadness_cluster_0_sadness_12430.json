@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_12430.jpg",
+  "edited_image": "sadness_cluster_0_sadness_12430_contentment_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of playful, simple contentment.\nEditing Steps:\n1. Replace the gravestone with a beautifully crafted wooden rocking horse, weathered as if it's a beloved family heirloom left in a garden.\n2. Add a child's red rubber ball partially visible in the grass in the foreground.\n3. Make the lighting bright and sunny, like a perfect day for playing outside. The grass should appear lush and green, suitable for a play area.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

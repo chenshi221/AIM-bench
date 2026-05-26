@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_14961.jpg",
+  "edited_image": "fear_cluster_1_fear_14961_disgust_instruction_6.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke disgust associated with rot and filth. Change the attribute of the floor inside the niche so it appears to be covered in a pile of decomposing organic matter, with visible patches of white and green mold. The wall's texture should be modified to be damp and sticky, catching the dim light with a greasy sheen. Intensify the rust on the metal frame, making it look chunky and actively corroding, leaving thick, rust-colored streaks running down the wall.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_7_disgust_08323.jpg",
+  "edited_image": "disgust_cluster_7_disgust_08323_contentment_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of culinary contentment and anticipation.\n\nEditing Steps:\n1. Replace the snake with a long, freshly baked loaf of braided bread, like a challah or brioche, that follows the original coiled shape. The bread should have a golden-brown, glossy crust.\n2. Change the surface from dirt to a lightly floured wooden cutting board.\n3. Add a few scattered crumbs and a dusting of flour around the loaf to enhance realism.\n4. Apply warm, appetizing lighting to make the bread look delicious and inviting.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 3.5,
+      "dominance": 6.0
+    }
+  }
+}

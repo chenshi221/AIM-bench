@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_4_fear_11365.jpg",
+  "edited_image": "fear_cluster_4_fear_11365_anger_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to portray defiant anger. Change his posture so he is leaning forward aggressively towards the viewer. His head should be tilted down slightly, but his eyes should be looking up in a challenging, wrathful stare. Change his mouth to a grim snarl, with one side of his upper lip curled up to bare his teeth. His shoulders should be squared and raised, and his arms held slightly away from his body as if preparing for a fight.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

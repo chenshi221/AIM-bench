@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_00029.jpg",
+  "edited_image": "fear_cluster_2_fear_00029_anger_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to depict an explosive moment of anger. Change the main subject's action to be shouting, with their mouth wide open in a yell and face contorted in rage. Their head should be tilted slightly forward aggressively. Alter their right hand to be pointing accusingly towards the viewer. The background figure should be recoiling slightly, with a shocked and angry expression. The edits must appear realistic and dynamic.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.5,
+      "dominance": 5.0
+    }
+  }
+}

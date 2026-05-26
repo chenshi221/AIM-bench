@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_7_anger_11108.jpg",
+  "edited_image": "anger_cluster_7_anger_11108_contentment_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of warm, communal contentment. Replace the political banner with a large, dark blue cloth banner that reads 'COMMUNITY PICNIC TODAY' in friendly, white, hand-painted letters. Add small, cheerful illustrations of food and suns on the banner. Adjust the crowd's expressions to be relaxed and happy, as if they are gathering for a pleasant event. Ensure the lighting is bright and sunny, and clean up any visible litter on the ground.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

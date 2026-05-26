@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_04381.jpg",
+  "edited_image": "awe_cluster_2_awe_04381_excitement_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of triumphant excitement. Change the man's action from calmly paddling to raising his paddle high in the air with both hands in a victory pose. His facial expression should be one of exhilaration, with an open-mouthed, joyous smile. The water around the canoe should be more disturbed, with larger splashes and a more prominent wake behind the boat, suggesting a recent burst of speed. Maintain the realistic style of the original image.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.0,
+      "dominance": 6.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_12899.jpg",
+  "edited_image": "awe_cluster_2_awe_12899_disgust_instruction_6.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to inspire disgust through environmental ruin. Delete the natural, rocky texture of the hillside on the left and replace it with the appearance of a massive, oozing landfill pile that is spilling onto the road. While this involves replacement, the core instruction is to delete the original mountain feature. Remove the clean blue sky, making it a thick, smoggy orange-brown. The road's surface should have tire tracks running through slimy, dark puddles.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 2.5
+    }
+  }
+}

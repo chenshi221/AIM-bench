@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_8_contentment_08269.jpg",
+  "edited_image": "contentment_cluster_8_contentment_08269_awe_instruction_1.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke awe by placing the duck in a cosmic setting.\n\nEditing Steps:\n1. Delete the entire water surface, including all ripples, reflections, and bubbles.\n2. In its place, add a background of a vibrant, star-filled nebula with hues of deep blue, purple, and magenta.\n3. Position the duck as if it is floating serenely through this cosmic scene.\n4. Add a soft, ethereal glow around the duck to integrate it with the new background.\n5. Ensure the duck's expression remains neutral and calm, as if it belongs in this magnificent environment.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

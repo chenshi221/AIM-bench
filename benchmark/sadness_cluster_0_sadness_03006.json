@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_03006.jpg",
+  "edited_image": "sadness_cluster_0_sadness_03006_disgust_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke disgust by transforming it into a scene of muddy putrefaction.\nEditing Steps:\n1. Change the texture of the ground, replacing all grass with thick, dark, bubbling mud. The mud should have a wet, viscous appearance.\n2. Alter the material of the grave marker to look like it's sinking into the mud, with its surface coated in thick, dirty sludge.\n3. Change the color of the red object in the top left to a faded, dirty brown, as if it's been soaked in mud.\n4. Modify the lighting to be dim and overcast, reflecting dully off the wet surfaces of the mud.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  }
+}

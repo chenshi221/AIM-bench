@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_08421.jpg",
+  "edited_image": "disgust_cluster_6_disgust_08421_amusement_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of whimsical amusement. Replace the decaying apple core with a miniature, intricately detailed gingerbread house, complete with tiny gumdrop buttons and icing decorations. The house should occupy the same space and orientation as the original core. Brighten the overall lighting to a cheerful, warm glow, and make the red surface it sits on appear like a clean, festive tablecloth. Ensure the edit maintains a realistic, photographic quality.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.0,
+      "dominance": 6.5
+    }
+  }
+}

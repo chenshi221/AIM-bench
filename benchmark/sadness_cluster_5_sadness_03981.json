@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_03981.jpg",
+  "edited_image": "sadness_cluster_5_sadness_03981_anger_instruction_6.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a primal, territorial anger. Add a pack of three aggressive, snarling wild dogs in the central courtyard. One should be standing protectively over a pile of bones, another should have its teeth bared towards the viewer, and the third should be pacing near the back. Add filth and gnawed scraps around them to establish their territory. Their fur should be matted and their postures tense and ready to attack.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

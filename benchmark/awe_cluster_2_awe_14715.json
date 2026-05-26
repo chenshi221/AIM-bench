@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_14715.jpg",
+  "edited_image": "awe_cluster_2_awe_14715_amusement_instruction_8.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of playful amusement. Add a flock of origami paper birds, in various bright colors, seemingly flying in a formation across the sky in the upper left corner. Their reflections should also be visible in the lake below. The paper birds should be rendered with crisp folds and a slight translucency, catching the golden light of the sunset. This artistic and unexpected element will introduce a lighthearted and creative touch to the majestic natural landscape, creating a feeling of amusement.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  }
+}

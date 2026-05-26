@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_05669.jpg",
+  "edited_image": "fear_cluster_1_fear_05669_excitement_instruction_2.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke the excitement of a creative project. First, restore the room to a clean, bright state by repairing the walls and floor. Then, add a large, modern artist's easel in the center, holding a half-finished, brightly colored abstract canvas. Add various art supplies like paint tubes, brushes in jars, and splattered canvases neatly organized on the floor around the easel. The scene should feel like a burst of creative energy, so make the sunlight streaming through the window bright and inspiring.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  }
+}

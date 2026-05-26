@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_03209.jpg",
+  "edited_image": "awe_cluster_2_awe_03209_excitement_instruction_4.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke the excitement of a major sporting event. Add a fleet of racing sailboats with large, colorful sails competing in the bay. The boats should be angled as if catching a strong wind, creating a sense of speed and competition. Add smaller spectator boats scattered around the race course. Increase the water's choppiness slightly to suggest wind and motion, and brighten the scene to feel like a perfect, exhilarating day for a regatta.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 7.0
+    }
+  }
+}

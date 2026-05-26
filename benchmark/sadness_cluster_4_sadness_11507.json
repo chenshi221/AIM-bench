@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_11507.jpg",
+  "edited_image": "sadness_cluster_4_sadness_11507_awe_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke awe. Alter the boy's expression to one of quiet, spellbound reverence, with his eyes fixed on something magnificent. Change the weather to a dramatic, post-storm scene where sunlight breaks through dark, moody clouds, creating visible sunbeams (crepuscular rays) in the background. The light should illuminate the boy with a warm, divine glow. Enhance the atmospheric perspective, making the background feel vast and deep. Introduce a subtle color palette of grays, golds, and blues to heighten the drama.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

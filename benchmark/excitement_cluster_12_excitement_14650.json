@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_12_excitement_14650.jpg",
+  "edited_image": "excitement_cluster_12_excitement_14650_sadness_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of quiet melancholy. Change the man on the left's expression to one of subtle sorrow, with his smile gone and eyes downcast. Alter the man on the right's expression to be concerned and somber. Desaturate the overall image, especially the bright yellow shirt and the rainbow strap, muting them to dull, muted tones. Introduce a cool, blue color cast over the entire scene and slightly darken the background to suggest an overcast, gloomy day. Maintain the original realistic photo style.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 2.0
+    }
+  }
+}

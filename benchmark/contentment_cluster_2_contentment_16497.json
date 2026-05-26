@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_2_contentment_16497.jpg",
+  "edited_image": "contentment_cluster_2_contentment_16497_sadness_instruction_6.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a gentle, resigned sadness. Change the woman's expression to be calm but sorrowful, her head tilted slightly downward. Alter the room's atmosphere by introducing a subtle, hazy fog effect seeping in from the window, softening all details. The color palette should be almost monochromatic, dominated by shades of blue and gray. The yellow flowers should be desaturated to a very pale, creamy white, losing their cheerful vibrancy. The overall image texture should be softened.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_0_anger_01696.jpg",
+  "edited_image": "anger_cluster_0_anger_01696_amusement_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of playful amusement. Change the cat's action so it is playfully pawing at a falling leaf just out of frame. Its head should be tilted inquisitively, its mouth closed but with a slight, curious upturn at the corners, and its eyes wide and focused on the unseen leaf. The rest of its body should be tensed in a playful pounce-ready position. Maintain the natural lighting and realism of the scene.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 4.5
+    }
+  }
+}

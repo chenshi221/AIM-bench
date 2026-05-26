@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_6_anger_03409.jpg",
+  "edited_image": "anger_cluster_6_anger_03409_excitement_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke the excitement of receiving great news. Change their actions to a shared moment of celebration. Both individuals should be facing forward, looking at something out of frame (like a screen). The man should have his fist pumped in the air, shouting 'Yes!'. The woman should be jumping slightly, hands raised to her cheeks in gleeful disbelief. Both faces must be transformed to show expressions of extreme excitement and victory. The background remains the same.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 7.5,
+      "dominance": 8.0
+    }
+  }
+}

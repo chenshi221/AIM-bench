@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_07266.jpg",
+  "edited_image": "fear_cluster_2_fear_07266_anger_instruction_7.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to portray an explosive, barely contained anger.\nEditing Steps: Delete the white contact lens and all the blood splatter from her face and body. Delete the figure in the background to isolate the subject. Transform her expression into one of imminent outburst: her eyebrows should be sharply angled down, her eyes wide with fury, and her mouth slightly open with lips tensed as if she is drawing a breath to yell. Her posture should be slightly tensed, conveying dominant anger.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 7.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

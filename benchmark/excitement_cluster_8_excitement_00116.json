@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_8_excitement_00116.jpg",
+  "edited_image": "excitement_cluster_8_excitement_00116_amusement_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of playful amusement. Replace the autographed photo the man is holding with a framed, comically bad crayon drawing of himself. The drawing should be colorful and childish, with exaggerated features, but still recognizably him. Slightly enhance the man's expression to one of amused surprise, widening his eyes just a bit and making his smile look like he's holding back a laugh. Keep all other elements, including lighting and realism, consistent with the original photo.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

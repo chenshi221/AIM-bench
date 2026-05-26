@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_5_anger_06862.jpg",
+  "edited_image": "anger_cluster_5_anger_06862_disgust_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke visceral disgust. Change the women's expressions to show nausea and revulsion, with wrinkled noses and downturned mouths. Make their uniforms appear soaked in a slimy, greenish-brown liquid, with dark, wet patches and visible filth clinging to the fabric. The ground should be covered in a layer of grime, with small puddles of stagnant, oily water. Desaturate the overall colors, shifting the palette towards sickly greens and muddy browns, and apply a subtle vignette to darken the edges.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  }
+}

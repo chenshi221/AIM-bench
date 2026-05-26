@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_7_excitement_09255.jpg",
+  "edited_image": "excitement_cluster_7_excitement_09255_sadness_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to convey a mood of solemn remembrance. Change the man's expression to one of thoughtful sadness, with a closed mouth and slightly furrowed brow. Add a small, wilting poppy pinned to his dark blue t-shirt, over his heart. Dim the overall lighting to simulate an overcast, late afternoon sky. Slightly desaturate the vibrant red and blue of the flag to make it appear more muted and somber, ensuring the overall edit remains photorealistic.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 7.0
+    }
+  }
+}

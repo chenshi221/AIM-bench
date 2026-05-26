@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_10_contentment_11677.jpg",
+  "edited_image": "contentment_cluster_10_contentment_11677_fear_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of sudden, shared fear. Change the expressions of both women from smiling to ones of wide-eyed terror and open-mouthed shock, as if they are looking at something horrifying just off-camera. The woman on the left should be recoiling slightly, her hand holding the glass trembling. The woman on the right should have her hands frozen above the keyboard, her posture tensed up. The overall lighting should be made colder and harsher to amplify their fearful reactions.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

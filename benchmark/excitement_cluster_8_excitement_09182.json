@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_8_excitement_09182.jpg",
+  "edited_image": "excitement_cluster_8_excitement_09182_fear_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of imminent danger and fear. Change the woman's facial expression to one of stark terror, with wide eyes and a mouth open in a silent scream. Alter the lighting to a single, harsh, cold blue spotlight from above, casting deep, distorted shadows on her face and the podium. The background should be pitch black, and the podium's wood texture should be weathered and splintered. Her red jacket should appear damp and darkened, as if soaked.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.0,
+      "dominance": 4.5
+    }
+  }
+}

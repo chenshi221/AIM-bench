@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_15_excitement_09392.jpg",
+  "edited_image": "excitement_cluster_15_excitement_09392_awe_instruction_7.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the awe of receiving an amazing gift. \nEditing Steps: \n1. Change the girl's action: have her retract her tongue. Her hands should be slightly raised and open, as if about to receive something precious. \n2. Modify her facial expression: her eyes should be wide with happy surprise, and her mouth should form a small, breathless 'oh' of delight and awe. \n3. Add a warm, golden light reflecting onto her face and hands from below, suggesting the glow of a magical object just out of frame. Maintain realism.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

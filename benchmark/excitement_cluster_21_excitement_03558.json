@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_21_excitement_03558.jpg",
+  "edited_image": "excitement_cluster_21_excitement_03558_awe_instruction_3.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a feeling of epic, natural awe. Delete the second kayaker and all man-made structures in the background. In their place, extend the snow-covered mountain range across the entire background, making it appear as a continuous, formidable wall of rock and ice. Introduce a subtle, low-lying mist at the base of the mountains where they meet the water. Intensify the deep blues of the water and the bright whites of the snow to create a high-contrast, dramatic scene.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

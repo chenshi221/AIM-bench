@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_2_anger_08852.jpg",
+  "edited_image": "anger_cluster_2_anger_08852_awe_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of profound, artistic awe. Replace the entire burning taxi with a life-sized, intricately detailed ice sculpture of a classic NYC taxi, perfectly capturing its shape. The ice should be semi-transparent and glisten as if just carved, with no signs of melting. Change the woman's expression to one of quiet wonder, looking at the sculpture. The wet ground should reflect the sculpture's crystalline form. Maintain the overcast lighting but make it slightly brighter to enhance the sculpture's sparkle.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 3.0,
+      "dominance": 5.0
+    }
+  }
+}

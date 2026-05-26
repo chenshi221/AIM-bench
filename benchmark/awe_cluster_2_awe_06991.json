@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_06991.jpg",
+  "edited_image": "awe_cluster_2_awe_06991_sadness_instruction_6.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a feeling of cold, isolated sadness. Delete all the snow from the image, except for the snow within the foreground path's tire tracks. The mountain and surrounding landscape should be revealed as brown and barren, covered in dirt and rock. The remaining snow in the tracks should look dirty and partially melted. Replace the bright blue sky with a dark, moody, and overcast sky, and apply a cold, blue color filter over the entire scene to emphasize the desolate, wintry feeling.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  }
+}

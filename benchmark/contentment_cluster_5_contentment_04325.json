@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_5_contentment_04325.jpg",
+  "edited_image": "contentment_cluster_5_contentment_04325_excitement_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of festive excitement. Change the baby's expression to one of wide-eyed, gleeful excitement, with a big, open-mouthed smile. Add a shower of colorful, shimmering confetti and a few soft-focus, brightly colored balloons floating in the background. Enhance the lighting to be brighter and more vibrant, casting a warm, celebratory glow on the baby's face. The overall edit should maintain realism and feel like a snapshot from a lively celebration.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

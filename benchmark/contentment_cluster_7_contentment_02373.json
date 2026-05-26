@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_7_contentment_02373.jpg",
+  "edited_image": "contentment_cluster_7_contentment_02373_anger_instruction_6.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to create a feeling of oppressive, silent anger. Change the couple's expressions to stony, uncommunicative anger; they should both be staring forward, avoiding eye contact, with tight lips and furrowed brows. Their hands are no longer touching. Now, delete the tree stump and all the individual wildflowers from the background, leaving only a uniform, unkempt grassy area. This simplification removes any visual relief, focusing attention on the suffocating tension between the two people. Mute the colors and add a subtle vignette to darken the edges.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  }
+}

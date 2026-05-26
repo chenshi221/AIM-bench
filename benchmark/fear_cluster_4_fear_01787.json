@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_4_fear_01787.jpg",
+  "edited_image": "fear_cluster_4_fear_01787_disgust_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke disgust through a sense of the grotesque. Change the texture of the mask to resemble raw, stretched flesh, with the zipper appearing to be stitched directly into it. The 'teeth' should look like real, decaying human teeth. Alter the white hair to have a texture like cobwebs, tangled and full of dust. Change the background from a blurry crowd to a grimy, out-of-focus wall with water stains and peeling paint. Maintain the realism of these textural changes.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  }
+}

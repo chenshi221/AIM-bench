@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_09438.jpg",
+  "edited_image": "fear_cluster_0_fear_09438_awe_instruction_7.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the awe of a supreme sorcerer or archmage.\nEditing Steps:\n1. Replace the green devil mask with the face of a wise, ancient wizard with a long white beard and a solemn, focused expression, eyes glowing with a faint inner light.\n2. Replace the red horns with the pointed peak of a tall, star-patterned wizard's hat that casts a slight shadow over the face.\n3. Replace the black robe with an elaborate mage's robe adorned with glowing runes.\n4. Replace the claw-like hands with hands crackling with magical energy, held in a spell-casting gesture.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  }
+}

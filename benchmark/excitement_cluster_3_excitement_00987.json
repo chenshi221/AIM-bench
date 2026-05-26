@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_3_excitement_00987.jpg",
+  "edited_image": "excitement_cluster_3_excitement_00987_anger_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke anger from a wipeout. Change the surfer's pose so he is submerged up to his chest, having fallen off the board which is now floating nearby. His action should be him angrily punching the surface of the water, sending a spray of droplets flying. His face, wet and looking up, must be contorted in rage: eyebrows drawn together, mouth set in a hard line, and eyes filled with fury. The text on his shirt should be removed.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  }
+}

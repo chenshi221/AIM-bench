@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_03771.jpg",
+  "edited_image": "sadness_cluster_0_sadness_03771_awe_instruction_5.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a feeling of profound, natural awe. Add a cascade of lush, vibrant green vines, interwoven with glowing white flowers, draping down from the ceiling and framing the sarcophagus. Add several small, glowing orbs of light, like fireflies, floating gently in the air around the tomb. The light from these orbs should cast a warm, magical glow on the marble and the surrounding stone, transforming the somber tomb into a place of life and wonder. The stone walls should appear clean and moss-kissed.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_02344.jpg",
+  "edited_image": "sadness_cluster_4_sadness_02344_awe_instruction_6.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of spiritual awe. Change the baby's action from crying to a prayer-like pose. His face should be serene, with eyes closed and a soft, gentle smile. His hands should be brought together in front of his chest in a gesture of reverence. This action change should transform his distress into a moment of profound, inner peace and wonder. Keep the lighting natural and realistic.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

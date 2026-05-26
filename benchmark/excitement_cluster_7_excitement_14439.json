@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_7_excitement_14439.jpg",
+  "edited_image": "excitement_cluster_7_excitement_14439_anger_instruction_5.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to suggest anger in a protest setting. Transform her joyful expression into a defiant, angry shout. Add a protest sign in her hands, held just below the frame but with the top edge visible. The sign should have a crudely painted, aggressive symbol on it (like a clenched fist). Add more indistinct figures in the background to create the sense of a tense crowd. Replace the clear blue sky with a sky filled with thick, dark smoke, as if from a nearby fire or tear gas.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  }
+}

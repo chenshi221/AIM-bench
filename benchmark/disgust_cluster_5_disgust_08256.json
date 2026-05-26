@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_08256.jpg",
+  "edited_image": "disgust_cluster_5_disgust_08256_sadness_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of quiet melancholy. Replace the mushy food with a pile of wet, brown, decaying autumn leaves. Replace the ham slices with a single, cracked and faded photograph (of a smiling family, now barely visible) half-buried in the leaves. The fork and knife should remain but appear more worn and slightly rusted. Enhance the scene with a cool, blue-toned ambient light and add subtle reflections on the plate as if from recent rain. Ensure the final image is photorealistic.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_09928.jpg",
+  "edited_image": "awe_cluster_2_awe_09928_sadness_instruction_6.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to create a feeling of somber finality and sadness.\nDetailed Steps:\n1. Delete the bright patch of sky and clouds where the sun is breaking through on the horizon.\n2. Replace it with a seamless continuation of the darker, denser storm clouds, suggesting the light has faded completely.\n3. Remove the sun's reflection from the water, leaving the surface dark and choppy.\n4. Deepen the shadows on the rock faces and trees, making the scene feel colder and more imposing.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.0,
+      "dominance": 4.5
+    }
+  }
+}

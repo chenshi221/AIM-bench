@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_1_contentment_05652.jpg",
+  "edited_image": "contentment_cluster_1_contentment_05652_anger_instruction_6.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of supernatural or unholy anger. Change the dog's expression to a menacing, unnatural snarl. The eyes should be changed to glow with a faint, malevolent red light. Alter the fur to have an oily, dark sheen, almost like it's soaked in shadow. The surrounding environment's color should be heavily desaturated, except for a sickly green cast on the foliage. Introduce a subtle, smoky or misty vapor rising from the ground around the dog, making the scene feel eerie and dangerous.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  }
+}

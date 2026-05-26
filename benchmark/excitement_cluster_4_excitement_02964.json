@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_4_excitement_02964.jpg",
+  "edited_image": "excitement_cluster_4_excitement_02964_fear_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to create a ghostly, supernatural sense of fear. \nDetailed Steps: 1. Apply a heavy, ethereal fog that obscures the background and creeps into the foreground, isolating the women. 2. Change the lighting to a faint, eerie moonlight. 3. Alter the material properties of their eyes to be completely black and devoid of light. 4. Erase their smiles, replacing them with neutral, doll-like expressions of emptiness, which is a form of fear. 5. Mute all colors to near-monochrome, leaving only a hint of the original pink and purple, now looking ghostly and faded.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  }
+}

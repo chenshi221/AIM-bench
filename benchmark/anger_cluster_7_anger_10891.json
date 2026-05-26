@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_7_anger_10891.jpg",
+  "edited_image": "anger_cluster_7_anger_10891_contentment_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of creative, quiet contentment.\nEditing Steps:\n1. Replace the protest sign with a large artist's sketchbook. The visible page should display a detailed, colorful pencil drawing of a blooming garden she is working on.\n2. Modify the girl's expression to be one of focused contentment, with a slight, serene smile, as if she is pleased with her artwork.\n3. Replace the red umbrella in the background with a simple green one to create a more tranquil color palette. Remove the political cutout face.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  }
+}

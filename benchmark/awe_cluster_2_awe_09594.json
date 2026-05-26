@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_09594.jpg",
+  "edited_image": "awe_cluster_2_awe_09594_contentment_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of warm contentment. Change the time of day from deep night to a soft, early twilight. Replace the vibrant green aurora with a gentle, warm glow of a setting sun behind the mountains, casting golden and pink hues across the sky. Soften the starlight so fewer, fainter stars are visible. Make the snow on the mountains and ground appear softer, with a warm light reflecting off its surface, and slightly reduce the overall image contrast to create a more tranquil, dreamlike atmosphere.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

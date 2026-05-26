@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_2_disgust_08526.jpg",
+  "edited_image": "disgust_cluster_2_disgust_08526_fear_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to create a sense of claustrophobic fear from an unstoppable swarm.\nEditing Steps:\n1. Change the ants' action to show them emerging from within the peach itself. Modify the hole to look like an exit, with a dense column of ants pouring out and spreading over the fruit.\n2. The ants already on the surface should be moving outwards from the central hole in a radial pattern.\n3. Add a subtle, dark vignette around the edges of the frame to focus the viewer's attention on the horrifying emergence and enhance the feeling of being trapped.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 5.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 3.0
+    }
+  }
+}

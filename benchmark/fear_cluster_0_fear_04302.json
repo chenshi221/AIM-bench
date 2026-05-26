@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_04302.jpg",
+  "edited_image": "fear_cluster_0_fear_04302_contentment_instruction_8.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke quiet, studious contentment. Replace the skeleton costumes with school uniforms or smart-looking sweaters. Remove the skull masks to show the children with calm, thoughtful expressions. Replace the trick-or-treat buckets with school satchels or a stack of library books tied with a string. Adjust the lighting to be clear and neutral, like a pleasant afternoon perfect for a walk home from school. All changes should be seamlessly integrated to maintain the image's realism.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  }
+}

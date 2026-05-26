@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_7_amusement_11041.jpg",
+  "edited_image": "amusement_cluster_7_amusement_11041_contentment_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of quiet contentment by focusing on a shared, simple pleasure. \n\nEditing Steps: \n1. Replace the smartphones in each woman's hands with a single, large, hardcover book that they are all reading together. The book should look well-loved, perhaps with a classic fabric cover. \n2. Adjust their facial expressions to be soft and serene, with gentle, knowing smiles reflecting their shared enjoyment of the story. \n3. Subtly soften the sunlight to a warmer, late-afternoon glow to enhance the peaceful atmosphere. \n4. Maintain the realistic style of the image.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_1_sadness_10493.jpg",
+  "edited_image": "sadness_cluster_1_sadness_10493_amusement_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke the emotion of amusement. Modify the man's action so he appears to be in the middle of a light chuckle. His head should be tilted back slightly, and his mouth should be slightly open in a soft laugh. Change his facial expression to show his eyes are narrowed with mirth. The muscles in his cheeks and jaw should be tensed in a way that realistically portrays laughter. Maintain the natural outdoor lighting.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_3_disgust_10150.jpg",
+  "edited_image": "disgust_cluster_3_disgust_10150_contentment_instruction_4.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a mood of gentle, natural contentment.\nEditing Steps:\n1. Add a patch of soft, green moss growing on the large rock in the bottom right corner. The moss should appear healthy and slightly damp.\n2. Add a few strands of the same moss on the ground in the mid-ground to integrate the element naturally into the scene.\n3. Enhance the warmth of the soil's color slightly to complement the green of the moss and create a more inviting, earthy feel. Maintain realism throughout the edit.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_07858.jpg",
+  "edited_image": "sadness_cluster_0_sadness_07858_awe_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of profound awe. Add a massive, ancient, gnarled tree with bioluminescent moss and flowers growing on its branches, positioned in the center background where the fog is thickest. The light from this tree should cast a soft, ethereal blue and gold glow on the surrounding tombstones and fog. Clean the lichen from the foreground tombstone to make it look pristine. The overall atmosphere should be magical and majestic, while maintaining the scene's realism and coherence.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

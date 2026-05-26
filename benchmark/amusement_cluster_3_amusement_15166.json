@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_15166.jpg",
+  "edited_image": "amusement_cluster_3_amusement_15166_fear_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke fear through a bizarre, carnival-like horror.\n\nEditing Steps:\n1. Transform the boy's joyful smile into a forced, pained grin of terror, with wide, fearful eyes that betray the smile.\n2. Replace all the balloons with creepy, cracked porcelain doll heads, each with a different sinister expression (e.g., one eye missing, a crooked smile, empty sockets). The heads should be tied with dirty, frayed strings.\n3. The party favor in his hand should be replaced with a single, menacing-looking jack-in-the-box handle.\n4. Subtly degrade the color of his blue shirt, making it look faded and old.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

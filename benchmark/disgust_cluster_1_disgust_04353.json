@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_1_disgust_04353.jpg",
+  "edited_image": "disgust_cluster_1_disgust_04353_sadness_instruction_8.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the sadness of urban decay. Alter the ground's texture to look like cracked, dirty asphalt or concrete instead of soil. The cigarette butt should appear grimy and stained, as if it has been rained on and run over. Change the lighting to be harsh and artificial, like the cold, unflattering light from a fluorescent lamp in an underpass. This creates a mood of hopeless, impersonal sadness within a gritty, urban environment. Maintain the realistic style.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_0_anger_08415.jpg",
+  "edited_image": "anger_cluster_0_anger_08415_sadness_instruction_8.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of listless apathy. Change the actions of both dogs to be lying down in the snow, facing in opposite directions. They should appear completely disengaged from each other. Their expressions should be blank and sorrowful, with half-lidded eyes and no tension in their bodies. The leash on the white dog should be coiled loosely on the ground, emphasizing the lack of energy and movement.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  }
+}

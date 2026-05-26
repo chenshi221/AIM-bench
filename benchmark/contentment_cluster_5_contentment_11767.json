@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_5_contentment_11767.jpg",
+  "edited_image": "contentment_cluster_5_contentment_11767_fear_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of lurking fear. Change the baby's expression from joyful to one of quiet fear, with wide eyes and a slightly open, tense mouth. Dramatically alter the lighting to a harsh, single overhead source, casting deep, long shadows across the floor and the baby's face. Desaturate the colors of the toy car and the baby's clothes, making them look faded and old. Apply a layer of digital noise and a subtle cool blue color grade to the entire image to create a chilling, unsettling atmosphere.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

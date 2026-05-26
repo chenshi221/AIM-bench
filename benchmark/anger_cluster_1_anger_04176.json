@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_1_anger_04176.jpg",
+  "edited_image": "anger_cluster_1_anger_04176_amusement_instruction_8.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to create an amusing scene of a lion being tickled.\nEditing Steps:\n1. Change the lion's action from roaring to squirming and laughing as if being tickled by an unseen force.\n2. Modify its facial expression: close its mouth into a wide, toothy 'grin'. Its eyes should be crinkled and squeezed shut in a manner that suggests laughter. \n3. Adjust its body posture to be slightly twisted or wriggling, as if trying to escape the tickle.\n4. Add a few small, whimsical fireflies hovering near its belly to hint at the source of the tickling. Maintain overall realism.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 7.5,
+      "dominance": 8.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

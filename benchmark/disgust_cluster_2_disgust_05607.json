@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_2_disgust_05607.jpg",
+  "edited_image": "disgust_cluster_2_disgust_05607_anger_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of sharp, startling anger. \n\nEditing Steps: \n1. Add a rusty, sharp razor blade partially embedded within the dark, rotten core of the main apple piece. The blade should look menacing and out of place. \n2. Add a few small, dark red splatters, resembling blood, on the white flesh of the apple near the core, as if from the blade. \n3. Intensify the shadows within the apple's cavity to make it look deeper and more threatening. Maintain the original image's realistic style.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  }
+}

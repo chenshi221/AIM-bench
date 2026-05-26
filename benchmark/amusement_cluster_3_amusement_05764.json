@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_05764.jpg",
+  "edited_image": "amusement_cluster_3_amusement_05764_anger_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a moment of shared anger directed outward. Change both children's actions so they are standing up, looking out of frame with intensely angry expressions. Their faces should be tense, with narrowed eyes and downturned mouths. The girl should be pointing an accusatory finger towards something unseen, while the boy stands beside her with his arms crossed and a defiant scowl. The overall lighting should be harsher, casting sharp shadows and reducing the scene's warmth.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 8.0
+    }
+  }
+}

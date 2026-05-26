@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_2_anger_07301.jpg",
+  "edited_image": "anger_cluster_2_anger_07301_contentment_instruction_7.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the peaceful contentment of building a home together.\nEditing Steps:\n1. Replace the fire and destruction with the warm glow of interior construction lights. The inside should show exposed wooden beams and frameworks of a house being built.\n2. Replace the firefighters with two construction workers wearing hard hats and tool belts, reviewing blueprints.\n3. Replace the water hose with a set of architectural blueprints or plans that one person is holding and pointing to.\n4. The house exterior should look clean and under construction, with fresh lumber and no signs of damage.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 8.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_3_awe_07384.jpg",
+  "edited_image": "awe_cluster_3_awe_07384_fear_instruction_1.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of sudden, isolating fear by removing a key figure.\n\nEditing Steps:\n1.  Completely remove the smiling older man from the background. Reconstruct the wooden paneling and the dark red curtain behind where he stood, ensuring the background appears seamless and natural.\n2.  Change the groom's expression from a gentle kiss to one of wide-eyed terror, mouth slightly agape, as if reacting to the man's disappearance.\n3.  Modify the bride's visible expression to mirror this fear, with her eye wide and looking towards the empty space.\n4.  Desaturate the overall image slightly and introduce a cool, blue-toned color grade. Add a subtle vignette to darken the edges and focus attention on the couple's fearful reaction.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 8.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

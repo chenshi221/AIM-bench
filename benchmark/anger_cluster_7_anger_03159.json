@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_7_anger_03159.jpg",
+  "edited_image": "anger_cluster_7_anger_03159_sadness_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of silent, prayerful sorrow. Change the subject's action to clasping her hands together in front of her chest, as if in a moment of solemn prayer or pleading. The megaphone should be gone, as if she has abandoned it. Her head should be bowed slightly, and her eyes closed. Modify her expression to be one of profound sadness and introspection. The background crowd should remain, but appear somber and still, reinforcing the heavy atmosphere.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 7.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_7_contentment_10998.jpg",
+  "edited_image": "contentment_cluster_7_contentment_10998_sadness_instruction_3.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to suggest a recent, painful separation. Detailed Steps: Delete the man, leaving the woman alone in the frame. Modify the woman's expression to one of quiet grief; her eyes should be downcast and her lips slightly parted in a somber expression. Delete the sparkling necklace she is wearing. Replace the plain background with a view through a window on a rainy day, with raindrops visible on the glass, enhancing the melancholic mood. The overall lighting should be softer and more diffuse.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

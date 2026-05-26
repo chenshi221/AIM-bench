@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_6_anger_10523.jpg",
+  "edited_image": "anger_cluster_6_anger_10523_sadness_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of somber regret between the two men.\nEditing Steps: Alter the weather to a cold, drizzling rain, with visible droplets on their jackets and hair. Change the overall color palette to a desaturated, blue-toned grading. Modify both men's expressions from anger to deep sadness and regret: their mouths should be closed, brows furrowed in sorrow, and eyes downcast or filled with unshed tears. Their foreheads should be resting against each other in a moment of shared misery, not confrontation. Maintain realism.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  }
+}

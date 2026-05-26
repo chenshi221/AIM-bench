@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_5_amusement_02257.jpg",
+  "edited_image": "amusement_cluster_5_amusement_02257_disgust_instruction_8.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke disgust from a sense of contamination. Change her expression to one of deep revulsion, looking down at her hands. Her white gloves should be stained with a thick, dark, oil-like substance that seems to be dripping. This substance should also be smeared on her white shirt and the pole she's holding. Her skin should look pale and clammy. Desaturate the vibrant red and blue colors of her uniform, making them look faded and soiled. The background should be darkened and its texture made to look grimy and damp.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  }
+}

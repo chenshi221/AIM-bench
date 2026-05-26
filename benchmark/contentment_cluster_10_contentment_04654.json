@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_10_contentment_04654.jpg",
+  "edited_image": "contentment_cluster_10_contentment_04654_fear_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of sudden fear and vulnerability in the couple. \nEditing Steps: Alter the man's action so he is no longer smiling but is now looking up and to the right, past the camera, with a fearful expression—eyes wide, mouth slightly agape. Change the woman's action so she is clutching her mug tightly and staring in the same direction with a look of terror. Her body should be tensed, leaning slightly away from the unseen threat. Maintain the realistic style of the image.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

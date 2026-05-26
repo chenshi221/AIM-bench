@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_10_excitement_15797.jpg",
+  "edited_image": "excitement_cluster_10_excitement_15797_awe_instruction_3.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of spiritual awe. Replace the casual t-shirt with ornate, ceremonial robes in deep, rich colors like velvet blue or crimson, adorned with subtle golden embroidery. Adjust her expression to be one of serene reverence, with a gentle, closed-mouth smile and eyes looking slightly upward as if in a sacred space. Soften the background lighting to simulate the glow of candlelight in a grand cathedral, maintaining the focus on her transformed appearance and expression.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 5.0,
+      "dominance": 5.0
+    }
+  }
+}

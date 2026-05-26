@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_1_anger_03058.jpg",
+  "edited_image": "anger_cluster_1_anger_03058_sadness_instruction_8.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to depict a moment of quiet, heartbroken grief. Editing Steps: 1. Change the wolf's action so it is nuzzling something just out of frame below it. Its mouth must be closed and its snout pointed downwards. 2. Modify its expression to one of tender sadness, with its eyes half-closed and a gentle, sorrowful look. 3. The posture of its head and neck should be curved downwards, indicating an action of mourning or protecting something lost. Ensure the edit looks natural and realistic.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  }
+}

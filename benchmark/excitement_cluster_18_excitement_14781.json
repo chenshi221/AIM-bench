@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_18_excitement_14781.jpg",
+  "edited_image": "excitement_cluster_18_excitement_14781_contentment_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a moment of peaceful contentment. Change the action so the rider has just come to a stop and is looking out towards the horizon. Their head should be turned away from the camera, towards the open water in the background. Alter their posture to be still and contemplative, with both hands resting on the handlebars. The water around the jet ski should be settling, with only minor residual ripples from their previous movement.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  }
+}

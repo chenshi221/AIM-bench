@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_08182.jpg",
+  "edited_image": "sadness_cluster_4_sadness_08182_excitement_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to capture the excitement of a surprise trip. Replace the 'Homeless' sign with an open suitcase overflowing with colorful vacation clothes, a passport, and plane tickets. The man should have a look of joyful surprise and excitement, as if he just received this gift. His posture should be active, as if he's about to stand up and go. The lighting coming up the stairs should be bright and sunny, like tropical daylight. The grimy wall should be cleaner and warmer in tone to remove the feeling of despair. The realism of the scene must be preserved.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 4.0,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.5,
+      "dominance": 7.5
+    }
+  }
+}

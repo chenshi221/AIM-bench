@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_14972.jpg",
+  "edited_image": "awe_cluster_1_awe_14972_contentment_instruction_8.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of serene accomplishment and contentment. \n\nEditing Steps: \n1. Change the man's action from active speaking to a final, calm closing statement. \n2. Modify his facial expression to one of profound satisfaction. Give him a warm, closed-mouth smile and relaxed eyes that connect with the audience. \n3. Alter his hand action: change the fist to have both hands coming together to gently rest on the papers on the lectern, as if concluding his notes. \n4. Ensure his posture is upright but relaxed, signifying the successful completion of his task.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 5.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_07078.jpg",
+  "edited_image": "awe_cluster_2_awe_07078_excitement_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of thrilling excitement at sunrise. Intensify the lighting to a dramatic 'golden hour' effect. Cast warm, golden light across the peaks and the foreground meadow, making the colors pop. Deepen the shadows in the valley to create strong contrast. Change the sky to a vibrant mix of orange, pink, and deep blue, with light rays breaking over the mountains. The lake's surface should brilliantly reflect these sunrise colors, adding to the dynamic energy of the scene.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

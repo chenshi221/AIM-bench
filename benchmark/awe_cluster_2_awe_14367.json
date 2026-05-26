@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_14367.jpg",
+  "edited_image": "awe_cluster_2_awe_14367_contentment_instruction_6.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of quiet contentment. Modify the material properties of the foreground. Soften the texture of the wet sand and the foam, reducing the high-contrast specular highlights. Make the foam appear less crisp and more like a soft, milky blanket dissolving into the sand. Adjust the color of the foreground water to be a warmer, slightly more brownish and earthy tone, suggesting a calm, shallow tide. The overall effect should make the foreground feel more stable and gentle.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

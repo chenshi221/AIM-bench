@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_7_amusement_02642.jpg",
+  "edited_image": "amusement_cluster_7_amusement_02642_excitement_instruction_2.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to capture the excitement of a beach volleyball tournament.\nDetailed Steps:\n1. Add a volleyball net in the open space between the two thatched umbrellas.\n2. Add four players in athletic beachwear actively engaged in a game around the net—one jumping to spike the ball, others in ready stances.\n3. Add faint lines in the sand to delineate the volleyball court.\n4. In the background, add a small crowd of spectators sitting on beach blankets, watching the game. Ensure all added elements are realistic and sunlit.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 3.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  }
+}

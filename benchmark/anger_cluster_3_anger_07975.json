@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_3_anger_07975.jpg",
+  "edited_image": "anger_cluster_3_anger_07975_excitement_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke excitement by turning the scene into a vibrant color festival.\n\nEditing Steps:\n1. Replace the orange fire on the ground with a large, billowing cloud of bright pink and orange Holi festival powder that has just been thrown into the air.\n2. The water jet from the truck should be spraying into this cloud, mixing with the powder to create colorful streams and splashes, enhancing the festive chaos.\n3. Replace the burnt object on the right with a crowd of people in the distance, silhouetted but visibly celebrating.\n4. Drastically increase the image's overall color vibrancy and brightness to capture a joyful, energetic mood.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 7.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

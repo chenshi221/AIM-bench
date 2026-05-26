@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_3_fear_06486.jpg",
+  "edited_image": "fear_cluster_3_fear_06486_contentment_instruction_7.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of peaceful, domestic contentment.\nEditing Steps:\n1. Replace the tarantula with a ball of soft, chunky, cream-colored wool yarn, with two wooden knitting needles resting through it.\n2. The yarn should be nestled in the palm, appearing soft and inviting, suggesting a relaxing hobby.\n3. Adjust the lighting to mimic a cozy afternoon indoors, perhaps with soft light coming from a nearby window. Ensure the textures of the yarn and wood look realistic and tactile.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

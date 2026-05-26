@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_3_sadness_12202.jpg",
+  "edited_image": "sadness_cluster_3_sadness_12202_excitement_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the excitement of chasing a ball. \n\nEditing Steps: \n1. Clean the foreground and background of any distracting debris. \n2. Reposition the dog into a low, athletic running stance, angled towards the lower-left corner as if chasing something. Its body should be tense with coiled energy. \n3. Change the dog's expression to one of intense, focused excitement: eyes locked on an unseen target, mouth slightly open, and ears flattened back for speed. \n4. Add a tennis ball rolling on the floor in front of the dog to complete the scene.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 7.0
+    }
+  }
+}

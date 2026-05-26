@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_00360.jpg",
+  "edited_image": "disgust_cluster_6_disgust_00360_fear_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of immediate, looming danger and fear. Add a menacing, shadowy figure with glowing red eyes in the dark background, partially obscured but clearly watching the woman. Make the woman's expression one of sudden, wide-eyed terror, her mouth slightly agape as if she has just noticed the presence. Her hand holding the cigarette should be trembling. The added figure should be the primary source of fear, enhancing the scene's tension.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 5.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 8.0
+    }
+  }
+}

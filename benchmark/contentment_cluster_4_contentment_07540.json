@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_4_contentment_07540.jpg",
+  "edited_image": "contentment_cluster_4_contentment_07540_amusement_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of quirky amusement.\n\nEditing Steps:\n1. Change the cat's expression to one of exaggerated surprise. Its eyes should be wide and round, and its mouth slightly agape.\n2. Modify its pose so that it's doing a 'belly-up' stretch. Both front paws should be extended straight up towards the top of the frame, and its back legs should be visible, kicked out in a relaxed, goofy manner.\n3. Ensure the fur on its belly looks soft and inviting. The background should remain untouched.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  }
+}

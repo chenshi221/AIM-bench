@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_3_contentment_01285.jpg",
+  "edited_image": "contentment_cluster_3_contentment_01285_disgust_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of visceral disgust. Replace the healthy bee with a bloated, pale maggot that is burrowing into the flower's center. Replace the pristine lotus flower with a rotting piece of meat, maintaining the general shape and pinkish-purple color but adding textures of decay, glistening slime, and discolored patches. The background should become a dirty, oily puddle instead of a clean pond.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  }
+}

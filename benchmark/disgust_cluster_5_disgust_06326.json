@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_06326.jpg",
+  "edited_image": "disgust_cluster_5_disgust_06326_anger_instruction_6.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke an angry, challenging glare. Modify the man's expression so his eyes are wide open, locked in a direct, confrontational stare. His eyebrows should be low and drawn together. His lips should be parted slightly, as if about to speak, but his jaw should be visibly clenched. Adjust his body so he leans slightly forward into the bowl, an act of defiance rather than submission. Keep the realism of the scene, focusing on the tension in his face and upper body.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  }
+}

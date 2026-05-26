@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_05020.jpg",
+  "edited_image": "fear_cluster_1_fear_05020_awe_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the awe of a majestic natural cave. Change the man-made stone walls and ceiling to the texture of a natural limestone cavern with hanging stalactites. Replace the electric lights with a powerful, divine light beam shining from a hole in the ceiling far down the passage, illuminating the tunnel with brilliant god rays. The floor should be wet and reflective, covered with shallow pools of clear water that mirror the awe-inspiring light and cavern formations. Add a light, cool-toned mist throughout.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 6.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

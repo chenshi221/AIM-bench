@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_7_anger_03579.jpg",
+  "edited_image": "anger_cluster_7_anger_03579_disgust_instruction_2.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a feeling of disgust and social ostracism. Delete all the individuals in the background (the man in the black t-shirt, the man pointing, the woman in the white t-shirt). The remaining foreground group should have their expressions changed from anger to disgust, as if repulsed by something unseen. Modify the blank signs they hold to show crude, nonsensical, or disgusting symbols. Desaturate the colors and add a slight grimy texture over the entire image to enhance the feeling of filth.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  }
+}

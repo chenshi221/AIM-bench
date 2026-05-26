@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_03118.jpg",
+  "edited_image": "awe_cluster_2_awe_03118_anger_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the fury of a lightning storm. Replace the calm, overcast sky with a dramatic, dark storm sky illuminated by a distant fork of lightning. Sharpen the overall image and increase the clarity to make every detail, especially the water's ripples, look harsh and defined. The lighting should be stark and high-contrast, as if cast by the lightning flash. The pelican should appear startled and aggressive, caught in the sudden, violent light.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 3.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  }
+}

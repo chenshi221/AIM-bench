@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_01937.jpg",
+  "edited_image": "sadness_cluster_0_sadness_01937_excitement_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke the excitement of a major sports victory. Replace the main gravestone with a championship podium. On the top tier, where the statue was, replace it with a large, ornate silver championship trophy. The engraved text on the podium should be replaced with the words 'WORLD CHAMPIONS'. The cemetery background should be replaced with a stadium filled with cheering fans under bright stadium lights, with confetti raining down. The grass should look like a pristine sports field.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 7.0
+    }
+  }
+}

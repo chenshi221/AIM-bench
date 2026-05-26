@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_8_contentment_11920.jpg",
+  "edited_image": "contentment_cluster_8_contentment_11920_excitement_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke the excitement of a festive treat. Add a small, fallen piece of birthday cake with colorful sprinkles on a leaf in front of the squirrel. The cake should look fresh and delicious. Change the squirrel's expression to one of wide-eyed, joyful astonishment, with its mouth slightly open as if in surprise. Brighten the overall image slightly and increase color saturation on the sprinkles to make the scene more vibrant and celebratory, while maintaining realism.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 6.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

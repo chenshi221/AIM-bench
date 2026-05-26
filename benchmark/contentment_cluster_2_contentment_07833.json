@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_2_contentment_07833.jpg",
+  "edited_image": "contentment_cluster_2_contentment_07833_anger_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of suppressed anger and frustration. Change the girl's expression to a subtle frown with tightened lips and narrowed eyes. Modify the lighting to a harsh, high-contrast afternoon sun, casting sharp, unflattering shadows across her face and the field. Desaturate the greens of the plants, making them appear dry and unhealthy. The sky should be a washed-out, hazy white, adding to the oppressive atmosphere. Ensure the edits maintain realism.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  }
+}

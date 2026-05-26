@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_5_contentment_07148.jpg",
+  "edited_image": "contentment_cluster_5_contentment_07148_disgust_instruction_7.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to show disgust through rejection. Change the boy's action so he is actively pushing the yellow toy away from himself with his fingertips, as if it is contaminated. His facial expression should be one of clear distaste: eyebrows lowered, nose wrinkled, and lips pursed tightly. Change the toy's texture to appear slimy and covered in a mold-like substance. The water should be dark and filled with floating specks of dirt. Ensure the edit maintains a realistic, photographic quality.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_00513.jpg",
+  "edited_image": "sadness_cluster_0_sadness_00513_contentment_instruction_3.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke gentle contentment. Delete the sword held by the angel. Subsequently, delete the angel's entire right arm, and subtly adjust the folds of the robe to fall naturally as if the arm was never there, simplifying the statue's form. Modify the angel's facial expression to show a soft, serene gaze with a hint of a smile, as if looking upon a peaceful scene. Clean any minor weathering or stains from the statue's surface.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

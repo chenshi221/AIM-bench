@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_06013.jpg",
+  "edited_image": "awe_cluster_2_awe_06013_contentment_instruction_8.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke cozy contentment. Add a soft, comfortable-looking cushion and a lightly draped blanket to one of the empty lounge chairs. The items should look inviting, as if waiting for someone to relax for a nap. Also, add a small, battery-operated candle lantern on the ground next to the chair, casting a gentle, warm light. Adjust the scene's overall lighting to a warmer, late-afternoon glow to enhance the cozy, settled feeling.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

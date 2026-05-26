@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_10104.jpg",
+  "edited_image": "sadness_cluster_0_sadness_10104_excitement_instruction_3.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the excitement of a surprise celebration. \nEditing Steps: \n1. Replace the gravestone with a large, beautifully wrapped gift box. \n2. The gift box should be wrapped in shiny, metallic red paper with a huge, elaborate golden bow on top. One ribbon end should be slightly unfurling as if about to be opened. \n3. Scatter colorful confetti and a few curled ribbons on the grass around the box. \n4. Brighten the overall scene with warm, celebratory lighting, as if from party lights just out of frame.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 1.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

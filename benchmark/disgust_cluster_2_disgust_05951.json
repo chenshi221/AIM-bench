@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_2_disgust_05951.jpg",
+  "edited_image": "disgust_cluster_2_disgust_05951_sadness_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a deep, heavy sadness. Replace the entire decaying pumpkin with a broken, overturned clay flowerpot, with dry, dead soil spilling out onto the sticks. A single, dead, withered plant stem should stick out from the soil, mimicking the original pumpkin's twisted stem. Make the overall lighting overcast and gray, as if right before a rainstorm, to underscore the feeling of hopelessness and despair.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  }
+}

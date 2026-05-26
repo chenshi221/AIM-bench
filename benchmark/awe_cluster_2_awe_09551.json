@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_09551.jpg",
+  "edited_image": "awe_cluster_2_awe_09551_fear_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the surreal, nightmarish fear of a landscape under a blood moon.\n\nDetailed Editing Steps:\n1. Change the time to deep night. The sky should be nearly black, but illuminated by a large, dominant, crimson-red moon (just out of frame). \n2. This moonlight should cast an eerie, deep red tint over the entire landscape. Highlights on the snow and rock edges should glow with this unnatural red light.\n3. Change the texture of the valley floor to appear indistinct and shadowy, as if it's a bottomless pit. The stream should reflect the red light like a vein of blood.\n4. Lengthen and distort the shadows cast by the cliffs, making them look like grasping claws reaching across the valley.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.0,
+      "dominance": 7.5
+    }
+  }
+}

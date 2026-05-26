@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_0_awe_02086.jpg",
+  "edited_image": "awe_cluster_0_awe_02086_fear_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a creeping, environmental fear. Add thick, sticky spiderweb strands that are beginning to entangle the butterfly's legs and antennae. The webs should be detailed, with a few small, dew-like droplets on them that catch the light ominously. The butterfly's pose should remain the same, but the added webs create a feeling of being trapped and helpless, instilling a sense of quiet horror.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 3.5
+    }
+  }
+}

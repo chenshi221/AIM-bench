@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_08388.jpg",
+  "edited_image": "awe_cluster_2_awe_08388_contentment_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of serene contentment. Add a small, simple picnic setup in the grassy foreground on the left side. Include a classic red-and-white checkered blanket spread on the grass, a wicker picnic basket, and a single thermos. The setup should appear neat and undisturbed, implying a moment of quiet solitude and simple pleasure amidst nature. Ensure the lighting on the added objects is consistent with the bright, daytime lighting of the original scene.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

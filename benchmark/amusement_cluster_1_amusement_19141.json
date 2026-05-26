@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_19141.jpg",
+  "edited_image": "amusement_cluster_1_amusement_19141_disgust_instruction_2.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke disgust by adding masses of decaying marine life.\n\nDetailed Steps:\n1. Add large quantities of dead fish, some bloated and pale, washed up on the shore, concentrated in a thick line along the tide mark and clustered around the base of the boat.\n2. Add several dead seagulls and other seabirds entangled in discarded fishing nets and plastic six-pack rings, scattered across the sand.\n3. Add clumps of slimy, dark green and brown seaweed mixed with the dead fish to enhance the sense of decay. Keep the edits realistic.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 3.0
+    }
+  }
+}

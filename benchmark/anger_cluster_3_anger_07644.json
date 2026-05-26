@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_3_anger_07644.jpg",
+  "edited_image": "anger_cluster_3_anger_07644_disgust_instruction_2.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke disgust. Remove the active flames and most of the smoke. In the foreground, add a collection of discarded, rusty metal cans and soiled plastic bottles, half-buried in the pine needles and ash. Introduce several large, greasy, and stained pizza boxes, some open to reveal moldy crusts. The overall scene should feel like a neglected, polluted dumping ground rather than a natural fire.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 2.5
+    }
+  }
+}

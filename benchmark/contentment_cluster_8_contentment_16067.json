@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_8_contentment_16067.jpg",
+  "edited_image": "contentment_cluster_8_contentment_16067_anger_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to capture a moment of frustrated anger. Change the rabbit's action so it is furiously digging or scratching at the sand with its front paws, sending dirt flying. Its body should be coiled with agitated energy. The facial expression must be one of intense irritation: eyes tightly shut or narrowed, brows furrowed, and mouth set in a grim line. Position its ears back and down. The overall pose should communicate a fit of temper. Keep the edits realistic.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.0,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_1_excitement_16284.jpg",
+  "edited_image": "excitement_cluster_1_excitement_16284_contentment_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of gentle contentment. Change the woman's facial expression from winking with her tongue out to a soft, closed-mouth smile with both eyes open and looking calmly towards the viewer. Her posture should be slightly more relaxed, with her shoulders settled. The overall scene should maintain its realism and composition.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

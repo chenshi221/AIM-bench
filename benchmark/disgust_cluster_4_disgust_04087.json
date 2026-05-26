@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_04087.jpg",
+  "edited_image": "disgust_cluster_4_disgust_04087_excitement_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the excitement of a vibrant party or nightclub scene just beyond the doors.\n\nEditing Steps:\n1.  Change the floor's texture to a dark, clean tile that is slightly reflective. Scatter some colorful confetti across it.\n2.  Clean up the walls and doors, removing all water damage. Change the color of the door on the right to a deep, velvety purple.\n3.  Modify the lighting to be dynamic and festive. Have pulsating strobe lights of various colors (pinks, blues, greens) bleed from the cracks around the doors, casting moving shadows.\n4.  Introduce a subtle atmospheric effect, like a light fog from a fog machine, to catch the colorful light beams and add to the party energy.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 7.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_06795.jpg",
+  "edited_image": "amusement_cluster_1_amusement_06795_excitement_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a vibrant, high-energy excitement. Change the material properties of the ride's structure to be more reflective and glossy. All the colored panels (yellow, red, white) should have a high-shine finish, catching the light dramatically. Make the bulbs glow with a neon quality, casting colored light onto adjacent surfaces—red light from red bulbs, etc. Increase the overall contrast of the image to make the highlights brighter and shadows deeper, enhancing the visual dynamism.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  }
+}

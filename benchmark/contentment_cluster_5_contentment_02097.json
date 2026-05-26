@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_5_contentment_02097.jpg",
+  "edited_image": "contentment_cluster_5_contentment_02097_awe_instruction_7.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of cosmic awe. Change the attribute of the sky to show a spectacular meteor shower, with dozens of bright streaks of light arcing across a clear, starry night sky. The ambient light should be low, with the meteors providing fleeting, bright flashes. Adjust the girl’s expression to one of excited wonder; her eyes should be wide and tracking the meteors, a joyful, open-mouthed smile on her face as if she's making a wish on every one.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  }
+}

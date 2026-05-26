@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_6_amusement_12224.jpg",
+  "edited_image": "amusement_cluster_6_amusement_12224_disgust_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a strong sense of disgust. Replace the sliced beef with several large, slimy, gray slugs, making them look wet and glistening. The spaetzle should be replaced with a writhing pile of maggots or pale worms, maintaining the original mound shape. Replace the fresh rosemary sprig with a wilted, brown, and decaying weed. The gravy should appear thick, congealed, and have a sickly greenish-brown tint. Maintain the realistic style of the original image.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 6.0,
+      "dominance": 4.0
+    }
+  }
+}

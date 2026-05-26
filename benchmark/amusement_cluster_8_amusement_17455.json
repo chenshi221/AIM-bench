@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_8_amusement_17455.jpg",
+  "edited_image": "amusement_cluster_8_amusement_17455_sadness_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the feeling of being overwhelmed by sadness.\n\nEditing Steps:\n1. Change the woman's posture so she is now burying her face in her hands, as if quietly weeping or hiding from the world. Her shoulders should be shaking slightly. \n2. Her head should be bowed low over her lap, obscuring her glasses and expression entirely. \n3. Ensure her jacket appears slightly rumpled from her hunched position. Maintain the realism of the scene.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 2.5
+    }
+  }
+}

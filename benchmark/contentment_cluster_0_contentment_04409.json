@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_0_contentment_04409.jpg",
+  "edited_image": "contentment_cluster_0_contentment_04409_awe_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of profound awe by transforming the sky into a cosmic spectacle.\n\nEditing Steps:\n1. Replace the entire overcast sky with a hyper-realistic, vibrant nebula filled with swirling clouds of cosmic dust in deep purples, magentas, and blues.\n2. Ensure the nebula's light source illuminates the tops of the mountains and the surface of the water with a soft, ethereal glow, maintaining a logical lighting scheme.\n3. Adjust the man's posture to be slightly more upright, with his head tilted back as if gazing up in wonder. His expression, though not visible, should be implied as one of awe.\n4. Enhance the reflectivity of the water to mirror the colors of the new cosmic sky.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

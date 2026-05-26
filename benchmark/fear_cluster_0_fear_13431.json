@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_13431.jpg",
+  "edited_image": "fear_cluster_0_fear_13431_contentment_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of warm contentment. \nDetailed Steps: Replace the carved jack-o'-lantern with a whole, uncarved, smooth-skinned pumpkin. The new pumpkin should be plump and have a rich, deep orange color, suggesting a good harvest. The candle inside should be removed, and the pumpkin's face should be replaced with its natural, uncarved surface, giving it a peaceful, contented expression. The surrounding nest of straw should remain, but appear slightly tidier. Maintain the warm, soft lighting as if it's a cozy autumn evening.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_08151.jpg",
+  "edited_image": "sadness_cluster_5_sadness_08151_anger_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of simmering anger. Change the exterior scene to a stormy sunset. The sky should be a deep, bruised orange and red, with dark, heavy storm clouds gathering. The light coming through the window should cast long, sharp, reddish shadows into the dark room. Increase the contrast to make the broken glass edges look sharper and more menacing. Maintain the realism of the scene.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 5.0,
+      "dominance": 6.0
+    }
+  }
+}

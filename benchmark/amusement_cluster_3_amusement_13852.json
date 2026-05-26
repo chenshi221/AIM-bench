@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_13852.jpg",
+  "edited_image": "amusement_cluster_3_amusement_13852_excitement_instruction_7.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to convey the buzzing excitement of a group cheer. Change the action so all three are in the middle of a celebratory cheer. Their expressions must be ecstatic, with mouths open and shouting joyfully. The child on the left should have their arm extended upwards in a 'victory' gesture. The mother's expression should be one of proud, shared excitement. The child on the right should be looking at the others, laughing and sharing the high-energy moment. Maintain realism in their poses and expressions.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.0,
+      "dominance": 6.5
+    }
+  }
+}

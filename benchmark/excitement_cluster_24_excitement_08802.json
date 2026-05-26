@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_24_excitement_08802.jpg",
+  "edited_image": "excitement_cluster_24_excitement_08802_sadness_instruction_5.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to suggest a feeling of being weighed down by sorrow.\n\nEditing Steps:\n1.  Alter the woman's pose so she is sitting on the edge of the dirt path, her back slightly hunched. Her expression must be changed to one of weary sadness, eyes looking blankly ahead.\n2.  Introduce a subtle, cool-toned fog that lightly obscures the distant part of the flower field.\n3.  **Add a heavy, old-fashioned suitcase on the ground beside her**, implying a difficult journey or a heavy burden.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 2.0
+    }
+  }
+}

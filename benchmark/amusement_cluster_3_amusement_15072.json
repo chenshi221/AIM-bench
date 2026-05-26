@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_15072.jpg",
+  "edited_image": "amusement_cluster_3_amusement_15072_contentment_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke warm, cozy contentment. Introduce a subtle, warm light source from the lower-left, casting a soft glow on her face and jacket. Change the texture of her rainbow hat to a softer, fluffier knit material. Adjust her expression to a subtle, contented smile with relaxed eyes, as if enjoying a moment of peace. Make the snow in the background appear softer and slightly out of focus, enhancing the focus on her serene state. Slightly increase the saturation of her brown hair to add richness.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_00905.jpg",
+  "edited_image": "disgust_cluster_4_disgust_00905_contentment_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent Statement: Edit the image to evoke contentment by reimagining the space as a cozy, private backyard entrance.\nDetailed Editing Steps: 1. Replace the black, graffiti-covered utility box with a small, neatly stacked woodpile for a fireplace. 2. Replace the large green dumpster with a rustic wooden bench with a couple of plush outdoor cushions on it. 3. Replace the loose wooden pallets with a single, sturdy terracotta pot containing a small evergreen shrub. 4. Clean the ground, removing all debris and dirty snow, leaving only a clear, damp pavement.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

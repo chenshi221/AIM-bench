@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_12493.jpg",
+  "edited_image": "awe_cluster_2_awe_12493_disgust_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of environmental disgust. Replace the snow-capped Mount Fuji with a massive, smoldering garbage heap of the same size and shape, with wisps of toxic-looking yellow-green smoke rising from it. The water in the foreground should be replaced with a thick, oily sludge reflecting the sickly sky. The town at the base of the heap should appear dilapidated and grimy. The sky's blue color should be replaced with a hazy, brownish-grey smog.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 5.0,
+      "dominance": 5.0
+    }
+  }
+}

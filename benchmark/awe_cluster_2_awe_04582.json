@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_04582.jpg",
+  "edited_image": "awe_cluster_2_awe_04582_fear_instruction_5.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of historical, wartime fear. In the shallow water near the shore, add several rusted, menacing-looking naval mines, partially submerged and covered in algae. One mine should be very close to the child in the foreground. Change the child's expression from playful to frozen with fear, staring at the object. The other swimmers should appear oblivious, creating a tense irony. Mute the vibrant colors of the scene to a more somber, aged palette.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

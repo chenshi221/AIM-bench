@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_08453.jpg",
+  "edited_image": "fear_cluster_0_fear_08453_contentment_instruction_3.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke quiet contentment in nature. Replace the coffin with the hollow of a large, ancient tree, lined with soft green moss. The man should be nestled inside, leaning against the wood. Modify his expression to show peaceful contentment, with his eyes closed as if listening to the sounds of the forest. His hands should be resting gently in his lap. Enhance the background with soft, dappled sunlight filtering through leaves.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_03800.jpg",
+  "edited_image": "amusement_cluster_1_amusement_03800_fear_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of foreboding fear.\n\nEditing Steps:\n1. Transform the scene into a desolate, moonlit night. The only light source should be a cold, faint moonlight casting long, distorted shadows from the ride structures.\n2. Change the material of the ride cars to appear heavily rusted and corroded, with paint peeling off in large, jagged patches.\n3. Desaturate the colors significantly, leaving only muted, sickly tones of grey, rust-brown, and a faint, eerie blue from the moonlight.\n4. Add a thick, low-lying fog that partially obscures the ground and the base of the rides, making them seem to float in the darkness.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_08270.jpg",
+  "edited_image": "fear_cluster_0_fear_08270_sadness_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to convey a sense of hopeless despair.\nEditing Steps:\n1. Change the facial expression to one of utter desolation. The mouth should be slightly agape, as if in a silent cry. The eyes should be wide but empty, looking up towards the ceiling in a plea. The brow should be heavily furrowed.\n2. Adjust the pose so the figure is slumping forward. Both hands should be brought up to clutch the sides of its head, fingers digging into the hair in a gesture of overwhelming anguish.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  }
+}

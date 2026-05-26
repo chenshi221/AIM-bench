@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_07536.jpg",
+  "edited_image": "awe_cluster_2_awe_07536_excitement_instruction_5.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke the excitement of an autumn race. Add a finish line arch in the middle ground, spanning a portion of the grassy field. Include a few runners, depicted in motion blur, just crossing the finish line. Their postures should convey effort and exhilaration. This transforms the peaceful scene into the culminating moment of an exciting cross-country event, while keeping the edits realistic and focused.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

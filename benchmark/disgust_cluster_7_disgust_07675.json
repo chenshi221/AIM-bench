@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_7_disgust_07675.jpg",
+  "edited_image": "disgust_cluster_7_disgust_07675_anger_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a hot, simmering anger. Introduce atmospheric attributes suggesting extreme heat; add a subtle heat-haze or shimmer effect to the background. Intensify the colors to an oversaturated, feverish level: the leaf becomes a blazing yellow-orange, and the green stem turns a harsh, artificial lime. Change the lighting to be direct and unforgiving, like a spotlight, making the cockroach's carapace look oily and its details unpleasantly sharp. The overall color temperature should be shifted to be much warmer and more oppressive.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  }
+}

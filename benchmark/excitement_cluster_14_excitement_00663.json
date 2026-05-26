@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_14_excitement_00663.jpg",
+  "edited_image": "excitement_cluster_14_excitement_00663_contentment_instruction_6.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of quiet, solitary contentment. Change the player's action so he is simply standing in the center of the mound, with his cap held in his hand over his heart. His posture should be still and respectful, and his facial expression should be serene and content, as if taking in the silence of the stadium. Smooth the dirt of the mound to look pristine. The overall lighting should be softened to enhance the peaceful, almost reverent mood of the scene.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

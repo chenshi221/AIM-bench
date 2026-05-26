@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_1_disgust_10810.jpg",
+  "edited_image": "disgust_cluster_1_disgust_10810_fear_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a primal fear of venomous creatures. \n\nEditing Steps: \n1. Replace the cigarette with the long, segmented tail of a scorpion, positioned identically. \n2. The 'ash' part at the top should be replaced with the scorpion's sharp, venomous stinger, glistening with a single drop of clear venom. \n3. The texture of the tail should be chitinous and slightly reflective. \n4. The person's fingers should be holding it very gingerly, as if afraid of being stung. \n5. Make the nail polish a sickly yellow-green color. Maintain the realistic style and dark background.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

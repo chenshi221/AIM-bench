@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_5_anger_11462.jpg",
+  "edited_image": "anger_cluster_5_anger_11462_fear_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of suffocating fear. Introduce a thick, swirling, yellow-green toxic fog that obscures the background and clings to the figures. The air should look heavy and unbreathable. The overall lighting should be dim and sickly, as if filtered through the noxious gas. The man's skin should appear clammy and pale. Modify his facial expression to show panic and desperation, his mouth open as if gasping for clean air, eyes wide with horror.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 1.5,
+      "arousal": 7.5,
+      "dominance": 2.0
+    }
+  }
+}

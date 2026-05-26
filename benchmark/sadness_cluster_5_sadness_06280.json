@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_06280.jpg",
+  "edited_image": "sadness_cluster_5_sadness_06280_amusement_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke amusement by creating a fantastical, nature-themed deconstruction.\n\n1. Replace the destroyed concrete building with a giant, intricate gingerbread house that is being nibbled on by unseen creatures, with candy rubble.\n2. Replace the yellow demolition crane and the orange excavator with giant, cartoonish squirrels wearing tiny hard hats, one holding a giant acorn and the other nibbling on a candy cane pillar.\n3. Change the man's expression to one of quiet, bewildered amusement, with a slight, knowing smirk.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_1_anger_04182.jpg",
+  "edited_image": "anger_cluster_1_anger_04182_awe_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of natural, powerful awe. Close the hawk's beak and soften its expression to one of serene confidence. Transform the setting to the peak of a snow-covered mountain, with a clear, deep-blue sky above. Introduce a powerful aurora borealis phenomenon in the background, with shimmering green and violet lights dancing across the sky. Adjust the overall color temperature to be cooler, and add fine, glistening ice crystals to the hawk's brow feathers to integrate it into the arctic scene.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

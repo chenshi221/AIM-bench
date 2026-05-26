@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_5_contentment_02029.jpg",
+  "edited_image": "contentment_cluster_5_contentment_02029_disgust_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to suggest a disgusting meal has just occurred.\n\nEditing Steps:\n1. Modify the baby’s expression to show revulsion: the tongue is slightly sticking out, the nose is wrinkled, and the eyes are wide with distaste.\n2. Replace the clean, colorful sweater sleeves. The new sleeves should be the same shape but smeared with a thick, greenish-brown, lumpy substance resembling pureed peas mixed with something unappetizing. The substance should be dripping slightly and have a wet, goopy texture. Add similar smears to the baby's chin and cheek.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  }
+}

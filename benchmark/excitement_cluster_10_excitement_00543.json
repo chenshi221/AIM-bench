@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_10_excitement_00543.jpg",
+  "edited_image": "excitement_cluster_10_excitement_00543_awe_instruction_8.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a sense of atmospheric awe. Delete the background building and foliage. Replace them with a dramatic sky filled with the luminous, waving curtains of the Aurora Borealis over a snowy, silent landscape at night. The lighting on the person should be tinted with the greens and pinks of the aurora. Modify their facial expression to one of pure, childlike wonder and amazement, looking up at the light show in the sky.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

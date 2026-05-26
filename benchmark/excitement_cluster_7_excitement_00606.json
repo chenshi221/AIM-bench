@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_7_excitement_00606.jpg",
+  "edited_image": "excitement_cluster_7_excitement_00606_contentment_instruction_8.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image for a tone of quiet, inner contentment. Alter the woman's pose so she is looking straight ahead, but her focus seems inward. Her expression is a peaceful, barely-there smile with her mouth closed. Her hands are lowered, and her shoulders are relaxed. The people around her should also have their expressions softened to be less dynamic, with closed mouths and calm faces, turning the crowd into a peaceful setting. Maintain a realistic appearance.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

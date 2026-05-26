@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_0_sadness_00272.jpg",
+  "edited_image": "sadness_cluster_0_sadness_00272_contentment_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of warm contentment. Modify the statue's action: change her pose so she is leaning back slightly against her seat, looking up and to the side with a pleasant, dreamy expression. Her right arm should be draped casually over the back of the stone seat, not holding her head. Her facial expression should be one of peaceful bliss. Clean the statue's surface and warm the overall color temperature of the image to suggest golden hour sunlight.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

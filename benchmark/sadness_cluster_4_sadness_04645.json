@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_04645.jpg",
+  "edited_image": "sadness_cluster_4_sadness_04645_disgust_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of physical disgust. Change the woman's expression to one of revulsion: her lips slightly curled, nose wrinkled. Transform the clear tear into a thick, yellowish, viscous fluid. Give her skin a sallow, sickly green-yellow tint and make it appear clammy and oily, especially under the harsh light. Desaturate the blue tones in her clothing and eye makeup, making them look faded and grimy. Ensure these changes maintain the original photographic realism.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 5.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 5.5,
+      "dominance": 3.5
+    }
+  }
+}

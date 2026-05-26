@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_4_fear_03744.jpg",
+  "edited_image": "fear_cluster_4_fear_03744_excitement_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke thrilling excitement. Change the person's expression to a wide-eyed, open-mouthed smile, as if they've just seen a fantastic concert. Alter their pose so they are leaning forward slightly, with one hand raised in the air just out of frame, as if cheering. The head should be tilted slightly less, appearing more engaged and upright. Maintain the original costume and makeup, but make them look fresh and vibrant.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.0,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

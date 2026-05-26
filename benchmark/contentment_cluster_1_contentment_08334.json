@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_1_contentment_08334.jpg",
+  "edited_image": "contentment_cluster_1_contentment_08334_fear_instruction_6.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke fear through a 'found footage' aesthetic. Apply a heavy grain, digital noise, and slight motion blur to the entire image. Shift the color balance to a cold, desaturated blue or green, typical of low-light cameras. Introduce a subtle vignetting effect, darkening the corners. Change the puppy's expression to one of panic, with its mouth open in a snarl or bark, as if lunging toward the camera. Add a red-eye effect to its eyes to enhance the unsettling, direct-flash look.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

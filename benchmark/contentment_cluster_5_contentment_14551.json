@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_5_contentment_14551.jpg",
+  "edited_image": "contentment_cluster_5_contentment_14551_anger_instruction_6.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of resentful anger. Replace the poppy flower she holds with a torn and crumpled piece of paper, held in a tense grip. Modify her expression to show simmering resentment and anger: her eyes should be narrowed and looking slightly down, her brows furrowed, and her mouth set in a slight pout of displeasure. Replace the healthy green field with a muddy, trampled ground, as if after a conflict. Desaturate the colors and increase the contrast to create a grittier, more hostile atmosphere.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  }
+}

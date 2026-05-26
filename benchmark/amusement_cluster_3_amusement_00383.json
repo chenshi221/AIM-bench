@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_00383.jpg",
+  "edited_image": "amusement_cluster_3_amusement_00383_excitement_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of exhilarating excitement. Change the baby's expression to one of pure, uninhibited joy, with eyes wide and sparkling, and a wide-open mouth in a delighted laugh. Modify the adult's hands to be playfully tossing a shower of colorful, biodegradable confetti over the baby. The baby's own hands should be reaching up excitedly towards the falling confetti, fingers splayed in anticipation. Ensure the edits maintain a realistic and heartwarming feel.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.0,
+      "dominance": 6.5
+    }
+  }
+}

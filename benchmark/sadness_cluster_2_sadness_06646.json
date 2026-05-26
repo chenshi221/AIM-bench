@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_2_sadness_06646.jpg",
+  "edited_image": "sadness_cluster_2_sadness_06646_fear_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke an atmosphere of unsettling fear. Replace the ornate brass headboard of the bed with a series of sharp, rusted iron spikes, resembling a cage or a medieval torture device. Make the woman's expression one of sudden, wide-eyed terror as she glances back at it. The room's lighting should be dim and tinged with a sickly green hue, and the walls should appear stained and peeling to enhance the sense of decay and danger.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  }
+}

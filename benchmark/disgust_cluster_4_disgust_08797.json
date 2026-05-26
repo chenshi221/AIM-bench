@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_08797.jpg",
+  "edited_image": "disgust_cluster_4_disgust_08797_anger_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke the feeling of political rage. Replace the consumer trash with a pile of burnt and torn national flags from various countries, mixed with shredded official-looking documents and broken gavels. The bin should appear overstuffed, with some of the burnt fabric spilling over the edge. The scene should be cast in a dramatic, high-contrast light, as if illuminated by a nearby fire, creating deep shadows and a tense atmosphere. Maintain realism.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  }
+}

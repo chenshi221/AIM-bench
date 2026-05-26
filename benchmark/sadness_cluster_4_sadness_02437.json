@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_02437.jpg",
+  "edited_image": "sadness_cluster_4_sadness_02437_fear_instruction_7.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke fear through a scene of impending technological horror.\n\nEditing Steps:\n1. Replace the man's head with a cracked, old-fashioned television set that is displaying static. A single, stylized, fearful eye should be visible through one of the cracks in the screen.\n2. Wires and cables should be seen trailing from the 'neck' of the television head, disappearing into the collar of his jacket.\n3. The rest of his body should be tense, with his hands gripping his knees tightly instead of being clasped.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  }
+}

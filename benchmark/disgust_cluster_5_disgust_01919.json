@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_01919.jpg",
+  "edited_image": "disgust_cluster_5_disgust_01919_excitement_instruction_6.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke the excitement of a vibrant aquarium. Change the action of the fish so they are alive and gracefully swimming in multiple directions within a well-lit tank. Add some colorful coral and aquatic plants in the background to create a lively environment. The fish should appear healthy and curious, with some interacting with each other. The water should be crystal clear, and the lighting bright to enhance the vivid colors of the fish and their surroundings, creating a sense of contained but bustling energy.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

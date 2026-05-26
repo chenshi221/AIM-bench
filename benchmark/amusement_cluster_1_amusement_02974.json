@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_02974.jpg",
+  "edited_image": "amusement_cluster_1_amusement_02974_disgust_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke disgust. Change the attributes of the scene to suggest extreme neglect and decay. The monorail car's yellow paint should be faded and covered in bird droppings and dark stains. The metal bars on the windows should be rusted through in places. Alter the concrete track to be cracked and overgrown with invasive, slimy-looking weeds. The sky should be a dull, oppressive gray, casting flat, unappealing light.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.0,
+      "dominance": 4.5
+    }
+  }
+}

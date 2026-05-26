@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_02445.jpg",
+  "edited_image": "fear_cluster_0_fear_02445_anger_instruction_8.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to suggest a supernatural, wrathful anger.\n\nDetailed Steps: 1. Delete the large green inflatable tentacles. 2. Delete the clouds in the sky and replace them with a solid, unnaturally dark red sky. 3. Edit the windows of the stone building to emit a faint, menacing red glow. 4. Change the person on the roof's expression to one of terror and awe, looking up towards the sky. 5. Intensify the shadows across the entire scene, making the environment feel hostile and unnatural while maintaining realism in the lighting effect.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

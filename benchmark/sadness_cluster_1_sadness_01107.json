@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_1_sadness_01107.jpg",
+  "edited_image": "sadness_cluster_1_sadness_01107_disgust_instruction_3.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to elicit revulsion through a spoiled food element.\n\nEditing Steps:\n1. Replace the hanging cable and its end piece with a piece of moldy, half-eaten fruit (like an apple or pear) hanging from a string. The mold should be a mix of fuzzy white and sickly blue-green, with juice dripping down.\n2. Adjust the woman's expression to one of nauseated disgust, with her hand partially raised towards her mouth (but not visible in frame), her cheeks slightly puffed, and her brow furrowed.\n3. Introduce a greasy sheen to her hair and skin.\n4. Darken the background, making the moldy fruit the focal point.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  }
+}

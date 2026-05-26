@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_7_contentment_13183.jpg",
+  "edited_image": "contentment_cluster_7_contentment_13183_excitement_instruction_7.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to show a moment of spontaneous, playful excitement.\nEditing Steps:\n1. Delete both umbrellas. Restore the hair and background as needed.\n2. Change their expressions to pure, uninhibited laughter. Their eyes should be crinkled with joy.\n3. Have them holding hands now, with their linked hands raised in the air between them in a celebratory gesture.\n4. Add a subtle lens flare effect coming from the top left, suggesting a brilliant, exciting sunny day. Remove the watermark at the bottom.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  }
+}

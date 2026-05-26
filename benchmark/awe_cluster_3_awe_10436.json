@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_3_awe_10436.jpg",
+  "edited_image": "awe_cluster_3_awe_10436_anger_instruction_8.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of cold, controlled anger. Replace the bride's bouquet with a pair of large, sharp scissors, held menacingly in her hand. Her facial expression must be transformed into a calm but furious mask: eyes cold and focused, a slight, cruel sneer on her lips, and brows slightly lowered. The lace on her dress should appear to have a clean cut in one area, as if she has already started using the scissors. The overall image should have a sharper focus and higher contrast.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  }
+}

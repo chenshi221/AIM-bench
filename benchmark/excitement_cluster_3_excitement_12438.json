@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_3_excitement_12438.jpg",
+  "edited_image": "excitement_cluster_3_excitement_12438_sadness_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of quiet, contemplative sadness. Change the surfer's action to sitting still on his board, adrift in calm, listless water. His posture should be hunched, arms resting on his knees, and his gaze directed downward at his reflection in the water. Modify his facial expression to be blank and somber, with a hint of sorrow. The surrounding water should be still, and the lighting should be muted as if during a grey, sunless dawn, enhancing the feeling of isolation.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  }
+}

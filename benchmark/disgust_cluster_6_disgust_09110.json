@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_09110.jpg",
+  "edited_image": "disgust_cluster_6_disgust_09110_contentment_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of quiet contentment. Replace the broken eggs and shells with two small, newly sprouted seedlings in tiny terracotta pots. Replace the empty beer bottle in the background with a small, rustic watering can. Clean the floor, removing all the liquid and debris, but maintain the original dark, reflective surface. The egg carton should be replaced by a small, neat stack of gardening books. Adjust the lighting to be slightly warmer.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

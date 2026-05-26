@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_07148.jpg",
+  "edited_image": "sadness_cluster_4_sadness_07148_awe_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke awe from witnessing a natural spectacle. Change the woman's action: have her stand up from the bench, turning her body toward the viewer but looking up and away. One arm should be pointing towards the sky, as if indicating a phenomenal event. Her face must show an expression of astonished delight. Restore the image to rich color. The background should depict a dramatic sky with a massive, vibrant double rainbow arcing over a lush, green landscape after a storm. Ensure the lighting on her is consistent with the bright, post-rain sky.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 8.0
+    }
+  }
+}

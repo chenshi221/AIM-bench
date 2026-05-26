@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_4_amusement_16137.jpg",
+  "edited_image": "amusement_cluster_4_amusement_16137_excitement_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke the excitement of a sweet treat explosion. Replace all the cookies with a wreath made of various colorful, glossy candies. Use a mix of wrapped hard candies in sparkling cellophane, round lollipops with swirling patterns, and gummy bears in bright primary colors. Replace the single ribbon with a few loose, curled licorice laces. The candies should look fresh and appealing, arranged neatly in the same circular pattern against the stone background.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

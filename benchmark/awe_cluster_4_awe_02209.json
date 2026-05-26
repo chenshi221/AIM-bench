@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_4_awe_02209.jpg",
+  "edited_image": "awe_cluster_4_awe_02209_anger_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a feeling of frustrated anger. Change the child's expression to one of anger, with furrowed brows, a tense jaw, and narrowed eyes. Add thick, grimy metal bars over the wooden window frame, making it look like a prison cell. The bars should cast dark, oppressive shadows across the child's face and the wood. Change the text to a stark, blocky font reading 'TRAPPED'. The background should remain overexposed and indistinct, enhancing the feeling of confinement.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

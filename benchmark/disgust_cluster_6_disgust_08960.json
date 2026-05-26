@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_08960.jpg",
+  "edited_image": "disgust_cluster_6_disgust_08960_fear_instruction_1.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a sense of unnerving emptiness and fear. Delete the yellow ladder on the right side of the loading dock. Also, remove all the loose trash and debris from the foreground, leaving the ground unnaturally bare. Darken the overall scene, especially the shadows under the loading dock and in the corners, to create a more menacing atmosphere. Maintain the realistic, gritty texture of the remaining surfaces.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

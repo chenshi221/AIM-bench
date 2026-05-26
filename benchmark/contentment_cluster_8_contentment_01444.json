@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_8_contentment_01444.jpg",
+  "edited_image": "contentment_cluster_8_contentment_01444_fear_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of unnatural, creeping fear. Apply a sickly, greenish-yellow color cast over the entire scene, as if it's illuminated by a toxic fog. Change the squirrel's eyes to glow with a faint, malevolent red light. Its expression should be a snarl of fear and aggression, baring its teeth. Alter the texture of its fur to appear bristled and standing on end. The background should be obscured by a dense, swirling green fog, making the environment feel claustrophobic.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  }
+}

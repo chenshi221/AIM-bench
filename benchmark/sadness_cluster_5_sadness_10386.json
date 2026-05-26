@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_10386.jpg",
+  "edited_image": "sadness_cluster_5_sadness_10386_contentment_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of warm contentment. Change the time of day to a warm, golden hour evening. The sky should have soft, orange and pink hues. Bathe the house in this warm light, making the white walls appear creamy and inviting. Repair all damage to the walls, roof, and windows, replacing boarded-up sections with clean, warmly lit glass. The blue roof tiles should be a rich, well-maintained terracotta color. The surrounding vegetation should be lush and green, not overgrown and dry.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 3.5,
+      "dominance": 6.0
+    }
+  }
+}

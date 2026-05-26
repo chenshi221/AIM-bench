@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_7_excitement_06003.jpg",
+  "edited_image": "excitement_cluster_7_excitement_06003_fear_instruction_7.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the claustrophobic fear of being trapped.\n\nEditing Steps:\n1. Drastically reduce the lighting to simulate a power outage, with only a dim, red emergency light casting a glow from one side.\n2. Change the texture of the background wall from corrugated metal to damp, crumbling concrete, making the space feel like a bunker or basement.\n3. Alter the man's expression to one of desperation and fear. His mouth should be open in a yell for help, and his eyes should be wide with panic, darting towards the viewer.\n4. Enhance the shadows on his face and clothes to emphasize a sense of confinement and grime. The image should remain realistic.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.0,
+      "dominance": 4.5
+    }
+  }
+}

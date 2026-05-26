@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_00331.jpg",
+  "edited_image": "fear_cluster_2_fear_00331_awe_instruction_4.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of majestic and historical awe.\nEditing Steps:\n1. Delete the modern car and the street lamp.\n2. Delete all modern elements from the background buildings, such as the upper window frames and the hotel sign, making the architecture look ancient and monumental.\n3. Erase the graffiti from the red wall.\n4. Change the texture of the street to be rough, ancient-looking cobblestones.\n5. Modify the mask's expression to be stoic and powerful, as if it belongs to an ancient guardian. The material should appear like aged stone.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

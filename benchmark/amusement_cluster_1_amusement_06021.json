@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_06021.jpg",
+  "edited_image": "amusement_cluster_1_amusement_06021_contentment_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of warm contentment. Change the time of day to a soft, golden hour sunset. The harsh daylight should be replaced with warm, gentle light casting long, soft shadows. The woman's expression should shift to a soft, closed-mouth smile, her eyes gently closed or looking down peacefully. The colors of the ride should be slightly desaturated and warmed to blend with the evening light. Enhance the glow on her skin and dress, making the scene feel serene and peaceful.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 7.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

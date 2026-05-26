@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_4_anger_08455.jpg",
+  "edited_image": "anger_cluster_4_anger_08455_fear_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of cornered fear. Modify the man's pose so he is recoiling away from the viewer. His torso should be twisted back, and his arms should be crossed defensively over his chest, with the bandaged hand gripping his opposite arm. Change his aggressive expression to one of fright: his gaze should be averted slightly, eyes wide with fear, and his brow furrowed in panic. His lips should be parted and trembling. Keep the dramatic chiaroscuro lighting.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_5_sadness_10054.jpg",
+  "edited_image": "sadness_cluster_5_sadness_10054_contentment_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke a sense of serene, lasting contentment. \n\nEditing Steps: \n1. Alter the lighting to be soft and diffuse, as if on a bright, slightly overcast day, removing harsh shadows. \n2. Shift the color palette to be brighter and slightly warmer, increasing the overall lightness of the image. \n3. Change the attribute of the ivy to be more flourishing, with larger, healthier leaves that climb higher up the cross. \n4. Modify the concrete wall's texture to appear smoother and painted a clean, warm off-white. \n5. Lighten the color of the dark wood cross to a medium oak or honey tone, making it feel less somber.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 5.0,
+      "dominance": 5.0
+    }
+  }
+}

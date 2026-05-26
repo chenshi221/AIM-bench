@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_02876.jpg",
+  "edited_image": "disgust_cluster_4_disgust_02876_anger_instruction_2.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of monstrous, consuming rage. Replace the trash can with a grotesque, fleshy, creature-like object that has a wide, gaping maw instead of an opening, filled with jagged teeth-like structures. The trash should appear to be partially devoured and dripping with a dark, viscous fluid. Clean up the loose trash on the ground. The creature's 'skin' should be a mottled, angry red and purple. Intensify the shadows and give the scene a sickly, unsettling color cast.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  }
+}

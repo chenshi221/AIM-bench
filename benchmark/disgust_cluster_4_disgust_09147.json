@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_09147.jpg",
+  "edited_image": "disgust_cluster_4_disgust_09147_contentment_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of cozy, rustic contentment. Replace the three recycling bins with three large, sturdy wicker baskets of the same size. Fill the baskets with neatly folded, clean, colorful blankets and quilts, as if ready for a picnic or outdoor gathering. Remove all trash and debris from the scene. Soften the overall lighting to a gentle, warm cast, and ensure the background wooden wall and paving stones appear clean and well-maintained.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

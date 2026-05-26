@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_0_fear_04288.jpg",
+  "edited_image": "fear_cluster_0_fear_04288_amusement_instruction_5.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to generate a sense of goofy amusement. Delete Gollum's thin, wispy strands of hair, making his head completely bald and shiny. Modify his expression to a silly, cross-eyed look with his tongue sticking out slightly. Delete the entire dark, rocky background, replacing it with a simple, dark, neutral gradient so all focus is on his comical new appearance. Remove all text.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_3_fear_00088.jpg",
+  "edited_image": "fear_cluster_3_fear_00088_amusement_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of lighthearted amusement. Add a tiny, comically oversized party hat, tilted slightly to the side, onto the spider's head (cephalothorax). The hat should be brightly colored, perhaps with stripes or polka dots, and have a small pom-pom on top. Ensure the lighting on the hat matches the existing light source on the spider to maintain realism within the whimsical scene.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  }
+}

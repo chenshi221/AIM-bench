@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_7_anger_01178.jpg",
+  "edited_image": "anger_cluster_7_anger_01178_awe_instruction_1.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a profound sense of awe. Change the man's action so he is looking up at the sky in wonder. His head should be tilted back, mouth slightly open, and eyes wide with amazement. His right hand, instead of pointing, should be gently placed over his heart. His left hand still holds the sign, but his grip is relaxed. The text on the sign should be changed to 'ETERNAL WONDER'.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  }
+}

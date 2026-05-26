@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_01102.jpg",
+  "edited_image": "disgust_cluster_6_disgust_01102_amusement_instruction_8.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke festive amusement by reimagining the toilet as a Christmas gift source.\nDetailed Editing Steps:\n1. Replace the toilet bowl with a large, festive gift box wrapped in shiny red paper with a green ribbon. The box should be open.\n2. Have a small, fluffy teddy bear with a cheerful expression peeking out from the top of the open box.\n3. The toilet seat must be cleaned and can be decorated with a string of small, colorful Christmas lights.\n4. Replace the background wall tiles with a pattern of festive holly leaves and berries. The overall lighting should be warm and celebratory.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_22_excitement_16027.jpg",
+  "edited_image": "excitement_cluster_22_excitement_16027_anger_instruction_4.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent Statement: Edit the image to show a confrontational standoff fueled by anger between the two main players.\nDetailed Editing Steps: 1. Halt the action of both the central player (black jersey) and the player in white (number 24). They should be squared off, facing each other. 2. Change their facial expressions to be angry and confrontational, with narrowed eyes and tense mouths. 3. Modify their body language: have the player in white push her hand into the central player's chest, and the central player should be recoiling in angry surprise.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  }
+}

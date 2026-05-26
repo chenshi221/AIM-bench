@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_7_anger_00451.jpg",
+  "edited_image": "anger_cluster_7_anger_00451_sadness_instruction_1.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a feeling of somber remembrance. Replace the main 'NO ON GOV'T HEALTH CARE' sign with a simple, weathered wooden cross. Replace the other visible protest signs with bouquets of white lilies and unlit candles. The American flag should remain, but appear slightly faded. Apply a cool, desaturated color grade to the entire image and slightly soften the bright daylight to create a more overcast, solemn atmosphere, ensuring the overall scene remains realistic.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.0,
+      "dominance": 3.5
+    }
+  }
+}

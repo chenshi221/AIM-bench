@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_02784.jpg",
+  "edited_image": "sadness_cluster_4_sadness_02784_excitement_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent Statement: Edit the image to evoke the excitement of a surprise celebration.\n\nDetailed Editing Steps:\n1. Replace the chain-link fence with a backdrop of colorful, metallic birthday balloons and streamers. \n2. Replace the crumpled tissue in her hand with a brightly wrapped birthday gift she has just been handed.\n3. Change her facial expression to one of delighted surprise and excitement, with her mouth slightly open in a gasp and her eyes wide and smiling.\n4. Enhance the overall lighting to be warm and joyful, as if from party lights.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 3.5,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 8.5,
+      "dominance": 8.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_7_contentment_15810.jpg",
+  "edited_image": "contentment_cluster_7_contentment_15810_amusement_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to evoke the amusement from a playful prank. \nEditing Steps: \n1. Change the woman's action: she is now gently booping the man's nose with her index finger. \n2. Modify the man's facial expression to show him looking down at her finger cross-eyed, with a silly, amused grin. \n3. Adjust the woman's expression to a wide, triumphant smile, clearly enjoying his reaction. \n4. Keep the lighting, colors, and overall realism consistent with the original photograph.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  }
+}

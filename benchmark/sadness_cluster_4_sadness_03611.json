@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_03611.jpg",
+  "edited_image": "sadness_cluster_4_sadness_03611_awe_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of sudden, breathtaking awe. Change the man's action so he is pulling his glasses off his face, holding them mid-air, as if to see something more clearly. His head should be turned slightly towards the viewer and tilted up. His facial expression must be one of astonishment: eyebrows raised, eyes wide and focused on something magnificent just out of frame. His mouth should be slightly open in a silent gasp. Maintain the realistic lighting of the subway.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

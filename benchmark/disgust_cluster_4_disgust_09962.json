@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_09962.jpg",
+  "edited_image": "disgust_cluster_4_disgust_09962_amusement_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to evoke lighthearted amusement by adding a group of garden gnomes interacting with the trash pile.\n\nEditing Steps:\n1. First, clean the image by removing the most unsightly and dirty pieces of trash, replacing them with cleaner, less offensive refuse like crumpled paper and plastic bottles. Maintain the overall shape of the pile.\n2. Add a group of five colorful, classic garden gnomes to the scene. Position them as if they are exploring or working on the trash pile. One should be on top, planting a tiny flag. Two others should be attempting to carry a large plastic bottle together, and another should be peering into a discarded box with a look of curiosity. The last one can be sitting on the edge, appearing to be taking a break.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

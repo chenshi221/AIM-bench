@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_12831.jpg",
+  "edited_image": "awe_cluster_2_awe_12831_anger_instruction_1.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a sense of simmering anger. Delete all the wispy white clouds from the sky, leaving behind an unnervingly clear and stark deep blue expanse. Also, delete the vibrant green trees in the middle ground, replacing them with dry, cracked earth and a few skeletal, dead tree stumps. The foreground bush should also be deleted, replaced by parched ground. The overall color saturation should be slightly decreased, and contrast increased to make the mountain appear harsher.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.0,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_08243.jpg",
+  "edited_image": "amusement_cluster_3_amusement_08243_contentment_instruction_1.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke a sense of quiet contentment. Begin by deleting the red superhero cape, the red headband, and the red wrist cuffs from the girl, leaving her in just the white long-sleeved shirt. Change her expression from an excited, open-mouthed laugh to a soft, gentle smile with her lips closed or slightly parted. Her eyes should be relaxed and happy. Finally, soften the overall lighting to a warmer, late-afternoon glow to enhance the peaceful mood, maintaining the image's realism.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

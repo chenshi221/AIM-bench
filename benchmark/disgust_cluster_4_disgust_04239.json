@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_4_disgust_04239.jpg",
+  "edited_image": "disgust_cluster_4_disgust_04239_excitement_instruction_5.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "Edit the image to evoke the excitement of a clean, modern city. Delete all the trash from the foreground and mid-ground. Also, remove the stickers and dirt from the white pole, making it look pristine. Change the expressions of the woman in the pink jacket and the person in the black coat to ones of cheerful conversation and laughter. The woman on the far left should look up with a happy, expectant expression. Increase the overall contrast and brightness for a more vivid feel.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_3_disgust_08849.jpg",
+  "edited_image": "disgust_cluster_3_disgust_08849_awe_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke awe through mechanical wonder by changing the spider into a clockwork creation.\n\nEditing Steps:\n1. Replace the spider with an ornate, steampunk-style clockwork automaton. Its body should be a polished brass orb with visible, slowly moving gears, and its legs should be spindly, articulated brass limbs.\n2. The gears inside the orb should glow with a faint, warm, internal light.\n3. Replace the thick web stabilimentum with fine, interwoven copper wires and tiny cogs, as if it's a mechanical web.\n4. Change the metal wire at the bottom to a tarnished copper pipe, fitting the steampunk aesthetic.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_1_disgust_05337.jpg",
+  "edited_image": "disgust_cluster_1_disgust_05337_anger_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "General Intent: Edit the image to depict a moment of explosive, destructive anger.\n\nEditing Steps:\n1. Add several broken pieces of glass around the ashtray, as if another object was smashed nearby.\n2. Add a heavy, overturned whiskey glass in the background, with a small puddle of amber liquid spreading from it across the marble.\n3. Add two more cigarette butts to the ashtray, one of which is broken in half.\n4. Sharpen the overall image details and apply a cool, blue-toned color grade to create a harsh, unforgiving atmosphere, while maintaining the realism of the scene.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  }
+}

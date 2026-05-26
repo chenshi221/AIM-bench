@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_6_anger_01382.jpg",
+  "edited_image": "anger_cluster_6_anger_01382_contentment_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a feeling of warm contentment. Change the man's action so he is holding a steaming paper coffee cup in his right hand, bringing it towards his chest. Alter his facial expression to one of serene pleasure, with a slight, closed-mouth smile as if enjoying a warm day. His gaze should be directed slightly away from the camera, towards the scenery.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

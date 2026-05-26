@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_3_sadness_00593.jpg",
+  "edited_image": "sadness_cluster_3_sadness_00593_anger_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of confrontational anger. Change the pug's expression to an aggressive one, with narrowed, intense eyes, a wrinkled snout, and bared teeth. Add a single, sharp, metallic claw mark scratching diagonally across the wooden bar on the right, with small splinters flying off. Intensify the overall lighting to be harsh and dramatic, with deep shadows and a slight red tint to create a feeling of high alert and rage.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 8.0,
+      "dominance": 7.0
+    }
+  }
+}

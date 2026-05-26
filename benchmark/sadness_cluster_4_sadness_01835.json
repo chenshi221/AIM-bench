@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_4_sadness_01835.jpg",
+  "edited_image": "sadness_cluster_4_sadness_01835_disgust_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke visceral disgust. Change the girl's expression to one of clear disgust, with a wrinkled nose and slightly open mouth. Add a large, overturned, and overflowing garbage can in the foreground, spilling out rotting food scraps, slimy vegetable peels, and buzzing flies. The ground around the spill should appear wet and grimy. Ensure the added elements match the original image's lighting and realism.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 3.0,
+      "dominance": 2.0
+    }
+  }
+}

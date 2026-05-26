@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_08624.jpg",
+  "edited_image": "fear_cluster_1_fear_08624_contentment_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of cozy contentment. Transform the tunnel into a well-maintained wine cellar. Change the wall and ceiling texture to clean, aged stonework. Remove the hanging debris and replace the old wiring with elegant, warm-toned string lights that run along the ceiling, casting a soft, inviting glow. The lighting should be golden and low, creating an intimate ambiance. Clean the floor, revealing smooth flagstones. The overall color palette should shift to warm browns, deep reds, and soft yellows.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 6.5,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 3.5,
+      "dominance": 4.5
+    }
+  }
+}

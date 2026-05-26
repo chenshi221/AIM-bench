@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_12971.jpg",
+  "edited_image": "fear_cluster_1_fear_12971_excitement_instruction_6.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the excitement of a grand opening for a chic, renovated venue.\nEditing Steps: Delete all elements of decay to prepare for a party. Remove the graffiti. Erase all stains, mold, and water damage from every wall and ceiling surface. Delete the worn, peeling texture from the main wooden doorframe, making it appear newly restored. Finally, remove all dirt and the large stain from the floor, giving it a polished, reflective quality suitable for an exciting event.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

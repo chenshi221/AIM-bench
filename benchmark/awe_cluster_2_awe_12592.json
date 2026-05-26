@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_2_awe_12592.jpg",
+  "edited_image": "awe_cluster_2_awe_12592_anger_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of destructive anger. Make the scene appear as if a forest fire is raging just beyond the tree line. The sky above the forest should glow with a hellish orange and be filled with dark, billowing smoke. The sunlight should be completely blocked by the smoke, with the only illumination coming from the ominous fire-glow, casting long, distorted shadows. The snow in the field should be visibly dirty, covered in a layer of ash and soot, ruining its pristine quality. The air should have a hazy, smoky quality.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.5,
+      "dominance": 4.0
+    }
+  }
+}

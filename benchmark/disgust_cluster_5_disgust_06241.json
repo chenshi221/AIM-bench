@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_5_disgust_06241.jpg",
+  "edited_image": "disgust_cluster_5_disgust_06241_sadness_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a feeling of lonely sadness. Apply a strong blue color cast over the entire scene, particularly in the shadows, making the meal feel cold and forgotten. Intensify the specular highlights on the curry to make it look greasy and unappetizing under a harsh, single light source. Change the texture of the marble countertop to appear worn and stained. The white of the plate should be tinted with a dull gray, losing its clean look.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

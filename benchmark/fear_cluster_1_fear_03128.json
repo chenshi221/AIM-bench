@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_03128.jpg",
+  "edited_image": "fear_cluster_1_fear_03128_contentment_instruction_4.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to suggest contentment through natural reclamation by removing man-made decay.\nEditing Steps: Delete all man-made debris: the broken floorboards, the plywood, and any visible trash. Remove all graffiti from the walls. Leave the green plants, but make them appear healthier and more deliberately placed, as if in a planned garden. Repair the walls by removing cracks and peeling paint. The final image should feel like a peaceful, abandoned ruin that nature has beautifully and cleanly taken over, creating a sense of harmony.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 3.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

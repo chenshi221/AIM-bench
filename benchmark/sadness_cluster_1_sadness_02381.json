@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_1_sadness_02381.jpg",
+  "edited_image": "sadness_cluster_1_sadness_02381_contentment_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of fresh, spring contentment. Change her expression to a subtle, happy smile. Modify the atmosphere to feel like a crisp, dewy morning by making the colors cooler but more saturated, especially the greens and the blue of her eyes. Add a slight mist effect in the distant background. Ensure her skin looks fresh and naturally radiant. Clean up the stray branches on the ground on the right.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

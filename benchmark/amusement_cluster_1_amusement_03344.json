@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_03344.jpg",
+  "edited_image": "amusement_cluster_1_amusement_03344_disgust_instruction_8.png",
+  "edit_type": "delete_object",
+  "edit_prompt": "General Intent: Edit the image to evoke disgust by removing its cheerful colors and features. \n\nDetailed Editing Steps: \n1. Delete the red paint from the base, leaving a discolored, concrete-like material underneath. \n2. Delete the clown's rosy cheeks and red lips, making the face look pallid and sickly. \n3. Change the clown's expression to a nauseated sneer, with narrowed eyes. \n4. Delete sections of the green paint on the body to reveal a rusted, corroded metal texture. \n5. Add a layer of grime over the entire statue to dull its appearance.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 6.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 2.5
+    }
+  }
+}

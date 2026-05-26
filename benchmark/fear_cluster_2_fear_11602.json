@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_11602.jpg",
+  "edited_image": "fear_cluster_2_fear_11602_excitement_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke the excitement of a surprise. Change the woman on the left's action to bring her hands up to her cheeks in a classic 'surprise' gesture, her mouth open in an 'O' of astonishment and delight. Modify the 'vampire' character's action to be holding out a small, beautifully wrapped gift box towards her. The vampire's expression should be a happy, expectant smile, watching for her reaction. Ensure their costumes remain.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

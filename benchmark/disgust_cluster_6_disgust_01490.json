@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_6_disgust_01490.jpg",
+  "edited_image": "disgust_cluster_6_disgust_01490_excitement_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the excitement of a vibrant, natural wonder.\n\nEditing Steps:\n1. Replace the toilet bowl with a white ceramic planter of the same shape. \n2. Replace the mess inside with rich, dark soil from which a dense cluster of vibrant, exotic flowers (like passion flowers or colorful orchids) is blooming. \n3. Replace the blue toilet freshener with a single, brightly colored hummingbird hovering over the flowers as if about to drink nectar. \n4. Make the overall lighting slightly brighter and warmer. The edit must remain photorealistic.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_1_sadness_07600.jpg",
+  "edited_image": "sadness_cluster_1_sadness_07600_amusement_instruction_8.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to generate a feeling of festive amusement. Replace the wine bottle with a large, red-and-white striped candy cane, which he is licking. Replace the cardboard box with a messily wrapped Christmas present with a big bow. Change the man's expression to one of childish, festive glee, with a wide, happy grin. Subtly add some stray pieces of wrapping paper and ribbon on the floor around him to enhance the festive chaos, while keeping the overall scene tidy.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 4.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_4_fear_13874.jpg",
+  "edited_image": "fear_cluster_4_fear_13874_anger_instruction_6.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of destructive anger. Change the person's action so they are kicking aggressively at the white pole to their left. Their body should be twisted in the motion of the kick, with the kicking leg extended and the other leg braced. Their arms should be thrown out to the sides for balance, fists clenched. The pole should appear slightly bent or dented from the impact. The expression visible through the mask must be one of pure, unadulterated rage. Add motion blur to the kicking foot.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 6.0,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 4.0,
+      "arousal": 7.0,
+      "dominance": 6.5
+    }
+  }
+}

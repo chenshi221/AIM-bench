@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_2_disgust_01482.jpg",
+  "edited_image": "disgust_cluster_2_disgust_01482_anger_instruction_5.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke visceral, violent anger. Add shards of shattered glass scattered around the base of the orange and a few sharp pieces stuck into its skin. This implies a violent impact or explosion. First, restore the orange by removing all the mold, making the subsequent damage more pronounced. The sharp, dangerous glass shards create a high-arousal, negative scene, shifting the emotion from disgust to a more active, aggressive feeling of anger. Enhance specular highlights on the glass edges.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 6.5,
+      "dominance": 4.0
+    }
+  }
+}

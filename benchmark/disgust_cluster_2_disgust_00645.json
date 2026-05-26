@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_2_disgust_00645.jpg",
+  "edited_image": "disgust_cluster_2_disgust_00645_amusement_instruction_5.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke surprising amusement. Erase the rotten spot on the tomato. In its place, insert a small, old-fashioned wind-up key, as if the tomato is a mechanical toy. The key should be made of brass and inserted at a slight angle. Make the tomato's surface smooth, glossy, and perfectly red, removing any imperfections. Brighten the scene and add a subtle glint of light on the metal key to draw attention to the whimsical modification.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

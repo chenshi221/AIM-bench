@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_1_excitement_14587.jpg",
+  "edited_image": "excitement_cluster_1_excitement_14587_fear_instruction_5.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the fear of being trapped. Change their expressions from laughter to desperate, panicked screaming. Alter the lighting to be a single, harsh spotlight from above, casting long, distorted shadows down their faces and onto the wall. Change the texture of the white wall to look like cold, rough concrete, and make the hole in the wall appear deeper and darker. Desaturate all colors except for the red on the Red Bull can and the red in the bottom-left logo, making them stand out ominously.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_1_fear_02834.jpg",
+  "edited_image": "fear_cluster_1_fear_02834_sadness_instruction_1.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a profound sense of sadness. Add a single, old, worn wooden chair in the center of the room, directly under the middle light. On the chair, place a single, wilted red rose. Enhance the shadows around the chair to deepen the sense of isolation. The overall lighting should be slightly dimmed, with the light over the chair creating a soft, melancholic spotlight. Ensure the additions look realistic and match the image's existing style.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 3.0,
+      "dominance": 2.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 2.5,
+      "dominance": 2.0
+    }
+  }
+}

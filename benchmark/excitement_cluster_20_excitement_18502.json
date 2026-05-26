@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_20_excitement_18502.jpg",
+  "edited_image": "excitement_cluster_20_excitement_18502_anger_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to convey a sense of frustrated, explosive anger. Alter the singer's expression so her eyes are wide and glaring, and her mouth is open in a furious scream, teeth bared. Change her posture so she is leaning forward aggressively towards the microphone. Her free hand should be raised, fingers splayed tensely, as if in a moment of outburst.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 7.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 2.5,
+      "arousal": 7.5,
+      "dominance": 3.0
+    }
+  }
+}

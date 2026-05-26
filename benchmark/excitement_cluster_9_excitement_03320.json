@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_9_excitement_03320.jpg",
+  "edited_image": "excitement_cluster_9_excitement_03320_awe_instruction_8.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the awe of standing atop the world. Modify her expression to be one of quiet triumph and wonder, gazing out with a peaceful, fulfilled look. Replace the gym background with a panoramic view from the summit of a vast, snow-covered mountain range at sunrise. The lighting should be the warm, golden glow of the rising sun, illuminating the peaks and casting a soft, warm light on her face. The air should look crisp and clear. Her T-shirt should look slightly thicker, as if for warmth, and catch the morning light.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

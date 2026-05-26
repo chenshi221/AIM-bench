@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_1_anger_04037.jpg",
+  "edited_image": "anger_cluster_1_anger_04037_fear_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to evoke a feeling of being hunted and cornered with fear.\n\nEditing Steps:\n1. Modify the bear's facial expression to show extreme fear: widen its eyes in panic, pull back the corners of its open mouth in a grimace, and slightly flatten its ears against its head.\n2. Introduce harsh, dramatic top-down lighting, as if from a helicopter spotlight, casting deep, sharp shadows across the bear's face and body.\n3. Change the background from neutral rock to a dark, impenetrable forest at night.\n4. Enhance the specular highlights in the bear's eyes to create a 'caught-in-the-headlights' look, reflecting the unseen light source.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 7.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.5,
+      "dominance": 3.5
+    }
+  }
+}

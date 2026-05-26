@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_7_disgust_00080.jpg",
+  "edited_image": "disgust_cluster_7_disgust_00080_awe_instruction_6.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of ancient, geological awe. Add several small, geode-like rocks, broken open to reveal sparkling amethyst crystal interiors, scattered in the mossy foreground. One larger geode should be positioned near the caterpillar's head. Add a faint, magical purple glow emanating from the crystals, casting a subtle light onto the underside of the caterpillar and the immediate surroundings. The exterior of the rocks should be rough and blend naturally with the forest floor.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  }
+}

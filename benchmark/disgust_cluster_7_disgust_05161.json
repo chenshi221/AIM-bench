@@ -1,0 +1,22 @@
+{
+  "original_image": "disgust_cluster_7_disgust_05161.jpg",
+  "edited_image": "disgust_cluster_7_disgust_05161_sadness_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to evoke the sadness of decay.\nEditing Steps:\n1. Replace the millipede's body with a burnt, charred twig that has been curled into the same spiral by a fire.\n2. Replace the delicate legs with a fine line of grey ash along the inner curve of the twig.\n3. Replace the purple splotch in the background with a dark, wet stain, as if from rain on the ashes. The overall scene should be desaturated to emphasize the lifelessness, while keeping the style realistic.",
+  "source_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 4.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 4.0,
+      "dominance": 2.5
+    }
+  }
+}

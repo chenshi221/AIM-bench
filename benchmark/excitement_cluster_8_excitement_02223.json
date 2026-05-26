@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_8_excitement_02223.jpg",
+  "edited_image": "excitement_cluster_8_excitement_02223_sadness_instruction_2.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of weary dejection. Change the man's action to show him slumping forward slightly. His pointing hand should now be brought up to his forehead, fingers pressing against his temple as if nursing a headache. His other hand still holds the microphone but lets it hang down towards his waist. His facial expression should be one of exhaustion and defeat, with his eyes closed tightly and his mouth set in a thin, downturned line.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.0,
+      "dominance": 5.0
+    }
+  }
+}

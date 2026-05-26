@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_3_contentment_05635.jpg",
+  "edited_image": "contentment_cluster_3_contentment_05635_anger_instruction_2.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of cold, resentful anger. Shift the flower's color from purple to a bruised, dark indigo, making the petals appear wilted and brittle. Change the texture of the petals to look like cracked, dry earth. The background should be altered to look like it's covered in a layer of frost, with the green leaves appearing frozen and rigid. Introduce a cold, blue-toned side light that casts long, stark shadows, creating a chilling and hostile mood.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  }
+}

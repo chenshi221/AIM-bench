@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_06730.jpg",
+  "edited_image": "awe_cluster_1_awe_06730_contentment_instruction_7.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a sense of simple contentment. Add a well-worn picnic blanket spread on a flat patch of grass on the hill, near the right side of the frame. On the blanket, place a wicker basket, a thermos, and two mugs, suggesting a quiet meal shared in a beautiful location. The scene should feel personal and peaceful, as if the viewers have just stepped away.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  }
+}

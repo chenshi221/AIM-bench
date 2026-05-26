@@ -1,0 +1,22 @@
+{
+  "original_image": "excitement_cluster_0_excitement_15935.jpg",
+  "edited_image": "excitement_cluster_0_excitement_15935_fear_instruction_1.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of imminent dread and fear. Change the time of day to a stormy twilight. The sky should be a bruised purple-grey with dark, churning clouds. Introduce harsh, unnatural backlighting from an unseen source, casting long, distorted shadows. Desaturate the man's blue tie and white shirt, making them appear dingy. Change his expression from a smile to one of stark terror, with wide eyes and an open, gasping mouth. The overall color temperature should be cold and menacing.",
+  "source_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  }
+}

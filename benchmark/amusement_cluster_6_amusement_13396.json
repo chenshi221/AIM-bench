@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_6_amusement_13396.jpg",
+  "edited_image": "amusement_cluster_6_amusement_13396_awe_instruction_7.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke a sense of futuristic awe. Change the material of the cutting board to a sleek, glowing data-pad, with the brownie appearing as a holographic projection hovering just above it. The pretzels and sprinkles should also be holographic, shimmering with digital light. The person's hands should be adorned with thin, light-emitting circuits. The background should be dark and clean, with the only light sources being the faint glow from the holographic food and the data-pad, creating a high-tech, wondrous feel.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 3.5,
+      "dominance": 5.0
+    }
+  }
+}

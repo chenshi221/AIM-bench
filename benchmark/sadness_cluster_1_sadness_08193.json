@@ -1,0 +1,22 @@
+{
+  "original_image": "sadness_cluster_1_sadness_08193.jpg",
+  "edited_image": "sadness_cluster_1_sadness_08193_anger_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Edit the image to depict a man reacting angrily to something he's looking at. \nEditing Steps: \n1. Change the man's action: His head should be turned slightly more towards the viewer, and his arm should be lowered, pointing an accusatory finger just out of frame. \n2. Alter his facial expression to be confrontational: His eyes are wide and glaring, eyebrows are sharply furrowed, and his mouth is slightly open, as if in the middle of a sharp rebuke. \n3. Ensure the pose looks dynamic and aggressive. \n4. Maintain the realistic, black and white nature of the image.",
+  "source_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 5.0,
+      "arousal": 4.5,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 7.0,
+      "dominance": 6.0
+    }
+  }
+}

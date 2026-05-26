@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_06078.jpg",
+  "edited_image": "awe_cluster_1_awe_06078_contentment_instruction_8.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to reflect a mood of blissful contentment. Alter her expression to one of serene bliss, as if listening to beautiful music. Her head should be tilted back slightly, and her eyes should be closed. A very subtle, peaceful smile should grace her lips. This action should transform her from being aware of the camera to being lost in a moment of personal joy and contentment. Maintain the focus and detail of the original.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  }
+}

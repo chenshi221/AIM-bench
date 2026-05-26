@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_5_contentment_01239.jpg",
+  "edited_image": "contentment_cluster_5_contentment_01239_amusement_instruction_6.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to convey amusement. Change the older child's pose so they are winking playfully at the camera with one eye, accompanied by a wide, toothy grin. Their free hand should be making a 'peace' sign just above the baby's head. The baby remains peacefully asleep, creating a humorous contrast between the two siblings' states and making the older child's action more amusing.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 5.5,
+      "dominance": 6.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.5,
+      "dominance": 6.0
+    }
+  }
+}

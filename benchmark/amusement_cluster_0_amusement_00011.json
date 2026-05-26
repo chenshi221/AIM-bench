@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_0_amusement_00011.jpg",
+  "edited_image": "amusement_cluster_0_amusement_00011_disgust_instruction_3.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "General Intent: Edit the image to create a scene of decay and revulsion.\nEditing Steps:\n1. Change the dog's expression to look listless and ill, with half-closed, glazed-over eyes and a slack jaw.\n2. Modify the attribute of its fur to appear mangy and diseased, with visible sores and bald patches revealing irritated, reddish skin underneath.\n3. Transform the grassy field into a desolate, dry patch of cracked earth covered in dead, brown weeds and small pieces of litter, enhancing the sense of neglect and decay.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 6.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.0,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

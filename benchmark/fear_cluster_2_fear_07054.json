@@ -1,0 +1,22 @@
+{
+  "original_image": "fear_cluster_2_fear_07054.jpg",
+  "edited_image": "fear_cluster_2_fear_07054_anger_instruction_3.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to evoke a feeling of righteous fury. Add a torn and dirt-stained protest sign clutched in the subject's hands, held across their chest. The sign should have a single, angrily scrawled word like 'BETRAYED' or 'ENOUGH'. Modify the subject's facial expression to show defiant anger: chin lifted, eyes glaring directly at the viewer, eyebrows drawn down, and mouth open in the beginning of a shout. Add more grit and dirt to the face paint and shirt to suggest a prolonged struggle.",
+  "source_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 2.0,
+      "arousal": 7.0,
+      "dominance": 3.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 6.5
+    }
+  }
+}

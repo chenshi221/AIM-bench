@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_10_contentment_11551.jpg",
+  "edited_image": "contentment_cluster_10_contentment_11551_sadness_instruction_4.png",
+  "edit_type": "add_object",
+  "edit_prompt": "Edit the image to create a feeling of weary sadness. Alter the woman's expression to be tired and downcast, with her shoulders slightly slumped. Add a pair of worn, discarded crutches leaning against the concrete planter behind her, just visible in the frame. The crutches should appear weathered. Mute the colors of the background building and plants, and add a cool, late-afternoon shadow stretching across the pavement to heighten the sense of exhaustion and melancholy.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 5.5,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 3.5,
+      "dominance": 4.0
+    }
+  }
+}

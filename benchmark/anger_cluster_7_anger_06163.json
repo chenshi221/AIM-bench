@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_7_anger_06163.jpg",
+  "edited_image": "anger_cluster_7_anger_06163_excitement_instruction_3.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "General Intent: Edit the image to capture the excitement of a major sporting event victory celebration. \nEditing Steps: \n1. Replace the protest sign the woman is holding with a team scarf or a small team flag held high. \n2. Replace the cardboard signs in the background with team banners and foam fingers. \n3. Modify the woman's facial expression to one of ecstatic cheering, with an open-mouthed smile. \n4. Change the expressions of the people in the background to also reflect cheering and excitement. Maintain realism in all edits.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 7.0,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 7.0,
+      "arousal": 8.0,
+      "dominance": 7.5
+    }
+  }
+}

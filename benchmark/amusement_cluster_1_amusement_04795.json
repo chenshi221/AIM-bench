@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_1_amusement_04795.jpg",
+  "edited_image": "amusement_cluster_1_amusement_04795_awe_instruction_4.png",
+  "edit_type": "replace_object",
+  "edit_prompt": "Edit the image to evoke a sense of natural awe. Replace the statue with a colossal, photorealistic sculpture of a human hand carved from a single piece of mountain rock, holding aloft not a hamburger, but a perfect, miniature, living tree with glowing leaves. Replace the vendor signs with a natural rock formation that blends into the base. The sky should remain clear, but the lighting should feel more epic, as if at sunrise on a mountaintop.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 7.5,
+      "arousal": 6.0,
+      "dominance": 7.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 4.5,
+      "dominance": 6.0
+    }
+  }
+}

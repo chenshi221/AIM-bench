@@ -1,0 +1,22 @@
+{
+  "original_image": "awe_cluster_1_awe_14613.jpg",
+  "edited_image": "awe_cluster_1_awe_14613_excitement_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "General Intent: Modify the image to convey the excitement of a spontaneous dance or celebration. Alter the pose of the foreground woman to be mid-twirl, with her hair slightly in motion and her arms outstretched. Her facial expression should be a radiant, joyful smile with her eyes closed in bliss. The second woman should be laughing, looking at her friend with an expression of amused excitement. The prayer offerings should be replaced with something more festive, like sparklers, to assist the action change. Maintain the original image's realism.",
+  "source_emotion": {
+    "emotion": "awe",
+    "VAD": {
+      "valence": 5.5,
+      "arousal": 4.5,
+      "dominance": 5.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "excitement",
+    "VAD": {
+      "valence": 8.0,
+      "arousal": 7.5,
+      "dominance": 6.5
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_image": "anger_cluster_1_anger_06471.jpg",
+  "edited_image": "anger_cluster_1_anger_06471_sadness_instruction_3.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke a sense of dejected sadness. Modify the tiger's action to show it lying down on the rock, with its head resting on its front paws. Close its mouth and change its expression to one of profound sadness, with its eyes looking down and its brow slightly furrowed. The overall posture should communicate weariness and a complete lack of energy, reflecting the low arousal target.",
+  "source_emotion": {
+    "emotion": "anger",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 7.5,
+      "dominance": 8.0
+    }
+  },
+  "target_emotion": {
+    "emotion": "sadness",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 3.0,
+      "dominance": 4.0
+    }
+  }
+}

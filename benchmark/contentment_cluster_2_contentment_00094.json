@@ -1,0 +1,22 @@
+{
+  "original_image": "contentment_cluster_2_contentment_00094.jpg",
+  "edited_image": "contentment_cluster_2_contentment_00094_fear_instruction_4.png",
+  "edit_type": "attribute_change",
+  "edit_prompt": "Edit the image to evoke the fear of being lost and hunted. Change the woman's expression to one of panicked listening: her head is slightly tilted, eyes darting nervously, and her lips are parted as if holding her breath. Transform the sunny environment into a dark, dense forest at night. Use moonlight filtering through unseen trees to create dappled, high-contrast lighting on her face and hat. Add a layer of mist that clings to the ground in the background. The texture of her t-shirt should appear damp with sweat.",
+  "source_emotion": {
+    "emotion": "contentment",
+    "VAD": {
+      "valence": 6.0,
+      "arousal": 5.5,
+      "dominance": 6.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "fear",
+    "VAD": {
+      "valence": 4.5,
+      "arousal": 5.5,
+      "dominance": 5.0
+    }
+  }
+}

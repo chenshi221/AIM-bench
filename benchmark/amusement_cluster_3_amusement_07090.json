@@ -1,0 +1,22 @@
+{
+  "original_image": "amusement_cluster_3_amusement_07090.jpg",
+  "edited_image": "amusement_cluster_3_amusement_07090_disgust_instruction_5.png",
+  "edit_type": "action_change",
+  "edit_prompt": "Edit the image to evoke disgust by changing her play into a destructive, repulsive act. Modify the girl's action so she is smearing something that looks like thick, brown mud or sludge down the slide with her hands. Her expression is not happy, but rather a blank or slightly malevolent stare, disconnected from the repulsive act. This creates a psychological disgust. Her hands and forearms should be covered in the grimy substance. Maintain the realistic lighting of the original image.",
+  "source_emotion": {
+    "emotion": "amusement",
+    "VAD": {
+      "valence": 6.5,
+      "arousal": 6.0,
+      "dominance": 5.5
+    }
+  },
+  "target_emotion": {
+    "emotion": "disgust",
+    "VAD": {
+      "valence": 3.5,
+      "arousal": 6.0,
+      "dominance": 4.0
+    }
+  }
+}
