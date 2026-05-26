@@ -2,6 +2,31 @@
 
 This repository contains the evaluation scripts used to compute the AIM benchmark metrics after a model has produced edited images.
 
+## Installation
+
+Create a Python environment and install the evaluation dependencies:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+If your machine needs a CUDA-specific PyTorch build, install `torch` and `torchvision` from the official PyTorch selector first, then run `pip install -r requirements.txt`.
+
+`longclip.py` uses the Long-CLIP source adapter included under `LongCLIP/model/`. The LongCLIP-L checkpoint is not committed because it is about 1.71 GB. Download it before computing `CLIP-T`:
+
+```bash
+python scripts/setup_longclip.py
+```
+
+This creates:
+
+```text
+LongCLIP/checkpoints/longclip-L.pt
+```
+
 ## Expected Directory Layout
 
 Each evaluated model should use the following layout:
@@ -115,6 +140,6 @@ API-based scripts read keys from the environment or from a `.env` file. OpenAI-m
 
 ## External Metric Assets
 
-`longclip.py` expects the LongCLIP implementation under `LongCLIP/model/` and a checkpoint at `LongCLIP/checkpoints/longclip-L.pt` unless a different checkpoint path is passed with `--checkpoint`. The checkpoint is not committed to this repository.
+`longclip.py` expects the included LongCLIP source adapter under `LongCLIP/model/` and a checkpoint at `LongCLIP/checkpoints/longclip-L.pt` unless a different checkpoint path is passed with `--checkpoint`. The checkpoint is not committed to this repository; use `python scripts/setup_longclip.py` or download it manually from the LongCLIP-L release.
 
-`aesthetic.py` uses `improved-aesthetic-predictor/sac+logos+ava1-l14-linearMSE.pth` by default and also requires the CLIP ViT-L/14 weights specified by `--clip-model`.
+`aesthetic.py` uses `improved-aesthetic-predictor/sac+logos+ava1-l14-linearMSE.pth` by default and OpenAI CLIP `ViT-L/14` through the `clip` package. Pass `--clip-model` if you want to use a local CLIP checkpoint path.

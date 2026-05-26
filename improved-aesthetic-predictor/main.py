@@ -6,10 +6,8 @@ from warnings import filterwarnings
 
 import clip
 import numpy as np
-import pytorch_lightning as pl
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 import tqdm
 from PIL import Image, ImageFile
 
@@ -20,7 +18,7 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 SUPPORTED_FORMATS = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".webp"}
 
 
-class MLP(pl.LightningModule):
+class MLP(nn.Module):
     def __init__(self, input_size, xcol="emb", ycol="avg_rating"):
         super().__init__()
         self.input_size = input_size
@@ -39,21 +37,6 @@ class MLP(pl.LightningModule):
 
     def forward(self, x):
         return self.layers(x)
-
-    def training_step(self, batch, batch_idx):
-        x = batch[self.xcol]
-        y = batch[self.ycol].reshape(-1, 1)
-        x_hat = self.layers(x)
-        return F.mse_loss(x_hat, y)
-
-    def validation_step(self, batch, batch_idx):
-        x = batch[self.xcol]
-        y = batch[self.ycol].reshape(-1, 1)
-        x_hat = self.layers(x)
-        return F.mse_loss(x_hat, y)
-
-    def configure_optimizers(self):
-        return torch.optim.Adam(self.parameters(), lr=1e-3)
 
 
 def normalized(a, axis=-1, order=2):

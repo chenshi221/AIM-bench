@@ -1,7 +1,13 @@
 import torch
 import torch.nn.functional as F
 
-from .model import longclip
+try:
+    from .model import longclip
+except ImportError as exc:
+    longclip = None
+    LONGCLIP_IMPORT_ERROR = exc
+else:
+    LONGCLIP_IMPORT_ERROR = None
 
 
 class ModelOutput:
@@ -12,6 +18,11 @@ class ModelOutput:
 
 class LongCLIPWrapper:
     def __init__(self, model_path, device="cuda"):
+        if longclip is None:
+            raise ImportError(
+                "LongCLIP model files are missing. Restore `LongCLIP/model/` from this repository "
+                "or copy the official Long-CLIP `model/` directory to `LongCLIP/model/`."
+            ) from LONGCLIP_IMPORT_ERROR
         self.device = device
         print(f"Loading LongCLIP model from: {model_path}")
         try:

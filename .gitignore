@@ -6,4 +6,5 @@ __pycache__/
 improved-aesthetic-predictor/aesthetic_scores.*
 improved-aesthetic-predictor/ava+logos*.pth
 improved-aesthetic-predictor/*_original.jpg
+improved-aesthetic-predictor/simple_inference.py
 LongCLIP/checkpoints/
