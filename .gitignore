@@ -3,6 +3,8 @@ __pycache__/
 *.pyc
 *.ipynb
 *.pdf
+Instructions_full.local.json
+benchmark/*
 improved-aesthetic-predictor/aesthetic_scores.*
 improved-aesthetic-predictor/ava+logos*.pth
 improved-aesthetic-predictor/*_original.jpg

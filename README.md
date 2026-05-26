@@ -41,6 +41,10 @@ MODEL_NAME/
 
 The metadata file is expected at `Instructions.json` by default. Ground-truth edited images are expected under `benchmark/` by default.
 
+## Dataset Availability
+
+This anonymous GitHub repository includes a 200-sample benchmark subset with the corresponding metadata in `Instructions.json`. The complete AIM benchmark is substantially larger and is not fully included in this anonymous release. To run the full evaluation, place the complete benchmark image files under `benchmark/` and replace `Instructions.json` with the full metadata file.
+
 ## Using The Benchmark Files
 
 The benchmark is driven by `Instructions.json`. Each record contains:
