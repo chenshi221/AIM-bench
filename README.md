@@ -41,10 +41,6 @@ MODEL_NAME/
 
 The metadata file is expected at `Instructions.json` by default. Ground-truth edited images are expected under `benchmark/` by default.
 
-## Dataset Availability
-
-The AIM-40K image files are not included in this anonymous GitHub repository because the full dataset is too large for repository hosting. This repository provides the evaluation code and metadata needed to reproduce the metrics. After downloading AIM-40K from the separate dataset release link, place the image files under `benchmark/` before running the evaluation scripts.
-
 ## Using The Benchmark Files
 
 The benchmark is driven by `Instructions.json`. Each record contains:
