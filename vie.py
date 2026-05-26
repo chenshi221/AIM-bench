@@ -1,392 +1,602 @@
-import os
-import json
+import argparse
 import base64
-import time
-import re
 import collections
-from openai import OpenAI
-from dotenv import load_dotenv
-from PIL import Image
-from tqdm import tqdm
 import concurrent.futures
+import json
+import os
+import re
+import sys
+from contextlib import contextmanager
+
 import numpy as np
+from dotenv import load_dotenv
+from openai import OpenAI
+from PIL import Image, ImageFile
+from tqdm import tqdm
 
-# ================== Part 1: 配置区域 ==================
-# --- API 配置 ---
+
+ImageFile.LOAD_TRUNCATED_IMAGES = True
+
+DEFAULT_MODEL_LIST = [
+    "Doubao-Seedream-4.0",
+    "Doubao-Seededit-3-0-i2i",
+    "bagel",
+    "Qwen-Image-Edit-Plus",
+    "IP2P",
+    "Omnigen2",
+    "Step-1X",
+    "DreamOmni2",
+    "Uniworldv2",
+    "Flux-kontext-max",
+    "Flux-kontext-pro",
+    "Flux-kontext-dev",
+    "qwen_image_edit_2509_1",
+    "qwen_image_edit_2509_lora_1",
+]
+
+DEFAULT_INSTRUCTION_FILE = "Instructions.json"
+DEFAULT_GT_IMAGE_DIR = "./benchmark"
+DEFAULT_API_MODEL = "gpt-4o"
+MAX_CONCURRENT_REQUESTS = 200
+SAVE_CHECKPOINT_INTERVAL = 20
+
 load_dotenv()
-API_KEY = os.getenv("DMXAPI_API_KEY_MY")
-BASE_URL = "https://www.dmxapi.cn/v1"
-MODEL_NAME = "gpt-4o"
+OPENAI_API_KEY_ENV_VAR = "OPENAI_API_KEY"
+GEMINI_API_KEY_ENV_VARS = ("GEMINI_API_KEY", "GOOGLE_API_KEY")
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL") or "https://api.openai.com/v1"
+GEMINI_BASE_URL = os.getenv("GEMINI_BASE_URL") or "https://generativelanguage.googleapis.com/v1beta/openai/"
 
-# --- 路径配置 ---
-# 【重要】存放您所有 .jpg 和 *_edited_emo.png 图片的文件夹
+SC_EVALUATION_PROMPT = """
+# ROLE
+You are an expert in evaluating image editing.
 
-MODEL = "qwen_image_edit_2509_lora"  # <-- 请根据实际模型名称修改此处
-IMAGE_DIR = os.path.join(MODEL, "edited_output")
+# TASK
+You will be given an original image, an edited version of it, and the text instruction used for the edit. Your task is to evaluate how successfully the editing instruction has been executed.
 
-# 【重要】包含编辑指令的JSON文件
-INSTRUCTION_FILE = r"./src/Instructions.json"
+# RATING DIMENSIONS (Scale 0-10)
+1. **Editing Success (Score 1)**: How well does the edited image follow the instruction?
+   - 0: The instruction is completely ignored.
+   - 10: The instruction is perfectly and accurately executed.
+2. **Editing Fidelity (Score 2)**: How well are the unedited parts of the original image preserved?
+   - 0: The edited image is completely different from the original, showing extreme over-editing.
+   - 10: Only the areas relevant to the instruction are changed, preserving the original's identity perfectly.
 
-# --- 输出与断点续传配置 ---
-os.makedirs("./pipeline", exist_ok=True)
-EVALUATION_SCORES_FILE = os.path.join(MODEL, "eval", "vie_scores.json")
-SUMMARY_REPORT_FILE = os.path.join(MODEL, "eval", "vie_evaluation_report.txt")
-
-# --- 并发配置 ---
-MAX_CONCURRENT_REQUESTS = 30
-
-# --- 评估 Prompt (无需修改) ---
-EVALUATION_PROMPT = """
-RULES:
-Two images will be provided: The first being the original image and the second being an edited version of the first. The objective is to evaluate how successfully the editing instruction has been executed in the second image. Note that sometimes the two images might look identical due to the failure of the image edit.
-
-On a scale of 0 to 10:
-- **Score 1 (Editing Success)**: A score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instructions at all. 10 indicates that the scene in the edited image follows the editing instruction text perfectly.)
-- **Score 2 (Degree of Overediting)**: A second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimally edited yet effective version of the original.)
-
-Your response MUST be a JSON object that adheres to the following structure:
-```json
+# OUTPUT FORMAT
+You MUST provide your response strictly as JSON:
 {
   "scores": [score1, score2],
-  "reason": "A concise string explaining the reasoning behind the given scores, highlighting specific observations from the images."
+  "reason": "A concise analysis explaining the scores by referencing specific visual changes between the original and edited images."
 }
-Where:
-score1 is the Editing Success score (0-10).
-score2 is the Degree of Overediting score (0-10).
-reason is a concise explanation for the scores.
-Do not provide any other text or explanation outside of this JSON object.
 """
 
-# ================== Part 2: 核心功能函数 (无需修改) ==================
+PQ_EVALUATION_PROMPT = """
+# ROLE
+You are an expert in generated-image quality assessment.
+
+# TASK
+You will be given a single generated image. Your task is to evaluate its perceptual quality based on its realism and technical flaws.
+
+# RATING DIMENSIONS (Scale 0-10)
+1. **Naturalness (Score 1)**: How natural and realistic does the image look?
+   - 0: The image looks completely unnatural.
+   - 10: The image is indistinguishable from a real photograph in terms of naturalness.
+2. **Freedom from Artifacts (Score 2)**: How free is the image from generation artifacts?
+   - 0: The image is filled with severe artifacts.
+   - 10: The image is perfectly clean and has no visible artifacts.
+
+# OUTPUT FORMAT
+You MUST provide your response strictly as JSON:
+{
+  "scores": [score1, score2],
+  "reason": "A concise analysis explaining the scores by pointing out specific visual elements related to naturalness and artifacts in the image."
+}
+"""
+
+GTC_EVALUATION_PROMPT = """
+# ROLE
+You are an expert in comparing generated images against a ground-truth standard.
+
+# TASK
+You will be given a ground-truth image and a model-generated image, both created from the same editing instruction. Your task is to evaluate how well the model output matches the ground truth.
+
+# RATING DIMENSIONS (Scale 0-10)
+1. **Semantic Match (Score 1)**: How well does the model image capture the meaning and core idea of the edit shown in the ground-truth image?
+   - 0: It completely fails to capture the same intent.
+   - 10: It perfectly captures the same semantic change, even if stylistically different.
+2. **Visual Similarity (Score 2)**: How visually similar is the model image to the ground truth, considering object placement, color, and style?
+   - 0: The image is visually completely different.
+   - 10: The image is visually identical or nearly identical to the ground truth.
+
+# OUTPUT FORMAT
+You MUST provide your response strictly as JSON:
+{
+  "scores": [score1, score2],
+  "reason": "A concise analysis explaining the scores by comparing specific visual elements between the ground truth and the model-generated images."
+}
+"""
+
+
+def get_api_config(api_model):
+    if api_model.lower().startswith("gemini"):
+        for env_var in GEMINI_API_KEY_ENV_VARS:
+            api_key = os.getenv(env_var)
+            if api_key:
+                return api_key, GEMINI_BASE_URL, env_var
+        return None, GEMINI_BASE_URL, "GEMINI_API_KEY or GOOGLE_API_KEY"
+    return os.getenv(OPENAI_API_KEY_ENV_VAR), OPENAI_BASE_URL, OPENAI_API_KEY_ENV_VAR
+
 
 def encode_image_to_base64(image_path):
-    """将图片编码为Base64字符串。"""
     try:
         with Image.open(image_path) as img:
-            if img.mode != 'RGB': img = img.convert('RGB')
+            if img.mode != "RGB":
+                img = img.convert("RGB")
             from io import BytesIO
+
             buffered = BytesIO()
-            img.save(buffered, format="JPEG")
-            return base64.b64encode(buffered.getvalue()).decode('utf-8')
-    except Exception as e:
+            img.save(buffered, format="JPEG", quality=90)
+            return base64.b64encode(buffered.getvalue()).decode("utf-8")
+    except Exception:
         return None
 
-def get_evaluation_scores_from_api(client, original_image_path, edited_image_path, instruction):
-    """通过API调用获取编辑评估分数。"""
-    base64_original = encode_image_to_base64(original_image_path)
-    base64_edited = encode_image_to_base64(edited_image_path)
 
-    if not base64_original: return {"error": f"无法编码原始图片: {os.path.basename(original_image_path)}."}
-    if not base64_edited: return {"error": f"无法编码编辑后图片: {os.path.basename(edited_image_path)}."}
-    
+def parse_api_response(response_content):
+    try:
+        json_match = re.search(r"\{.*\}", response_content, re.DOTALL)
+        if not json_match:
+            raise json.JSONDecodeError("No JSON object found in response", response_content, 0)
+        parsed = json.loads(json_match.group(0))
+        scores = parsed.get("scores")
+        if isinstance(scores, list) and len(scores) == 2 and all(isinstance(x, (int, float)) for x in scores):
+            return {"scores": [int(s) for s in scores], "reason": parsed.get("reason", "")}
+        return {"error": f"Invalid score format: {scores}"}
+    except json.JSONDecodeError:
+        return {"error": f"Failed to parse JSON response: {response_content}"}
+
+
+def get_sc_scores_from_api(client, original_image_path, edited_image_path, instruction, api_model):
+    b64_orig = encode_image_to_base64(original_image_path)
+    b64_edit = encode_image_to_base64(edited_image_path)
+    if not b64_orig or not b64_edit:
+        return {"error": "Failed to encode original or edited image"}
     try:
         response = client.chat.completions.create(
-            model=MODEL_NAME,
+            model=api_model,
             messages=[
                 {
                     "role": "user",
                     "content": [
-                        {"type": "text", "text": EVALUATION_PROMPT},
+                        {"type": "text", "text": SC_EVALUATION_PROMPT},
                         {"type": "text", "text": f"Editing instruction: {instruction}"},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_original}", "detail": "low"}},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_edited}", "detail": "low"}}
-                    ]
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64_orig}"}},
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64_edit}"}},
+                    ],
                 }
             ],
             max_tokens=200,
-            temperature=0.0
+            temperature=0.0,
         )
-        content = response.choices[0].message.content.strip()
-        
-        try:
-            json_match = re.search(r'\{.*\}', content, re.DOTALL)
-            if not json_match:
-                raise json.JSONDecodeError("响应中未找到有效的JSON对象", content, 0)
-            
-            parsed_response = json.loads(json_match.group(0))
-            scores = parsed_response.get('scores')
-            reason = parsed_response.get('reason', '')
+        return parse_api_response(response.choices[0].message.content)
+    except Exception as exc:
+        return {"error": f"SC API error: {exc}"}
 
-            if isinstance(scores, list) and len(scores) == 2 and all(isinstance(x, (int, float)) for x in scores):
-                scores = [int(s) for s in scores]
-                return {"scores": scores, "reason": reason}
-            else:
-                return {"error": f"解析出的分数格式不符合预期 [数字, 数字]: {scores}", "raw_response": content}
 
-        except json.JSONDecodeError:
-            return {"error": f"无法从响应中解析出有效的JSON对象: {content}"}
-    except Exception as e:
-        return {"error": f"发生API错误: {str(e)}"}
+def get_pq_scores_from_api(client, image_path, api_model):
+    b64_img = encode_image_to_base64(image_path)
+    if not b64_img:
+        return {"error": "Failed to encode image"}
+    try:
+        response = client.chat.completions.create(
+            model=api_model,
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": PQ_EVALUATION_PROMPT},
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64_img}"}},
+                    ],
+                }
+            ],
+            max_tokens=200,
+            temperature=0.0,
+        )
+        return parse_api_response(response.choices[0].message.content)
+    except Exception as exc:
+        return {"error": f"PQ API error: {exc}"}
 
-# ================== Part 3: 主执行逻辑 (create_task_list 已最终修正) ==================
 
-def create_task_list():
-    """
-    【最终修正逻辑】
-    以实际存在的文件对为主导，反向查找JSON中的指令来构建任务。
-    """
-    print("--- 步骤 1: 正在生成任务清单 ---")
-    if not os.path.exists(INSTRUCTION_FILE):
-        print(f"[致命错误] 指令文件未找到: {INSTRUCTION_FILE}"); return None
-    if not os.path.isdir(IMAGE_DIR):
-        print(f"[致命错误] 图片目录未找到: {IMAGE_DIR}"); return None
+def get_gtc_scores_from_api(client, model_output_path, gt_image_path, instruction, api_model):
+    b64_model = encode_image_to_base64(model_output_path)
+    b64_gt = encode_image_to_base64(gt_image_path)
+    if not b64_model or not b64_gt:
+        return {"error": "Failed to encode model or ground-truth image"}
+    try:
+        response = client.chat.completions.create(
+            model=api_model,
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": GTC_EVALUATION_PROMPT},
+                        {"type": "text", "text": f"Editing instruction: {instruction}"},
+                        {"type": "text", "text": "Image 1: Ground-truth image"},
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64_gt}"}},
+                        {"type": "text", "text": "Image 2: Model-generated image"},
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64_model}"}},
+                    ],
+                }
+            ],
+            max_tokens=200,
+            temperature=0.0,
+        )
+        return parse_api_response(response.choices[0].message.content)
+    except Exception as exc:
+        return {"error": f"GTC API error: {exc}"}
 
-    # --- 步骤 A: 扫描图片目录，建立文件索引 ---
-    original_files_map = {} # key: base_name, value: full_filename.jpg
-    edited_files_map = {}   # key: base_name, value: full_filename_edited_emo.png
-    edited_file_regex = re.compile(r"^(.*?)_edited_([a-zA-Z]+)\.png$")
 
-    print(f"正在扫描目录 '{IMAGE_DIR}'...")
-    for filename in os.listdir(IMAGE_DIR):
-        match = edited_file_regex.match(filename)
-        if match:
-            base_name = match.group(1)
-            edited_files_map[base_name] = filename
-        elif filename.lower().endswith('_original.jpg'):
-            # 【最终修正点】确保 base_name 是一个字符串
-            # 从 'file_original.jpg' 提取 'file'
-            base_name = filename.rsplit('_original.jpg', 1)[0]
-            original_files_map[base_name] = filename
-            
-    print(f"扫描完成：找到 {len(original_files_map)} 个 _original.jpg 文件和 {len(edited_files_map)} 个 *_edited_emo.png 文件。")
+def process_full_evaluation_task(client, task, model_image_dir, gt_image_dir, api_model):
+    orig_path = os.path.join(model_image_dir, task["original_filename"])
+    edit_path = os.path.join(model_image_dir, task["edited_filename"])
 
-    # --- 步骤 B: 寻找成对存在的文件 ---
-    file_pairs = []
-    for base_name, original_filename in original_files_map.items():
-        if base_name in edited_files_map:
-            file_pairs.append({
-                "base_name": base_name,
-                "original_filename": original_filename,
-                "edited_filename": edited_files_map[base_name]
-            })
-    print(f"成功找到 {len(file_pairs)} 个实际存在的文件对。")
+    update = {}
 
-    # --- 步骤 C: 加载并索引指令JSON ---
-    with open(INSTRUCTION_FILE, 'r', encoding='utf-8') as f:
-        instruction_data = json.load(f)
-    
-    # 【最终修正点】确保从 'file.jpg' 提取 'file' 作为key
-    instructions_map = {
-        os.path.splitext(entry['original_image'])[0]: entry
-        for entry in instruction_data if 'original_image' in entry
-    }
-    print(f"成功加载并索引了 {len(instructions_map)} 条指令。")
-    # print一组示例
-    sample_keys = list(instructions_map.keys())[:3]
-    for key in sample_keys:
-        print(f"示例指令键: {key} -> 指令: {instructions_map[key]['edit_prompt'][:50]}...")
-    # --- 步骤 D: 结合文件对和指令，生成最终任务清单 ---
-    tasks = []
-    skipped_count = 0
-    for pair in file_pairs:
-        base_name = pair['base_name']
-        instruction_entry = instructions_map.get(base_name)
-        if instruction_entry and 'edit_prompt' in instruction_entry:
-            target_emo = edited_file_regex.match(pair['edited_filename']).group(2)
-            tasks.append({
-                "base_name": base_name,
-                "original_filename": pair['original_filename'],
-                "edited_filename": pair['edited_filename'],
-                "instruction": instruction_entry['edit_prompt'],
-                "target_category": target_emo,
-            })
+    sc_res = get_sc_scores_from_api(client, orig_path, edit_path, task["instruction"], api_model)
+    update.update({"sc_scores": sc_res.get("scores"), "sc_reason": sc_res.get("reason", ""), "sc_error": sc_res.get("error")})
+
+    pq_res = get_pq_scores_from_api(client, edit_path, api_model)
+    update.update({"pq_scores": pq_res.get("scores"), "pq_reason": pq_res.get("reason", ""), "pq_error": pq_res.get("error")})
+
+    if task.get("gt_filename"):
+        gt_path = os.path.join(gt_image_dir, task["gt_filename"])
+        if os.path.exists(gt_path):
+            gtc_res = get_gtc_scores_from_api(client, edit_path, gt_path, task["instruction"], api_model)
+            update.update({"gtc_scores": gtc_res.get("scores"), "gtc_reason": gtc_res.get("reason", ""), "gtc_error": gtc_res.get("error")})
         else:
-            skipped_count += 1
-            
-    print(f"成功创建 {len(tasks)} 个评估任务。由于在JSON中找不到指令，跳过了 {skipped_count} 个文件对。")
-    print("--- 任务清单生成完毕 ---\n")
+            update.update({"gtc_error": f"Ground-truth file not found: {task['gt_filename']}"})
+    return update
+
+
+def create_task_list(model_image_dir, instruction_file):
+    print(f"Building task list for: {model_image_dir}")
+    if not os.path.exists(instruction_file):
+        print(f"Error: instruction file not found: {instruction_file}")
+        return None
+    if not os.path.isdir(model_image_dir):
+        print(f"Error: model image directory not found: {model_image_dir}")
+        return None
+
+    edited_file_regex = re.compile(r"^(.*?)_edited_([a-zA-Z]+)\.png$")
+    orig_map = {
+        filename.rsplit("_original.jpg", 1)[0]: filename
+        for filename in os.listdir(model_image_dir)
+        if filename.lower().endswith("_original.jpg")
+    }
+    edit_map = {
+        match.group(1): filename
+        for filename in os.listdir(model_image_dir)
+        if (match := edited_file_regex.match(filename))
+    }
+
+    pairs = [{"base": base, "orig": original, "edit": edit_map[base]} for base, original in orig_map.items() if base in edit_map]
+    print(f"Matched original-edited pairs: {len(pairs)}")
+
+    with open(instruction_file, "r", encoding="utf-8") as f:
+        inst_map = {os.path.splitext(entry["original_image"])[0]: entry for entry in json.load(f)}
+    print(f"Loaded instruction records: {len(inst_map)}")
+
+    tasks, skipped = [], 0
+    for pair in pairs:
+        instruction = inst_map.get(pair["base"])
+        if instruction and "edit_prompt" in instruction:
+            tasks.append(
+                {
+                    "base_name": pair["base"],
+                    "original_filename": pair["orig"],
+                    "edited_filename": pair["edit"],
+                    "instruction": instruction["edit_prompt"],
+                    "target_category": edited_file_regex.match(pair["edit"]).group(2),
+                    "gt_filename": instruction.get("edited_image"),
+                }
+            )
+        else:
+            skipped += 1
+
+    print(f"Created tasks: {len(tasks)}; skipped unmatched pairs: {skipped}")
     return tasks
 
-def run_evaluation_workflow_concurrent():
-    """主函数，负责执行整个并发评估流程。"""
-    print("="*25, "开始执行图像编辑评估 (并发流程)", "="*25)
 
-    if not API_KEY:
-        print("[致命错误] API密钥 (DMXAPI_API_KEY_MY) 未在.env文件中设置。"); return
-
-    tasks_to_process = create_task_list()
-    if not tasks_to_process:
-        print("未能生成任何任务，程序退出。"); return
-
-    client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
-
-    # 断点续传逻辑
-    processed_files = set()
-    existing_results_dict = {}
-    if os.path.exists(EVALUATION_SCORES_FILE):
-        try:
-            with open(EVALUATION_SCORES_FILE, 'r', encoding='utf-8') as f:
-                existing_results = json.load(f)
-            for item in existing_results:
-                key = item.get('edited_filename')
-                if key:
-                    existing_results_dict[key] = item
-                    if 'evaluation_scores' in item and item['evaluation_scores'] is not None:
-                        processed_files.add(key)
-            print(f"成功加载了 {len(existing_results)} 条已有记录。其中 {len(processed_files)} 条已有有效评估分。")
-        except (json.JSONDecodeError, IOError) as e:
-            print(f"警告：无法解析已有的结果文件 '{EVALUATION_SCORES_FILE}'，将重新开始。错误: {e}")
-    
-    tasks_to_run = [task for task in tasks_to_process if task.get('edited_filename') not in processed_files]
-
-    if not tasks_to_run:
-        print("\n所有任务均已处理完毕，直接进入报告生成阶段。")
-    else:
-        print("-" * 50)
-        print(f"总任务数: {len(tasks_to_process)}")
-        print(f"已处理数量: {len(processed_files)}")
-        print(f"剩余待处理: {len(tasks_to_run)}")
-        print(f"并发请求数: {MAX_CONCURRENT_REQUESTS}")
-        print("-" * 50)
-
-    # 并发执行与结果保存
-    final_results_dict = {task['edited_filename']: task for task in tasks_to_process}
-    final_results_dict.update(existing_results_dict)
-    newly_processed_tasks = []
-
+def calculate_and_save_report(model_name, scores_filepath, report_filepath):
+    print(f"\nGenerating SC/PQ/GTC report for: {model_name}")
     try:
-        if tasks_to_run:
-            with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_CONCURRENT_REQUESTS) as executor:
-                future_to_task = {
-                    executor.submit(
-                        get_evaluation_scores_from_api, client,
-                        os.path.join(IMAGE_DIR, task['original_filename']),
-                        os.path.join(IMAGE_DIR, task['edited_filename']),
-                        task['instruction']
-                    ): task for task in tasks_to_run
-                }
-
-                for future in tqdm(concurrent.futures.as_completed(future_to_task), total=len(tasks_to_run), desc="评估图像编辑效果 (API)"):
-                    task = future_to_task[future]
-                    try:
-                        result = future.result()
-                        if 'error' in result:
-                            task['evaluation_scores'] = None
-                            task['evaluation_reason'] = ""
-                            task['evaluation_error'] = result['error']
-                            tqdm.write(f"\n[警告] 处理 '{task['edited_filename']}' 失败: {result['error']}")
-                        else:
-                            task['evaluation_scores'] = result['scores']
-                            task['evaluation_reason'] = result.get('reason', '')
-                        
-                        newly_processed_tasks.append(task)
-                    except Exception as exc:
-                        task['evaluation_scores'] = None
-                        task['evaluation_reason'] = ""
-                        task['evaluation_error'] = f"处理API调用时发生未捕获异常: {str(exc)}"
-                        tqdm.write(f"\n[严重错误] 处理 '{task['edited_filename']}' 时发生异常: {exc}")
-
-    except KeyboardInterrupt:
-        print("\n检测到用户中断 (Ctrl+C)，将在退出前保存当前进度...")
-    finally:
-        print("\n评估计算完成。正在保存结果...")
-        try:
-            for task in newly_processed_tasks:
-                final_results_dict[task['edited_filename']] = task
-
-            final_results_list = list(final_results_dict.values())
-            with open(EVALUATION_SCORES_FILE, 'w', encoding='utf-8') as f:
-                json.dump(final_results_list, f, indent=4, ensure_ascii=False)
-            print(f"所有评估结果已成功保存至: '{EVALUATION_SCORES_FILE}'")
-            
-            calculate_and_save_report(EVALUATION_SCORES_FILE, SUMMARY_REPORT_FILE)
-
-        except Exception as e:
-            print(f"[错误] 保存结果文件或生成报告时失败: {e}")
-        print("="*25, "评估流程完成", "="*25)
-
-# ================== Part 4: 报告生成函数 (无需修改) ==================
-
-# ================== Part 4: 报告生成函数 (已修正) ==================
-
-def calculate_and_save_report(scores_filepath, report_filepath):
-    """
-    读取评估分数JSON文件，计算平均分和VIE-Score，并生成一个易于阅读的文本报告。
-    """
-    print("\n" + "📊" * 35)
-    print("正在生成最终的评估总结报告...")
-    print("📊" * 35)
-
-    try:
-        with open(scores_filepath, 'r', encoding='utf-8') as f:
+        with open(scores_filepath, "r", encoding="utf-8") as f:
             all_results = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
-        print(f"❌ 无法加载或解析评估分数文件: {scores_filepath}，无法生成报告。")
-        return
+        print(f"Error: failed to load score file: {scores_filepath}")
+        return None
 
-    valid_results = [
-        res for res in all_results
-        if isinstance(res.get('evaluation_scores'), list) and len(res.get('evaluation_scores')) == 2
-    ]
+    sc_pq_results = [r for r in all_results if r.get("sc_scores") and r.get("pq_scores")]
+    gtc_results = [r for r in sc_pq_results if r.get("gtc_scores")]
+    if not sc_pq_results:
+        print("Error: no valid SC/PQ scores are available for reporting.")
+        return None
 
-    if not valid_results:
-        print("❌ 没有找到有效的评估分数，无法生成报告。")
-        return
+    scores_by_cat = collections.defaultdict(lambda: collections.defaultdict(list))
+    for result in sc_pq_results:
+        category = result.get("target_category", "unknown")
+        scores_by_cat[category]["sc_score"].append(min(result["sc_scores"]))
+        scores_by_cat[category]["pq_score"].append(min(result["pq_scores"]))
 
-    scores_by_category = collections.defaultdict(list)
-    # =========== 从这里开始是核心修正区域 ===========
-    for res in valid_results:
-        category = res.get('target_category', 'unknown')
-        scores = res['evaluation_scores'] # scores 是一个列表, e.g., [8, 9]
-        
-        # 【修正 1】正确地从列表中提取单个分数
-        score_success = scores[0]
-        score_fidelity = scores[1]
-        
-        # 【修正 2】使用提取出的数字分数进行计算
-        vie_score = (score_success + score_fidelity) / 2
-        
-        # 【修正 3】将单个数字分数存入字典
-        scores_by_category[category].append({
-            "success": score_success,
-            "fidelity": score_fidelity,
-            "vie_score": vie_score
-        })
-    # =========== 修正区域结束 ===========
+    for result in gtc_results:
+        category = result.get("target_category", "unknown")
+        scores_by_cat[category]["gtc_score"].append(min(result["gtc_scores"]))
+
+    def get_overall_avg(key):
+        all_scores = [score for data in scores_by_cat.values() for score in data.get(key, [])]
+        return float(np.mean(all_scores)) if all_scores else 0.0
+
+    avg_sc = get_overall_avg("sc_score")
+    avg_pq = get_overall_avg("pq_score")
+    avg_gtc = get_overall_avg("gtc_score")
 
     report = [
         "=" * 80,
-        f"图像编辑质量评估报告 (VIE-Score) - 模型: {MODEL}", # 使用全局变量 MODEL
+        f"Image-editing evaluation report - Model: {model_name}",
         "=" * 80,
-        f"总评估图片数 (有效): {len(valid_results)} / {len(all_results)}",
-        f"VIE-Score 计算公式: (编辑成功分 (Score 1) + 编辑保真分 (Score 2)) / 2",
-        
-        "\n--- 1. 总体平均分 ---"
+        "Aggregation rule: min(score1, score2)",
+        f"Valid SC/PQ images: {len(sc_pq_results)} / {len(all_results)}",
+        f"Valid GTC images: {len(gtc_results)}",
+        "\nOverall averages",
+        f"SC-Score:  {avg_sc:.4f}",
+        f"PQ-Score:  {avg_pq:.4f}",
+        f"GTC-Score: {avg_gtc:.4f}" if gtc_results else "GTC-Score: N/A",
+        "\nPer-target-emotion averages",
     ]
 
-    # 下面的代码现在可以正常工作了，因为 'success' 和 'fidelity' 都是数字
-    all_success = [item['success'] for cat_data in scores_by_category.values() for item in cat_data]
-    all_fidelity = [item['fidelity'] for cat_data in scores_by_category.values() for item in cat_data]
-    all_vie = [item['vie_score'] for cat_data in scores_by_category.values() for item in cat_data]
-
-    report.append(f"  - 平均编辑成功分 (Score 1):     {np.mean(all_success):.3f}")
-    report.append(f"  - 平均编辑保真分 (Score 2):     {np.mean(all_fidelity):.3f} (分数越高代表对原图改动越小且有效)")
-    report.append(f"  - 平均 VIE-Score (综合得分):    {np.mean(all_vie):.3f} (越高越好)")
-
-    report.append("\n--- 2. 按目标情感类别分类的平均分 ---")
-    header = f"{'情感类别':<15} | {'平均成功分':>12} | {'平均保真分':>12} | {'平均VIE-Score':>15} | {'数量':>7}"
+    header = f"{'Emotion':<12} | {'SC-Score':>10} | {'PQ-Score':>10} | {'GTC-Score':>11} | {'Count':>7}"
     report.append(header)
     report.append("-" * len(header))
 
-    for category, data in sorted(scores_by_category.items()):
-        count = len(data)
-        avg_success = np.mean([item['success'] for item in data])
-        avg_fidelity = np.mean([item['fidelity'] for item in data])
-        avg_vie = np.mean([item['vie_score'] for item in data])
-        report.append(f"{category:<15} | {avg_success:>12.3f} | {avg_fidelity:>12.3f} | {avg_vie:>15.3f} | {count:>7}")
+    for category, data in sorted(scores_by_cat.items()):
+        avg_gtc_str = f"{np.mean(data['gtc_score']):>11.4f}" if data["gtc_score"] else f"{'N/A':>11}"
+        report.append(
+            f"{category:<12} | "
+            f"{np.mean(data['sc_score']):>10.4f} | "
+            f"{np.mean(data['pq_score']):>10.4f} | "
+            f"{avg_gtc_str} | "
+            f"{len(data['sc_score']):>7}"
+        )
 
-    report_str = "\n".join(report)
-    print("\n--- 报告预览 ---")
-    print(report_str)
-    print("--- 报告预览结束 ---")
+    with open(report_filepath, "w", encoding="utf-8") as f:
+        f.write("\n".join(report))
+    print(f"Saved SC/PQ/GTC report to: {report_filepath}")
 
-    try:
-        with open(report_filepath, 'w', encoding='utf-8') as f:
-            f.write(report_str)
-        print(f"\n✅ 评估报告已成功保存至: '{report_filepath}'")
-    except Exception as e:
-        print(f"\n❌ 保存报告文件失败: {e}")
+    return {"SC_Score": avg_sc, "PQ_Score": avg_pq, "GTC_Score": avg_gtc if gtc_results else None}
 
-# ================== 脚本入口 ==================
+
+def process_model(model_name, instruction_file, gt_image_dir, api_model, api_key, base_url):
+    print("\n" + "=" * 80)
+    print(f"Evaluating model: {model_name}")
+    print("=" * 80)
+
+    model_image_dir = os.path.join(model_name, "edited_output")
+    eval_dir = os.path.join(model_name, "eval")
+    results_file = os.path.join(eval_dir, "evaluation_scores.json")
+    summary_file = os.path.join(eval_dir, "evaluation_summary_report.txt")
+    os.makedirs(eval_dir, exist_ok=True)
+
+    tasks = create_task_list(model_image_dir, instruction_file)
+    if not tasks:
+        print(f"Skipping {model_name}: no valid tasks.")
+        return None
+
+    client = OpenAI(api_key=api_key, base_url=base_url)
+
+    processed = {}
+    if os.path.exists(results_file):
+        try:
+            with open(results_file, "r", encoding="utf-8") as f:
+                for item in json.load(f):
+                    processed[item["edited_filename"]] = item
+            print(f"Loaded existing results: {len(processed)}")
+        except json.JSONDecodeError:
+            print(f"Warning: existing result file is not valid JSON: {results_file}")
+
+    tasks_to_run = []
+    for task in tasks:
+        key = task["edited_filename"]
+        if key in processed:
+            previous = processed[key]
+            needs_gtc = task.get("gt_filename") is not None
+            has_basic = previous.get("sc_scores") and previous.get("pq_scores")
+            has_gtc = (not needs_gtc) or previous.get("gtc_scores") or previous.get("gtc_error")
+            if has_basic and has_gtc:
+                continue
+        tasks_to_run.append(task)
+
+    if not tasks_to_run:
+        print("All tasks already have complete scores. Generating the report only.")
+    else:
+        print(f"Pending tasks: {len(tasks_to_run)} / {len(tasks)}")
+        final_results = collections.OrderedDict((task["edited_filename"], task) for task in tasks)
+        final_results.update(processed)
+        try:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_CONCURRENT_REQUESTS) as executor:
+                future_to_task = {
+                    executor.submit(process_full_evaluation_task, client, task, model_image_dir, gt_image_dir, api_model): task
+                    for task in tasks_to_run
+                }
+                pbar = tqdm(concurrent.futures.as_completed(future_to_task), total=len(tasks_to_run), desc=f"SC/PQ/GTC {model_name}")
+                for i, future in enumerate(pbar, 1):
+                    task = future_to_task[future]
+                    try:
+                        task.update(future.result())
+                        for metric in ["sc", "pq", "gtc"]:
+                            if task.get(f"{metric}_error"):
+                                tqdm.write(f"  x {metric.upper()} {task['edited_filename']}: {task[f'{metric}_error']}")
+                    except Exception as exc:
+                        task.update({"sc_error": f"Executor exception: {exc}", "pq_error": f"Executor exception: {exc}"})
+                    final_results[task["edited_filename"]] = task
+                    if i % SAVE_CHECKPOINT_INTERVAL == 0:
+                        with open(results_file, "w", encoding="utf-8") as f:
+                            json.dump(list(final_results.values()), f, indent=2)
+
+        except KeyboardInterrupt:
+            print("\nInterrupted. Saving current progress...")
+        finally:
+            with open(results_file, "w", encoding="utf-8") as f:
+                json.dump(list(final_results.values()), f, indent=2)
+            print(f"Saved SC/PQ/GTC details to: {results_file}")
+
+    return calculate_and_save_report(model_name, results_file, summary_file)
+
+
+def run_all_models(model_list, instruction_file, gt_image_dir, api_model):
+    print("=" * 80)
+    print("Running multi-model SC/PQ/GTC evaluation")
+    print("=" * 80)
+
+    api_key, base_url, key_env_name = get_api_config(api_model)
+    if not api_key:
+        print(f"Error: {key_env_name} is not set in the environment.")
+        return
+
+    all_models_summary = {}
+    for model_name in model_list:
+        summary_metrics = process_model(model_name, instruction_file, gt_image_dir, api_model, api_key, base_url)
+        if summary_metrics:
+            all_models_summary[model_name] = summary_metrics
+        else:
+            print(f"Model excluded from final summary: {model_name}")
+
+    print("\n" + "=" * 80)
+    print("Final SC/PQ/GTC summary")
+    print("=" * 80)
+
+    md_table = [
+        "| Model Name | SC-Score | PQ-Score | GTC-Score |",
+        "|:-----------|:--------:|:--------:|:---------:|",
+    ]
+
+    sorted_models = sorted(all_models_summary.items(), key=lambda item: item[1].get("SC_Score", 0), reverse=True)
+    for model_name, metrics in sorted_models:
+        sc = f"{metrics.get('SC_Score', 0):.4f}"
+        pq = f"{metrics.get('PQ_Score', 0):.4f}"
+        gtc = f"{metrics.get('GTC_Score', 0):.4f}" if metrics.get("GTC_Score") is not None else "N/A"
+        md_table.append(f"| {model_name} | {sc} | {pq} | {gtc} |")
+
+    md_report_str = "\n".join(md_table)
+    print(md_report_str)
+
+    summary_json_path = "all_models_evaluation_summary.json"
+    summary_md_path = "all_models_evaluation_summary.md"
+    with open(summary_json_path, "w", encoding="utf-8") as f:
+        json.dump(all_models_summary, f, indent=4)
+    with open(summary_md_path, "w", encoding="utf-8") as f:
+        f.write(md_report_str)
+    print(f"Saved summary JSON to: {summary_json_path}")
+    print(f"Saved summary Markdown to: {summary_md_path}")
+
+
+@contextmanager
+def suppress_stdout():
+    with open(os.devnull, "w") as devnull:
+        old_stdout = sys.stdout
+        sys.stdout = devnull
+        try:
+            yield
+        finally:
+            sys.stdout = old_stdout
+
+
+def test_execution_plan(model_list, instruction_file):
+    print("\n" + "#" * 100)
+    print("SC/PQ/GTC execution plan")
+    print("#" * 100)
+
+    if not os.path.exists(instruction_file):
+        print(f"Error: instruction file not found: {instruction_file}")
+        return
+
+    header_fmt = "| {name:<30} | {total:>8} | {done:>8} | {todo:>10} | {status:<18} |"
+    print("-" * 88)
+    print(header_fmt.format(name="Model Name", total="Total", done="Done", todo="Remaining", status="Status"))
+    print("-" * 88)
+
+    total_todo_all = 0
+    total_images_all = 0
+
+    for model_name in model_list:
+        model_image_dir = os.path.join(model_name, "edited_output")
+        results_file = os.path.join(model_name, "eval", "evaluation_scores.json")
+
+        if not os.path.isdir(model_image_dir):
+            print(header_fmt.format(name=model_name, total="-", done="-", todo="-", status="No directory"))
+            continue
+
+        try:
+            with suppress_stdout():
+                tasks = create_task_list(model_image_dir, instruction_file)
+        except Exception:
+            tasks = []
+
+        if not tasks:
+            print(header_fmt.format(name=model_name, total="0", done="0", todo="0", status="No match"))
+            continue
+
+        total_count = len(tasks)
+        total_images_all += total_count
+
+        processed_data = {}
+        if os.path.exists(results_file):
+            try:
+                with open(results_file, "r", encoding="utf-8") as f:
+                    for item in json.load(f):
+                        processed_data[item["edited_filename"]] = item
+            except Exception:
+                pass
+
+        done_count = 0
+        for task in tasks:
+            key = task["edited_filename"]
+            if key in processed_data:
+                previous = processed_data[key]
+                has_basic = previous.get("sc_scores") and previous.get("pq_scores")
+                needs_gtc = task.get("gt_filename") is not None
+                has_gtc = (not needs_gtc) or previous.get("gtc_scores") or previous.get("gtc_error")
+                if has_basic and has_gtc:
+                    done_count += 1
+
+        todo_count = total_count - done_count
+        total_todo_all += todo_count
+        if todo_count == 0:
+            status_str = "All done"
+        elif todo_count == total_count:
+            status_str = "New task"
+        else:
+            pct = int((done_count / total_count) * 100)
+            status_str = f"{pct}% processed"
+
+        print(header_fmt.format(name=model_name, total=total_count, done=done_count, todo=todo_count, status=status_str))
+
+    print("-" * 88)
+    print(f"Total tasks: {total_images_all}")
+    print(f"Pending tasks: {total_todo_all}")
+    print("#" * 100 + "\n")
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Evaluate SC, PQ, and GTC metrics for edited images.")
+    parser.add_argument("--models", nargs="*", default=DEFAULT_MODEL_LIST, help="Model directories to evaluate.")
+    parser.add_argument("--instructions", default=DEFAULT_INSTRUCTION_FILE, help="Instruction JSON path.")
+    parser.add_argument("--gt-dir", default=DEFAULT_GT_IMAGE_DIR, help="Ground-truth image directory.")
+    parser.add_argument("--api-model", default=DEFAULT_API_MODEL, help="VLM API model name.")
+    parser.add_argument("--plan-only", action="store_true", help="Print pending-task counts without calling the API.")
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    run_evaluation_workflow_concurrent()
+    args = parse_args()
+    if args.plan_only:
+        test_execution_plan(args.models, args.instructions)
+    else:
+        run_all_models(args.models, args.instructions, args.gt_dir, args.api_model)

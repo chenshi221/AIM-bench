@@ -1,1 +1,9 @@
 .DS_Store
+__pycache__/
+*.pyc
+*.ipynb
+*.pdf
+improved-aesthetic-predictor/aesthetic_scores.*
+improved-aesthetic-predictor/ava+logos*.pth
+improved-aesthetic-predictor/*_original.jpg
+LongCLIP/checkpoints/

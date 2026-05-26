@@ -1,31 +1,28 @@
-from PIL import Image
-import io
-import matplotlib.pyplot as plt
-import os
+import argparse
 import json
+import os
 from warnings import filterwarnings
-import numpy as np
-import torch
-import pytorch_lightning as pl
-import torch.nn as nn
-from torchvision import datasets, transforms
-import tqdm
-from os.path import join
-import clip
-from PIL import Image, ImageFile
-import csv
-import torch.nn.functional as F
 
-# 忽略警告
+import clip
+import numpy as np
+import pytorch_lightning as pl
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import tqdm
+from PIL import Image, ImageFile
+
+
 filterwarnings("ignore")
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-# 支持的图片格式
-SUPPORTED_FORMATS = {'.png'}
+SUPPORTED_FORMATS = {".png"}
+DEFAULT_WEIGHT_PATH = "./improved-aesthetic-predictor/sac+logos+ava1-l14-linearMSE.pth"
+DEFAULT_CLIP_MODEL = "./ViT-L-14.pt"
 
-# MLP 模型定义（与训练时保持一致）
+
 class MLP(pl.LightningModule):
-    def __init__(self, input_size, xcol='emb', ycol='avg_rating'):
+    def __init__(self, input_size, xcol="emb", ycol="avg_rating"):
         super().__init__()
         self.input_size = input_size
         self.xcol = xcol
@@ -38,7 +35,7 @@ class MLP(pl.LightningModule):
             nn.Linear(128, 64),
             nn.Dropout(0.1),
             nn.Linear(64, 16),
-            nn.Linear(16, 1)
+            nn.Linear(16, 1),
         )
 
     def forward(self, x):
@@ -50,7 +47,7 @@ class MLP(pl.LightningModule):
         x_hat = self.layers(x)
         loss = F.mse_loss(x_hat, y)
         return loss
-    
+
     def validation_step(self, batch, batch_idx):
         x = batch[self.xcol]
         y = batch[self.ycol].reshape(-1, 1)
@@ -59,27 +56,24 @@ class MLP(pl.LightningModule):
         return loss
 
     def configure_optimizers(self):
-        optimizer = torch.optim.Adam(self.parameters(), lr=1e-3)
-        return optimizer
+        return torch.optim.Adam(self.parameters(), lr=1e-3)
 
 
 def normalized(a, axis=-1, order=2):
-    """归一化函数：将向量标准化为单位向量"""
     l2 = np.atleast_1d(np.linalg.norm(a, order, axis))
     l2[l2 == 0] = 1
     return a / np.expand_dims(l2, axis)
 
 
 def get_image_files(directory):
-    """获取目录下所有支持格式的图片文件"""
     image_files = []
     if os.path.isfile(directory):
         if os.path.splitext(directory)[1].lower() in SUPPORTED_FORMATS:
             return [directory]
-        else:
-            print(f"警告: {directory} 不是支持的图片格式，跳过")
-            return []
-    for root, dirs, files in os.walk(directory):
+        print(f"Warning: unsupported image format: {directory}")
+        return []
+
+    for root, _, files in os.walk(directory):
         for file in files:
             ext = os.path.splitext(file)[1].lower()
             if ext in SUPPORTED_FORMATS:
@@ -88,14 +82,9 @@ def get_image_files(directory):
 
 
 def parse_emotions_from_filename(filename):
-    """
-    从标准格式的文件名中解析原始情感和目标情感。
-    - 原始图片: amusement_..._original.png -> original='amusement', target='amusement'
-    - 编辑后图片: ..._sadness_instruction_1.png -> original='amusement', target='sadness'
-    """
-    parts = filename.split('_')
+    parts = filename.split("_")
     if not parts:
-        return 'unknown', 'unknown'
+        return "unknown", "unknown"
 
     original_emo = parts[0]
     target_emo = original_emo
@@ -104,101 +93,104 @@ def parse_emotions_from_filename(filename):
         try:
             target_emo = parts[-3]
         except IndexError:
-            target_emo = 'parse_error'
-            
+            target_emo = "parse_error"
+
     return original_emo, target_emo
 
 
 def predict_aesthetic_score(image_path, clip_model, preprocess, mlp_model, device):
-    """预测单张图片的美学评分"""
     try:
-        pil_image = Image.open(image_path).convert('RGB')
+        pil_image = Image.open(image_path).convert("RGB")
         image = preprocess(pil_image).unsqueeze(0).to(device)
         with torch.no_grad():
             image_features = clip_model.encode_image(image)
         im_emb_arr = normalized(image_features.cpu().detach().numpy())
-        prediction = mlp_model(torch.from_numpy(im_emb_arr).to(device).type(torch.cuda.FloatTensor))
+        tensor_type = torch.cuda.FloatTensor if device == "cuda" else torch.FloatTensor
+        prediction = mlp_model(torch.from_numpy(im_emb_arr).to(device).type(tensor_type))
         return prediction.item()
-    except Exception as e:
-        print(f"处理图片 {image_path} 时出错: {str(e)}")
+    except Exception as exc:
+        print(f"Failed to process {image_path}: {exc}")
         return None
 
 
-def get_average_aesthetic_score(modelname):
-    """封装的函数：接受 modelname 作为参数，处理其 edited_output 目录下的 PNG 图像，返回平均美学评分，并保存结果到 modelname/eval/aesthetic.json"""
+def get_average_aesthetic_score(
+    modelname,
+    weight_path=DEFAULT_WEIGHT_PATH,
+    clip_model_path=DEFAULT_CLIP_MODEL,
+):
     img_directory = os.path.join(modelname, "edited_output")
-    
+
     print("=" * 70)
-    print("美学评分与情感分析器 - 封装函数模式")
-    print(f"模型名称: {modelname}")
+    print("Aesthetic score evaluation")
+    print(f"Model: {modelname}")
     print("=" * 70)
-    
-    # 1. 加载 MLP 模型
-    print("\n[1/4] 加载 MLP 模型...")
+
+    print("\n[1/4] Loading MLP model...")
     model = MLP(768)
-    if os.path.exists("./improved-aesthetic-predictor/sac+logos+ava1-l14-linearMSE.pth"):
-        s = torch.load("./improved-aesthetic-predictor/sac+logos+ava1-l14-linearMSE.pth")
-        model.load_state_dict(s)
-    else:
-        print("错误: MLP 模型文件未找到!")
+    if not os.path.exists(weight_path):
+        print(f"Error: MLP weight file not found: {weight_path}")
         return None
+    state_dict = torch.load(weight_path, map_location="cpu")
+    model.load_state_dict(state_dict)
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"使用设备: {device}")
+    print(f"Device: {device}")
     model.to(device)
     model.eval()
-    
-    # 2. 加载 CLIP 模型
-    print("\n[2/4] 加载 CLIP 模型...")
-    clip_model, preprocess = clip.load("./ViT-L-14.pt", device=device)
-    
-    # 3. 获取所有图片文件 (只处理 PNG)
-    print(f"\n[3/4] 扫描目录: {img_directory}")
+
+    print("\n[2/4] Loading CLIP model...")
+    clip_model, preprocess = clip.load(clip_model_path, device=device)
+
+    print(f"\n[3/4] Scanning directory: {img_directory}")
     image_files = get_image_files(img_directory)
     if not image_files:
-        print("错误: 未找到任何支持的 PNG 图片文件！")
+        print("Error: no supported PNG images were found.")
         return None
-    print(f"找到 {len(image_files)} 张 PNG 图片")
-    
-    # 4. 批量处理图片
-    print("\n[4/4] 开始处理图片...")
+    print(f"Found {len(image_files)} PNG images")
+
+    print("\n[4/4] Running aesthetic scoring...")
     results = []
-    
-    for img_path in tqdm.tqdm(image_files, desc="处理进度"):
+    for img_path in tqdm.tqdm(image_files, desc="Aesthetic scoring"):
         score = predict_aesthetic_score(img_path, clip_model, preprocess, model, device)
         if score is not None:
-            image_name = os.path.basename(img_path)
-            results.append({
-                'name': image_name,
-                'score': round(score, 4),
-            })
-    
-    # 5. 计算平均分并保存结果
-    if results:
-        scores = [r['score'] for r in results]
-        avg_score = np.mean(scores)
-        print("\n" + "=" * 70)
-        print("处理完成！")
-        print("=" * 70)
-        print(f"成功处理: {len(results)} 张")
-        print(f"平均评分: {avg_score:.4f}")
-        
-        # 保存到 modelname/eval/aesthetic.json
-        eval_dir = os.path.join(modelname, "eval")
-        os.makedirs(eval_dir, exist_ok=True)
-        output_json = os.path.join(eval_dir, "aesthetic.json")
-        with open(output_json, 'w', encoding='utf-8') as f:
-            json.dump(results, f, indent=2, ensure_ascii=False)
-        print(f"✅ 详细结果已保存到: {output_json}")
-        
-        return avg_score
-    else:
-        print("❌ 没有成功处理任何图片")
+            results.append(
+                {
+                    "name": os.path.basename(img_path),
+                    "score": round(score, 4),
+                }
+            )
+
+    if not results:
+        print("No images were scored successfully.")
         return None
+
+    scores = [r["score"] for r in results]
+    avg_score = float(np.mean(scores))
+    print("\n" + "=" * 70)
+    print("Aesthetic scoring complete")
+    print("=" * 70)
+    print(f"Processed images: {len(results)}")
+    print(f"Average score: {avg_score:.4f}")
+
+    eval_dir = os.path.join(modelname, "eval")
+    os.makedirs(eval_dir, exist_ok=True)
+    output_json = os.path.join(eval_dir, "aesthetic.json")
+    with open(output_json, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2)
+    print(f"Saved detailed results to: {output_json}")
+
+    return avg_score
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Compute aesthetic scores for edited images.")
+    parser.add_argument("--model", default="Qwen-Image-Edit-Plus", help="Model directory name.")
+    parser.add_argument("--weights", default=DEFAULT_WEIGHT_PATH, help="Aesthetic MLP checkpoint path.")
+    parser.add_argument("--clip-model", default=DEFAULT_CLIP_MODEL, help="CLIP model name or local path.")
+    return parser.parse_args()
 
 
 if __name__ == "__main__":
-    # 示例调用（当作为脚本运行时，可以修改以测试）
-    model_names = ["Qwen-Image-Edit-Plus"]  # 示例，可以修改
-    for model in model_names:
-        avg = get_average_aesthetic_score(model)
-        print(f"模型 {model} 的平均分: {avg}")
+    args = parse_args()
+    avg = get_average_aesthetic_score(args.model, args.weights, args.clip_model)
+    print(f"{args.model} average aesthetic score: {avg}")
